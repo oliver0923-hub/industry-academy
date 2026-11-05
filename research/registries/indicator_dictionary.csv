@@ -1,0 +1,11 @@
+indicator_id,label,definition,unit,stock_flow,scope_and_caution,required_metadata
+revenue,營收,企業銷售商品與服務的收入；依會計合併範圍,currency/period,flow,企業／集團；不能直接代表產業規模,currency;geography;period;nominal_real;statistical_unit;retrieved_at;forecast_or_actual
+gross_output,產值／總產出,生產活動總產出，包含中間投入價值,currency/period,flow,場所／行業；價值鏈加總可能重複計算,currency;geography;period;nominal_real;statistical_unit;retrieved_at;forecast_or_actual
+value_added,附加價值,總產出減中間消費；依國民帳定義,currency/period,flow,行業；基本價格與市場價格要區分,currency;geography;period;nominal_real;statistical_unit;retrieved_at;forecast_or_actual
+gdp_share,GDP貢獻,行業附加價值相對GDP的比率；分子分母價格基準須相容,percent,ratio,經濟體；不可用營收除GDP冒充,currency;geography;period;nominal_real;statistical_unit;retrieved_at;forecast_or_actual
+exports,出口額,跨境貨品或服務流量；HS與活動分類非同一系統,currency/period,flow,海關領域／國際收支；FOB與CIF分開,currency;geography;period;nominal_real;statistical_unit;retrieved_at;forecast_or_actual
+market_cap,市值,特定估值日股價乘流通股數,currency/date,stock,上市企業；不等於產值或銷售,currency;geography;period;nominal_real;statistical_unit;retrieved_at;forecast_or_actual
+capacity,產能,期間內在特定條件下的最大可生產量,physical unit/period,capacity,設施／製程；不等於實際產量,currency;geography;period;nominal_real;statistical_unit;retrieved_at;forecast_or_actual
+market_size,市場規模,須定義產品、地區、期間與交易層級；可能為支出或銷售,currency/period,flow,產品市場；預測與實績分列,currency;geography;period;nominal_real;statistical_unit;retrieved_at;forecast_or_actual
+employment,就業,依人數／職位／全時當量及主要活動分類,persons/jobs/FTE,stock or average,不可混用人數與職位數,currency;geography;period;nominal_real;statistical_unit;retrieved_at;forecast_or_actual
+exchange_rate,匯率,一單位外幣對本幣；均價與期末匯價分列,local per foreign,price,換算流量常用期間均價，存量常用期末價；依問題定義,currency;geography;period;nominal_real;statistical_unit;retrieved_at;forecast_or_actual
