@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#eaf5fb" />
+  <meta name="description" content="Industry Academy｜從全球產業到台灣企業策略。50 堂跨產業自主學習課程。" />
+  <title>Industry Academy｜全球產業與台灣企業策略學院</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="課程導覽">
+      <a href="#home" class="brand">
+        <span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none"><rect x="1" y="1" width="38" height="38" rx="12" fill="#C9EAFB"/><path d="M10 28V19l6-6v15m8 0V11l6 6v11M8 28h24" stroke="#175E90" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <span><strong>Industry Academy</strong><small>產業與企業策略學院</small></span>
+      </a>
+      <div class="sidebar-overline">YOUR LEARNING SPACE</div>
+      <div class="progress-card">
+        <div class="progress-label"><span>學習進度</span><strong id="progress-count">0 / 50</strong></div>
+        <div class="progress-track"><span id="progress-fill"></span></div>
+        <div class="progress-note"><span>一堂一堂，理解世界如何運作</span><span id="progress-percent">0%</span></div>
+      </div>
+      <div class="sidebar-section-title"><span>探索學院</span><span class="nav-english">EXPLORE</span></div>
+      <nav class="quick-nav">
+        <a href="#home" data-route="home" class="quick-link active"><span class="nav-icon">⌂</span> 學院首頁 <span class="nav-chevron">›</span></a>
+        <a href="#catalog" data-route="catalog" class="quick-link"><span class="nav-icon">▦</span> 全部課程 <span class="nav-chevron">›</span></a>
+        <a href="#pathways" data-route="pathways" class="quick-link"><span class="nav-icon">◇</span> 學習路徑 <span class="nav-chevron">›</span></a>
+      </nav>
+      <div class="sidebar-section-title course-heading"><span>課程章節</span><span class="nav-english">00–49</span></div>
+      <nav id="sidebar-modules" class="module-nav" aria-label="產業主題模組"></nav>
+      <div class="sidebar-footer"><span class="tiny-globe">◎</span><span>Think globally.<br/>Understand Taiwan.</span></div>
+    </aside>
+    <div class="sidebar-backdrop" id="sidebar-backdrop"></div>
+    <div class="content-column">
+      <header class="topbar">
+        <div class="topbar-left"><button class="mobile-toggle" id="menu-button" aria-label="開啟選單" aria-expanded="false">☰</button><span class="breadcrumb">INDUSTRY ACADEMY <span>/</span> <b id="breadcrumb-page">學院首頁</b></span></div>
+        <span class="header-right"><span class="status-dot"></span> 繁體中文 <span class="header-divider">·</span> Independent Learning</span>
+      </header>
+      <main id="main" tabindex="-1" aria-live="polite"><noscript>請啟用 JavaScript 以查看課程目錄。</noscript></main>
+      <footer class="footer"><span>© Industry Academy · A Global-to-Taiwan Learning Project</span><span>學習紀錄僅保存在目前瀏覽器</span></footer>
+    </div>
+  </div>
+</body>
+</html>
