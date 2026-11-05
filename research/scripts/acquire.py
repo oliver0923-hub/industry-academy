@@ -357,5 +357,206 @@ def phase3():
     write_csv('registries/company_filings.csv',filings);write_csv('registries/industry_lesson_matrix.csv',matrix)
     (R/'audit/phase-3.md').write_text(f'# Phase 3\n\n書目 {len(papers)} 筆；新增產業主題檢索 {len(query_audit)} 筆，接受精確／近精確書名 {sum(x["accepted"]=="true" for x in query_audit)} 筆，其餘保留失配原因與原查詢。全球／台灣公司候選入口 {len(filings)} 筆。矩陣逐課明列書目與公司，非僅長文字描述。\n\n待補：部分課仍僅共用理論、特定產業實證不足；公司入口不是年報本身，Phase 4 取回年度文件才提升狀態。未上市專業服務、教育與公共行政不強行假設有可比上市公司。\n',encoding='utf-8');flush_log()
 
+def phase4():
+    import io,zipfile
+    sources=read_csv('registries/source_registry.csv');papers=read_csv('registries/literature_master.csv')
+    matrix=read_csv('registries/industry_lesson_matrix.csv');filings=read_csv('registries/company_filings.csv')
+    artifacts=[
+      ('naics_structure','https://www.census.gov/naics/2022NAICS/2022_NAICS_Structure.xlsx','xlsx'),
+      ('naics_manual','https://www.census.gov/naics/reference_files_tools/2022_NAICS_Manual.pdf','pdf'),
+      ('naics22_17','https://www.census.gov/naics/concordances/2022_to_2017_NAICS.xlsx','xlsx'),
+      ('tw11_definitions','https://ws.dgbas.gov.tw/001/Upload/463/attachment/11195/90015/01222134057t64vqlsy.odt','odt'),
+      ('tw11_manual','https://ws.dgbas.gov.tw/001/Upload/463/attachment/11195/90015/012221854690wg0x9i.pdf','pdf'),
+      ('tw11_isic4','https://ws.dgbas.gov.tw/001/Upload/463/relfile/11195/90015/11vsisicrev.4%E5%B0%8D%E7%85%A7%E8%A1%A8114.12.18new.xlsx','xlsx'),
+      ('isic5_structure','https://unstats.un.org/unsd/classifications/Econ/Download/In%20Text/ISIC_Rev_5_english_structure.csv','csv'),
+      ('isic5_notes','https://unstats.un.org/unsd/classifications/Econ/Download/ISIC5_Exp_Notes_19_Aug_2026.xlsx','xlsx'),
+      ('isic4_structure','https://unstats.un.org/unsd/classifications/Econ/isic4.csv','csv'),
+      ('usgs_mcs2025','https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf','pdf'),
+      ('wdi_va_metadata','https://api.worldbank.org/v2/indicator/NV.IND.TOTL.CD?format=json','json'),
+      ('wdi_va_sample','https://api.worldbank.org/v2/country/WLD;USA/indicator/NV.IND.TOTL.CD?date=2020:2024&format=json&per_page=100','json'),
+      ('tw12_version_notice','https://www.stat.gov.tw/News_Content.aspx?n=3144&s=235560','html'),
+      ('hbr_porter','https://hbr.org/2008/01/the-five-competitive-forces-that-shape-strategy','html'),
+      ('harvard_henderson_metadata','https://dash.harvard.edu/server/api/core/items/3affcf33-4dea-4371-ab4c-4767380018ab','json'),
+      ('paper_P007','https://dash.harvard.edu/server/api/core/bitstreams/99ac7120-48cf-4ff2-ba8a-60a3bd6ed0a0/content','pdf'),
+      ('paper_geopolitical_oa','https://www.tandfonline.com/doi/pdf/10.1080/00130095.2023.2281175','pdf'),
+      ('paper_decoupling_oa','https://onlinelibrary.wiley.com/doi/pdf/10.1111/aepr.12439','pdf'),
+      ('tsmc_2024','https://investor.tsmc.com/sites/ir/annual-report/2024/2024%20Annual%20Report-E.pdf','pdf'),
+      ('microsoft_2024','https://www.microsoft.com/investor/reports/ar24/index.html','html'),
+      ('berkshire_2024','https://www.berkshirehathaway.com/2024ar/2024ar.pdf','pdf'),
+      ('nestle_2024','https://www.nestle.com/sites/default/files/2025-02/2024-annual-review-en.pdf','pdf'),
+    ]
+    with ThreadPoolExecutor(max_workers=4) as ex:out=list(ex.map(lambda a:fetch(a[1],a[0],a[2]),artifacts))
+    results={a[0]:(data,log) for a,(data,log) in zip(artifacts,out)}
+    cls=[];cross=[]
+    def cl(system,version,code,label,definition,url,level,parent='',status='official_structure'):
+        cls.append(dict(system=system,version=version,code=code,label=label,definition=definition,url=url,accessed_at=DATE,level=level,parent_code=parent,verification_status=status))
+    # NAICS 完整階層；定義全文另在 manual，不能把標籤當作活動定義。
+    if results['naics_structure'][0]:
+        df=pd.read_excel(PRIVATE/'naics_structure.xlsx',header=None,dtype=str).fillna('')
+        stack={}
+        for _,r in df.iloc[3:].iterrows():
+            code=r.iloc[1].strip();label=r.iloc[2].strip()
+            if not re.fullmatch(r'\d{2,6}|\d{2}-\d{2}',code):continue
+            level=2 if '-' in code else len(code)
+            parent=stack.get(level-1,'');stack[level]=code
+            cl('NAICS','2022',code,label,'',artifacts[0][1],str(level),parent)
+    # 第11次原始 ODT，完整定義及排除條款；列可同時包含二到四位代碼。
+    if results['tw11_definitions'][0]:
+        s=BeautifulSoup(zipfile.ZipFile(io.BytesIO(results['tw11_definitions'][0])).read('content.xml'),'xml');stack={}
+        for tr in s.find_all('table-row'):
+            cells=[c.get_text(' ',strip=True) for c in tr.find_all('table-cell',recursive=False)]
+            if len(cells)!=5:continue
+            codes=[(i,c) for i,c in enumerate(cells[:4]) if re.fullmatch(r'[A-S]|\d{2,4}',c)]
+            if not codes:continue
+            paras=[p.get_text(' ',strip=True) for p in tr.find_all('table-cell',recursive=False)[4].find_all('p')]
+            label=paras[0] if paras else cells[4].split(' ')[0]
+            definition=' '.join(paras[1:])
+            for i,code in codes:
+                parent=stack.get(i-1,'') if i else '';stack[i]=code
+                cl('TW_SIC','11',code,label,definition,artifacts[3][1],str(i+1),parent,'official_definition_and_exclusions')
+    if results['isic5_structure'][0]:
+        df=pd.read_csv(PRIVATE/'isic5_structure.csv',dtype=str).fillna('');stack={}
+        for _,r in df.iterrows():
+            code=r.iloc[0];lev=1 if code.isalpha() else len(code)
+            parent=stack.get(lev-1,'');stack[lev]=code
+            cl('ISIC','5',code,r.iloc[1],'',artifacts[6][1],str(lev),parent)
+    if results['isic4_structure'][0]:
+        try:
+            df=pd.read_csv(PRIVATE/'isic4_structure.csv',dtype=str).fillna('')
+            if len(df.columns)>=2:
+                for _,r in df.iterrows():
+                    code=r.iloc[0]
+                    if re.fullmatch(r'[A-U]|\d{2,4}',code):cl('ISIC','4',code,r.iloc[1],'',artifacts[8][1],str(1 if code.isalpha() else len(code)))
+        except Exception:pass
+    if results['naics22_17'][0]:
+        df=pd.read_excel(PRIVATE/'naics22_17.xlsx',header=None,dtype=str).fillna('')
+        for _,r in df.iloc[3:].iterrows():
+            a,b=r.iloc[0].strip(),r.iloc[2].strip()
+            if re.fullmatch(r'\d{6}',a) and re.fullmatch(r'\d{6}',b):cross.append(dict(from_system='NAICS',from_version='2022',from_code=a,to_system='NAICS',to_version='2017',to_code=b,verified='true',confidence='official concordance; may be partial many-to-many',notes=r.iloc[3],url=artifacts[2][1]))
+    # 官方 crosswalk 本身中英文版次標題衝突，不默認為已驗證。
+    if results['tw11_isic4'][0]:
+        df=pd.read_excel(PRIVATE/'tw11_isic4.xlsx',header=None,dtype=str).fillna('')
+        for _,r in df.iloc[4:].iterrows():
+            a,b=r.iloc[3].strip(),r.iloc[9].strip()
+            if re.fullmatch(r'\d{4}',a) and re.fullmatch(r'\d{4}',b):cross.append(dict(from_system='TW_SIC',from_version='11_claimed_version_conflict',from_code=a,to_system='ISIC',to_version='4',to_code=b,verified='false',confidence='official artifact; version conflict unresolved',notes='中文標題第11次，英文仍為Rev.10,2016；不得直接用於合併。ISIC partial marker='+r.iloc[10],url=artifacts[5][1]))
+    write_csv('registries/classification_master.csv',cls)
+    write_csv('registries/classification_crosswalk.csv',cross)
+    # 保留公司的 IR 入口與實際年度文件為不同列。
+    def check_filing(f):
+        data,log=fetch(f['source_url'],f['filing_id'])
+        f['status']='ir_landing_retrieved' if data else 'restricted' if log['status']=='restricted' else 'unverified'
+        f['notes']+='；URL '+log['status'];return f
+    with ThreadPoolExecutor(max_workers=4) as ex:filings=list(ex.map(check_filing,filings))
+    annual_targets=[('tsmc_2024','台積電','2330','Taiwan',[0,2,3,4,18,19]),('microsoft_2024','Microsoft','MSFT','Global',[23,24]),('berkshire_2024','Berkshire Hathaway','BRK','Global',[48,49]),('nestle_2024','Nestle','NESN','Global',[1,5,10])]
+    for key,issuer,ticker,geo,ids in annual_targets:
+        data,log=results[key]
+        if not data:continue
+        fid='A_'+key
+        filings.append(dict(filing_id=fid,issuer=issuer,identifier='',ticker=ticker,fiscal_year='2024',reporting_currency='',audited='',source_url=log['url'],filing_date='',geography=geo,lesson_ids=';'.join(f'{n:02}' for n in ids),status='annual_document_downloaded_identity_review_pending',notes='已取得指定年度文件；尚未核對會計口徑、幣別及查核報告；不宣稱為最新財年'))
+        for n in ids:matrix.append(dict(lesson_id=f'{n:02}',reference_id=fid,reference_type='filing',source_role='firm',confidence='official annual document downloaded; financial review pending',verified_at=DATE,status='sourced'))
+    write_csv('registries/company_filings.csv',filings)
+    for key in ['paper_P007','naics_manual','tw11_manual','usgs_mcs2025','tsmc_2024','berkshire_2024','nestle_2024']:
+        data,log=results[key]
+        if data:
+            try:
+                from pypdf import PdfReader
+                reader=PdfReader(io.BytesIO(data));texts=[p.extract_text() or '' for p in reader.pages]
+                (PRIVATE/(key+'_extracted.txt')).write_text('\n'.join(f'\n[PDF page {i+1}]\n'+t for i,t in enumerate(texts)),encoding='utf-8')
+                log['pdf_pages']=len(reader.pages)
+            except Exception as e:log['reason']='downloaded; PDF text extraction failed: '+str(e)[:200]
+    # 入口假成功檢查：全文認定另需人工閱讀；保留 extracted 欄位不直接升級。
+    for p in papers:
+        if p['paper_id']=='P007' and results['paper_P007'][0]:
+            p['oa_url']=results['paper_P007'][1]['url'];p['access_status']='fulltext_downloaded_review_pending';p['notes']+=' Harvard DASH 原始檔已下載及抽取文字；研究卡須另讀頁面確認。'
+        elif p['doi']:
+            p['access_status']='metadata_only_fulltext_not_acquired'
+        if p['paper_id']=='P002' and results['hbr_porter'][0]:
+            text=soup(results['hbr_porter'][0]).get_text(' ',strip=True)
+            if 'Five Competitive Forces' in text:p['bibliographic_verified']='true';p['notes']='出版社 HBR 題名核對；管理文章，非同行評審實證。'
+    write_csv('registries/literature_master.csv',papers)
+    # WDI 真實資料樣本；不補入中國代替台灣。
+    if results['wdi_va_sample'][0]:
+        obj=json.loads(results['wdi_va_sample'][0]);rows=[]
+        if isinstance(obj,list) and len(obj)>1:
+            for x in obj[1]:rows.append(dict(indicator_id=x['indicator']['id'],indicator_label=x['indicator']['value'],geography=x['country']['id'],period=x['date'],value='' if x['value'] is None else x['value'],unit='current USD',nominal_real='nominal',statistical_unit='economy-level industry including construction',forecast_or_actual='published_observation_subject_to_revision',accessed_at=DATE,source_url=results['wdi_va_sample'][1]['url']))
+        write_csv('sources/wdi_industry_value_added_sample.csv',rows)
+    write_csv('sources/artifact_inventory.csv',[dict(resource_id=a[0],url=a[1],format=a[2],status=log['status'],bytes=log['bytes'],sha256=log['sha256'],local_path=log['local_path'],license='not assessed; original local only',accessed_at=DATE) for a,(data,log) in zip(artifacts,out)])
+    write_csv('registries/industry_lesson_matrix.csv',matrix)
+    flush_log();build_cards_and_reports()
+
+def build_cards_and_reports():
+    papers=read_csv('registries/literature_master.csv');sources=read_csv('registries/source_registry.csv');matrix=read_csv('registries/industry_lesson_matrix.csv');filings=read_csv('registries/company_filings.csv');logs=read_csv('audit/download_log.csv')
+    for p in papers:
+        full=p['fulltext_verified']=='true'
+        txt=f'''# {p['paper_id']}｜{p['title']}
+
+- Bib: {p['authors']} ({p['year']}). {p['title']}. {p['journal_or_publisher']}, {p['volume']}({p['issue']}), {p['pages']}.
+- DOI: {p['doi'] or '未取得 DOI，不臆造'}
+- 官方／DOI URL: {p['landing_url']}
+- Metadata evidence: {p['metadata_url']}
+- Status: {p['access_status']}；bibliographic_verified={p['bibliographic_verified']}；fulltext_verified={p['fulltext_verified']}
+- Publication type: {p['publication_type']}；peer_reviewed={p['peer_reviewed']}。journal-article 類型本身不證明同行評審。
+
+## 研究問題與候選機制
+
+教學問題：{p['theory']} 如何解釋相關產業的組織、交易或價值攫取差異？
+
+候選解釋（原創教學歸納，尚須逐篇全文審查）：{p['mechanism']}。
+
+## 方法、樣本與發現
+
+方法／樣本／期間：尚未完成全文查核，不填入無法核實的觀察值、估計或效果量。主要發現：本卡暫不作全文研究結果摘述。
+
+## 支持範圍、限制與反例
+
+已支持：書目核對狀態如上。尚不支持：特定當代產業的因果效果、台灣企業績效或市場規模。反例檢查：若組織選擇由法規或需求共同驅動，觀察到的策略與績效關聯未必由此候選機制造成；理論性文章亦不能當成實證估計。
+
+## 教學用途
+
+課次：{p['lesson_ids'] or '尚待具體配對'}。可用來比較上述候選機制與需求、成本、監管及選擇偏誤解釋；逐課實際配對與來源見 industry_lesson_matrix.csv。
+
+## 查核與引用
+
+- Original page/table/figure locator：{'另見本卡人工查核補記' if full else '未完成全文閱讀，不提供虛構頁碼'}
+- Citation readiness：{'書目可引用，內容主張需核對原文' if p['bibliographic_verified']=='true' else '書目仍待核對，不作正式引用'}
+- License: {p['license']}
+- 全文禁止公開散布：所有下載僅本機 private_sources，公開倉庫無 PDF。
+- Notes: {p['notes']}
+'''
+        (R/f'notes/theory_cards/{p["paper_id"]}.md').write_text(txt,encoding='utf-8')
+    for n,title in enumerate(lessons()):
+        lid=f'{n:02}';links=[r for r in matrix if r['lesson_id']==lid]
+        sp=[p for p in papers if lid in p['lesson_ids'].split(';')]
+        body=f'# {lid}｜{title}\n\nSourcing status: metadata。已取得部分年度文件時僅該來源列為 sourced；全課尚未 reviewed 或 teaching-ready。\n\n'
+        body+='## 全球與台灣統計\n\n'
+        for role in ['global','taiwan']:
+            for x in links:
+                if x['source_role']!=role:continue
+                s=next(s for s in sources if s['source_id']==x['reference_id'])
+                body+=f'- {role}：{s["agency"]}｜{s["dataset"]}｜{s["url"]}｜{s["verification_status"]}；單位 {s["unit"]}。\n'
+        body+='\n## 學術機制（候選，不等於全文證據）\n\n'
+        for p in sp[:4]:body+=f'- [{p["paper_id"]}](../../theory_cards/{p["paper_id"]}.md)：{p["mechanism"]}。\n'
+        body+='\n## 公司一手資料\n\n'
+        for f in filings:
+            if lid in f['lesson_ids'].split(';'):body+=f'- {f["geography"]}：{f["issuer"]}｜{f["source_url"]}｜{f["status"]}。\n'
+        body+='\n## 邊界與待補\n\n分類以官方大類、NAICS階層與歷史版次核對，未確認的細碼不猜配。統計入口不表示數值可比較；須補期間、幣別、名目／實質與統計單位。公司集團營收不能代表單一產業市場。仍需細分活動的供需、價值鏈、台灣地位、中小企業差異、法規及技術瓶頸；結構性與循環性衝擊須分開。\n\n研究證據待補：各課同行評審核心與1–3篇補充的實質適用性及全文核對；共同理論不是產業實證完成。對公共行政課46，國防供應商僅是採購案例，不代表公共行政產業本身；教育及醫療亦不以單家公司取代制度統計。\n'
+        (R/f'notes/lessons/lesson-{lid}/index.md').write_text(body,encoding='utf-8')
+    queue='# 全文與來源存取佇列\n\n已授權使用台大管理學院可用內容；未取得具體已登入 session，沒有讀取密碼或 token。公開全文與機構典藏優先；單一平台失敗不停止整批。\n\n'
+    for p in papers:
+        if p['fulltext_verified']!='true':queue+=f'- {p["paper_id"]}｜{p["title"]}｜{p["landing_url"]}｜{p["access_status"]}；下一步：合法出版社或典藏全文／校園會話可用時核對。\n'
+    queue+='\n## 實際失敗的下載\n\n'
+    for x in logs:
+        if x['status'] in ['failed','restricted']:queue+=f'- {x["resource_id"]}｜{x["url"]}｜{x["status"]} HTTP {x["http_status"]}｜{x["reason"]}\n'
+    (R/'audit/restricted_access_queue.md').write_text(queue,encoding='utf-8')
+    counts=dict(literature=len(papers),doi=sum(bool(p['doi']) for p in papers),bibliographic_verified=sum(p['bibliographic_verified']=='true' for p in papers),fulltext_verified=sum(p['fulltext_verified']=='true' for p in papers),fulltext_downloaded=sum(p['access_status'].startswith('fulltext_downloaded') or p['fulltext_verified']=='true' for p in papers),sources=len(sources),company_entries=len(filings),download_success=sum(x['status'] in ['downloaded','cached_download'] for x in logs),download_fail=sum(x['status'] in ['failed','restricted'] for x in logs))
+    (R/'audit/counts.json').write_text(json.dumps(counts,ensure_ascii=False,indent=2),encoding='utf-8')
+    report='# 50課來源覆蓋與缺口\n\n'+ '\n'.join(f'- {k}: {v}' for k,v in counts.items())+'\n\n| 課號 | 全球入口 | 台灣入口 | 學術候選 | 公司候選/文件 | 課程狀態 |\n|---|---:|---:|---:|---:|---|\n'
+    for n in range(50):
+        links=[r for r in matrix if r['lesson_id']==f'{n:02}'];c=lambda role:sum(x['source_role']==role for x in links)
+        report+=f'| {n:02} | {c("global")} | {c("taiwan")} | {c("theory")} | {c("firm")} | metadata |\n'
+    report+='\n不是50堂正式講義完成；metadata 覆蓋不代表50課已有同行評審產業實證、全球／台灣可比數值或完整雙邊年報。優先補00–17的特定產業實證與公司年度財報，再補服務業、公共行政與個人服務。所有 DOI 逐一去重；未取全文不填方法與效果量。\n'
+    (R/'audit/coverage_report.md').write_text(report,encoding='utf-8')
+    (R/'audit/phase-4.md').write_text('# Phase 4\n\n已執行合法原始檔、官方報告、分類與樣本資料下載；每次成功或失敗均記錄 audit/download_log.csv。詳見 sources/artifact_inventory.csv、coverage_report.md 及 counts.json。\n\n分類 crosswalk 發現官方台灣第11次對照 XLSX 英文表頭仍寫Rev.10,2016，中文寫第11次；保留為版本衝突，禁止直接合併。NAICS2022–2017 官方對照另存，不推導 SIC–NAICS 或台灣–NAICS 字面映射。\n\n限制：部分 HTTP 403/429、動態頁面、全文授權與機構會話未可用；不把入口頁當成資料或正式財報。研究卡多數為書目與候選機制，實質全文閱讀完成者才另補頁碼、方法與發現。\n',encoding='utf-8')
+
 if __name__=='__main__':
     globals()['phase'+sys.argv[1]]()

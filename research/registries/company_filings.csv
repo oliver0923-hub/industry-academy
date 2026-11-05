@@ -1,0 +1,73 @@
+filing_id,issuer,identifier,ticker,fiscal_year,reporting_currency,audited,source_url,filing_date,geography,lesson_ids,status,notes
+F001,Nestle,,NESN,,,,https://www.nestle.com/investors/annual-report,,Global,01;05;10,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F002,Mowi,,MOWI,,,,https://mowi.com/investors/reports/,,Global,06,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F003,BHP,,BHP,,,,https://www.bhp.com/investors/annual-reporting,,Global,07;14,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F004,Shell,,SHEL,,,,https://www.shell.com/investors/results-and-reporting/annual-report.html,,Global,08,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F005,National Grid,,NG,,,,https://www.nationalgrid.com/investors/annual-reports-and-accounts,,Global,09;47,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F006,Nike,,NKE,,,,https://investors.nike.com/investors/news-events-and-reports/default.aspx,,Global,11;39,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F007,International Paper,,IP,,,,https://internationalpaper2022rd.q4web.com/investors/financials/annual-reports-and-proxy/default.aspx,,Global,12,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F008,BASF,,BAS,,,,https://report.basf.com/2024/en/,,Global,13,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F009,Caterpillar,,CAT,,,,https://www.caterpillar.com/en/investors/financial-information/annual-report.html,,Global,15,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F010,Siemens,,SIE,,,,https://www.siemens.com/global/en/company/investor-relations/annual-reports.html,,Global,16;35,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F011,SKF,,SKF,,,,https://investors.skf.com/en/financial-reports,,Global,17,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F012,Intel,,INTC,,,,https://www.intc.com/filings-reports/annual-report,,Global,18,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F013,ASML,,ASML,,,,https://www.asml.com/en/investors/annual-report,,Global,19,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F014,Flex,,FLEX,,,,https://investors.flex.com/financials/annual-reports-and-proxy/default.aspx,,Global,20,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F015,Apple,,AAPL,,,,https://investor.apple.com/sec-filings/default.aspx,,Global,00;04;21,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F016,Vodafone,,VOD,,,,https://investors.vodafone.com/reports-information/annual-reports,,Global,22,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F017,Microsoft,,MSFT,,,,https://www.microsoft.com/en-us/Investor/annual-reports.aspx,,Global,23;24,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F018,Toyota,,7203,,,,https://global.toyota/en/ir/library/annual/,,Global,25,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F019,Airbus,,AIR,,,,https://www.airbus.com/en/investors/financial-results-annual-reports,,Global,26,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F020,Maersk,,MAERSK,,,,https://investor.maersk.com/financials/annual-reports,,Global,02;27,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F021,Vinci,,DG,,,,https://www.vinci.com/en/finance/financial-information/annual-reports,,Global,28,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F022,CBRE,,CBRE,,,,https://ir.cbre.com/financial-reports/annual-reports-and-proxy-statements,,Global,29,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F023,Walmart,,WMT,,,,https://stock.walmart.com/financials/annual-reports/default.aspx,,Global,03;30,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F024,JPMorgan Chase,,JPM,,,,https://www.jpmorganchase.com/ir/annual-report,,Global,31;32,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F025,WPP,,WPP,,,,https://www.wpp.com/investors/annual-report,,Global,33,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F026,Accenture,,ACN,,,,https://investor.accenture.com/financials/annual-reports/default.aspx,,Global,34,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F027,Adecco,,ADEN,,,,https://www.adeccogroup.com/investors/financial-news/financial-results,,Global,36,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F028,Disney,,DIS,,,,https://thewaltdisneycompany.com/investor-relations/,,Global,37;38,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F029,Marriott,,MAR,,,,https://marriott.gcs-web.com/financial-information/annual-reports,,Global,40,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F030,McDonalds,,MCD,,,,https://corporate.mcdonalds.com/corpmcd/investors/financial-information.html,,Global,41,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F031,HCA Healthcare,,HCA,,,,https://investor.hcahealthcare.com/financials/annual-reports-and-proxy/default.aspx,,Global,42,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F032,Pfizer,,PFE,,,,https://investors.pfizer.com/Investors/Financials/Annual-Reports/default.aspx,,Global,43,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F033,Pearson,,PSON,,,,https://plc.pearson.com/en-GB/investors/annual-reports,,Global,44,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F034,Service Corporation International,,SCI,,,,https://investors.sci-corp.com/financial-information/annual-reports,,Global,45,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F035,Lockheed Martin,,LMT,,,,https://www.lockheedmartin.com/en-us/investor-relations/annual-reports.html,,Global,46,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F036,Berkshire Hathaway,,BRK,,,,https://www.berkshirehathaway.com/reports.html,,Global,48;49,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F037,統一企業,,1216,,,,https://www.uni-president.com.tw/,,Taiwan,01;05;10;30,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F038,大成長城,,1210,,,,https://www.dachan.com/,,Taiwan,06,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F039,亞洲水泥,,1102,,,,https://www.acc.com.tw/,,Taiwan,07;14,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F040,台灣中油,,,,,,https://www.cpc.com.tw/,,Taiwan,08,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F041,台灣電力,,,,,,https://www.taipower.com.tw/,,Taiwan,09;47,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F042,儒鴻,,1476,,,,https://www.eclat.com.tw/,,Taiwan,11,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F043,永豐餘,,1907,,,,https://www.yfy.com/,,Taiwan,12,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F044,台塑,,1301,,,,https://www.fpc.com.tw/,,Taiwan,13,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F045,上銀,,2049,,,,https://www.hiwin.tw/,,Taiwan,15;17,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F046,東元,,1504,,,,https://www.teco.com.tw/,,Taiwan,16;35,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F047,台積電,,2330,,,,https://investor.tsmc.com/english/annual-reports,,Taiwan,00;02;03;04;18;19,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F048,鴻海,,2317,,,,https://www.foxconn.com/en-us/investor-relations/annual-reports,,Taiwan,20;48,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F049,華碩,,2357,,,,https://www.asus.com/EVENT/Investor/,,Taiwan,21,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F050,中華電信,,2412,,,,https://www.cht.com.tw/en/home/cht/investors/financials/annual-reports,,Taiwan,22,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F051,叡揚,,6752,,,,https://www.gss.com.tw/,,Taiwan,23,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F052,緯穎,,6669,,,,https://www.wiwynn.com/,,Taiwan,24,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F053,裕隆,,2201,,,,https://www.yulon-motor.com.tw/,,Taiwan,25,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F054,漢翔,,2634,,,,https://www.aidc.com.tw/,,Taiwan,26,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F055,長榮海運,,2603,,,,https://www.evergreen-marine.com/,,Taiwan,27,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F056,中鼎,,9933,,,,https://www.ctci.com/,,Taiwan,28;35,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F057,信義房屋,,9940,,,,https://www.sinyi.com.tw/,,Taiwan,29,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F058,國泰金控,,2882,,,,https://www.cathayholdings.com/,,Taiwan,31;32,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F059,聯廣,,8497,,,,https://www.ucgroup.com.tw/,,Taiwan,33,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F060,勤業眾信,,,,,,https://www.deloitte.com/tw/zh.html,,Taiwan,34,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F061,中保科,,9917,,,,https://www.secom.com.tw/,,Taiwan,36,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F062,東森國際,,2614,,,,https://www.emic.com.tw/,,Taiwan,37,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F063,遊戲橘子,,6180,,,,https://www.gamania.com/,,Taiwan,38,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F064,巨大,,9921,,,,https://www.giantgroup-cycling.com/,,Taiwan,39,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F065,晶華,,2707,,,,https://www.fihregent.com/,,Taiwan,40,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F066,王品,,2727,,,,https://www.wowprime.com/,,Taiwan,41,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F067,長庚醫療財團法人,,,,,,https://www.cgmh.org.tw/,,Taiwan,42,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F068,保瑞,,6472,,,,https://www.bora-corp.com/,,Taiwan,43,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F069,志光數位,,8068,,,,https://www.public.com.tw/,,Taiwan,44,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F070,龍巖,,5530,,,,https://www.lyls.com.tw/,,Taiwan,45,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F071,漢翔,,2634,,,,https://www.aidc.com.tw/,,Taiwan,46,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
+F072,遠東新世紀,,1402,,,,https://www.fenc.com/,,Taiwan,48;49,candidate_ir_hub,公司一手候選入口；未取得年度文件前不宣稱已核對財報、財年、幣別或查核意見
