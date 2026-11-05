@@ -39,8 +39,9 @@ def fetch(url,key,kind='html'):
             if kind=='json':json.loads(data)
             if kind=='html':
                 text=data[:150000].decode('utf-8','ignore').lower()
-                if any(x in text for x in ['just a moment...','access denied','verify you are human','request unsuccessful']):raise ValueError('challenge or denied page')
+                if any(x in text for x in ['just a moment...','access denied','verify you are human','request unsuccessful','web firewall']):raise ValueError('challenge or denied page')
             path.write_bytes(data);entry.update(status='downloaded',local_path='private_sources/'+path.name)
+        if kind=='csv' and data.lstrip()[:1]==b'<':raise ValueError('HTML returned instead of CSV')
         entry.update(bytes=len(data),sha256=hashlib.sha256(data).hexdigest())
         return data,entry
     except Exception as e:
@@ -415,7 +416,8 @@ def phase4():
                 parent=stack.get(i-1,'') if i else '';stack[i]=code
                 cl('TW_SIC','11',code,label,definition,artifacts[3][1],str(i+1),parent,'official_definition_and_exclusions')
     if results['isic5_structure'][0]:
-        df=pd.read_csv(PRIVATE/'isic5_structure.csv',dtype=str).fillna('');stack={}
+        # UN 原始 CSV 含 0xA0，採官方檔實際可解碼的 cp1252；輸出仍為 UTF-8。
+        df=pd.read_csv(PRIVATE/'isic5_structure.csv',dtype=str,encoding='cp1252').fillna('');stack={}
         for _,r in df.iterrows():
             code=r.iloc[0];lev=1 if code.isalpha() else len(code)
             parent=stack.get(lev-1,'');stack[lev]=code
@@ -548,7 +550,7 @@ def build_cards_and_reports():
     for x in logs:
         if x['status'] in ['failed','restricted']:queue+=f'- {x["resource_id"]}｜{x["url"]}｜{x["status"]} HTTP {x["http_status"]}｜{x["reason"]}\n'
     (R/'audit/restricted_access_queue.md').write_text(queue,encoding='utf-8')
-    counts=dict(literature=len(papers),doi=sum(bool(p['doi']) for p in papers),bibliographic_verified=sum(p['bibliographic_verified']=='true' for p in papers),fulltext_verified=sum(p['fulltext_verified']=='true' for p in papers),fulltext_downloaded=sum(p['access_status'].startswith('fulltext_downloaded') or p['fulltext_verified']=='true' for p in papers),sources=len(sources),company_entries=len(filings),download_success=sum(x['status'] in ['downloaded','cached_download'] for x in logs),download_fail=sum(x['status'] in ['failed','restricted'] for x in logs))
+    counts=dict(literature=len(papers),doi=sum(bool(p['doi']) for p in papers),bibliographic_verified=sum(p['bibliographic_verified']=='true' for p in papers),fulltext_verified=sum(p['fulltext_verified']=='true' for p in papers),fulltext_downloaded=sum(p['access_status'].startswith(('fulltext_downloaded','pdf_downloaded')) or p['fulltext_verified']=='true' for p in papers),sources=len(sources),company_entries=len(filings),download_success=sum(x['status'] in ['downloaded','cached_download'] for x in logs),download_fail=sum(x['status'] in ['failed','restricted'] for x in logs))
     (R/'audit/counts.json').write_text(json.dumps(counts,ensure_ascii=False,indent=2),encoding='utf-8')
     report='# 50課來源覆蓋與缺口\n\n'+ '\n'.join(f'- {k}: {v}' for k,v in counts.items())+'\n\n| 課號 | 全球入口 | 台灣入口 | 學術候選 | 公司候選/文件 | 課程狀態 |\n|---|---:|---:|---:|---:|---|\n'
     for n in range(50):

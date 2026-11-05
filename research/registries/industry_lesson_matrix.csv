@@ -605,6 +605,67 @@ lesson_id,reference_id,reference_type,source_role,confidence,verified_at,status
 43,F068,filing,firm,candidate official issuer; comparable scope pending,,metadata
 44,F069,filing,firm,candidate official issuer; comparable scope pending,,metadata
 45,F070,filing,firm,candidate official issuer; comparable scope pending,,metadata
-46,F071,filing,firm,candidate official issuer; comparable scope pending,,metadata
+46,F054,filing,firm,candidate official issuer; comparable scope pending,,metadata
 48,F072,filing,firm,candidate official issuer; comparable scope pending,,metadata
 49,F072,filing,firm,candidate official issuer; comparable scope pending,,metadata
+00,A_tsmc_2024,filing,firm,official annual document downloaded; financial review pending,2026-11-06,sourced
+02,A_tsmc_2024,filing,firm,official annual document downloaded; financial review pending,2026-11-06,sourced
+03,A_tsmc_2024,filing,firm,official annual document downloaded; financial review pending,2026-11-06,sourced
+04,A_tsmc_2024,filing,firm,official annual document downloaded; financial review pending,2026-11-06,sourced
+18,A_tsmc_2024,filing,firm,official annual document downloaded; financial review pending,2026-11-06,sourced
+19,A_tsmc_2024,filing,firm,official annual document downloaded; financial review pending,2026-11-06,sourced
+23,A_microsoft_2024,filing,firm,official annual document downloaded; financial review pending,2026-11-06,sourced
+24,A_microsoft_2024,filing,firm,official annual document downloaded; financial review pending,2026-11-06,sourced
+48,A_berkshire_2024,filing,firm,official annual document downloaded; financial review pending,2026-11-06,sourced
+49,A_berkshire_2024,filing,firm,official annual document downloaded; financial review pending,2026-11-06,sourced
+00,Xa03c07055,paper,theory,original work identified; applicability needs review,2026-11-06,metadata
+01,Xa03c07055,paper,theory,original work identified; applicability needs review,2026-11-06,metadata
+03,Xa03c07055,paper,theory,original work identified; applicability needs review,2026-11-06,metadata
+04,Xa03c07055,paper,theory,original work identified; applicability needs review,2026-11-06,metadata
+28,Xa03c07055,paper,theory,original work identified; applicability needs review,2026-11-06,metadata
+34,Xa03c07055,paper,theory,original work identified; applicability needs review,2026-11-06,metadata
+35,Xa03c07055,paper,theory,original work identified; applicability needs review,2026-11-06,metadata
+36,Xa03c07055,paper,theory,original work identified; applicability needs review,2026-11-06,metadata
+45,Xa03c07055,paper,theory,original work identified; applicability needs review,2026-11-06,metadata
+48,Xa03c07055,paper,theory,original work identified; applicability needs review,2026-11-06,metadata
+49,Xa03c07055,paper,theory,original work identified; applicability needs review,2026-11-06,metadata
+06,Xb0ab6d8cb,paper,theory,original work identified; applicability needs review,2026-11-06,metadata
+07,Xb0ab6d8cb,paper,theory,original work identified; applicability needs review,2026-11-06,metadata
+09,Xb0ab6d8cb,paper,theory,original work identified; applicability needs review,2026-11-06,metadata
+46,Xb0ab6d8cb,paper,theory,original work identified; applicability needs review,2026-11-06,metadata
+25,Xedae9130f,paper,theory,original work identified; applicability needs review,2026-11-06,metadata
+33,Xedae9130f,paper,theory,original work identified; applicability needs review,2026-11-06,metadata
+44,Xa036b12b8,paper,theory,original work identified; applicability needs review,,metadata
+06,X26e3113f6,paper,theory,original work identified; applicability needs review,2026-11-06,metadata
+09,X26e3113f6,paper,theory,original work identified; applicability needs review,2026-11-06,metadata
+46,X26e3113f6,paper,theory,original work identified; applicability needs review,2026-11-06,metadata
+47,X26e3113f6,paper,theory,original work identified; applicability needs review,2026-11-06,metadata
+06,D_F002,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
+20,D_F014,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
+03,D_F023,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
+30,D_F023,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
+31,D_F024,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
+32,D_F024,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
+00,D_F047,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
+02,D_F047,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
+03,D_F047,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
+04,D_F047,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
+18,D_F047,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
+19,D_F047,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
+05,W_Bellemare_2010,paper,theory,author-deposited working-paper version; selected sections read,2026-11-06,reviewed
+10,W_Bellemare_2010,paper,theory,author-deposited working-paper version; selected sections read,2026-11-06,reviewed
+10,T_MOEA_IP,source,taiwan,official data file schema checked; exact series per lesson pending,2026-11-06,sourced
+11,T_MOEA_IP,source,taiwan,official data file schema checked; exact series per lesson pending,2026-11-06,sourced
+12,T_MOEA_IP,source,taiwan,official data file schema checked; exact series per lesson pending,2026-11-06,sourced
+13,T_MOEA_IP,source,taiwan,official data file schema checked; exact series per lesson pending,2026-11-06,sourced
+14,T_MOEA_IP,source,taiwan,official data file schema checked; exact series per lesson pending,2026-11-06,sourced
+15,T_MOEA_IP,source,taiwan,official data file schema checked; exact series per lesson pending,2026-11-06,sourced
+16,T_MOEA_IP,source,taiwan,official data file schema checked; exact series per lesson pending,2026-11-06,sourced
+17,T_MOEA_IP,source,taiwan,official data file schema checked; exact series per lesson pending,2026-11-06,sourced
+18,T_MOEA_IP,source,taiwan,official data file schema checked; exact series per lesson pending,2026-11-06,sourced
+19,T_MOEA_IP,source,taiwan,official data file schema checked; exact series per lesson pending,2026-11-06,sourced
+20,T_MOEA_IP,source,taiwan,official data file schema checked; exact series per lesson pending,2026-11-06,sourced
+21,T_MOEA_IP,source,taiwan,official data file schema checked; exact series per lesson pending,2026-11-06,sourced
+25,T_MOEA_IP,source,taiwan,official data file schema checked; exact series per lesson pending,2026-11-06,sourced
+26,T_MOEA_IP,source,taiwan,official data file schema checked; exact series per lesson pending,2026-11-06,sourced
+43,T_MOEA_IP,source,taiwan,official data file schema checked; exact series per lesson pending,2026-11-06,sourced

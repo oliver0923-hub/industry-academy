@@ -1,0 +1,35 @@
+{
+  "rows": 124988,
+  "columns": [
+    "統計項目",
+    "行業代碼",
+    "行業別",
+    "資料期(民國年)",
+    "統計值(指數)",
+    "計量單位"
+  ],
+  "key": [
+    "統計項目",
+    "行業代碼",
+    "資料期(民國年)"
+  ],
+  "duplicate_keys": 0,
+  "nulls": {
+    "統計項目": 0,
+    "行業代碼": 0,
+    "行業別": 0,
+    "資料期(民國年)": 0,
+    "統計值(指數)": 0,
+    "計量單位": 0
+  },
+  "monthly_period_min": "07101",
+  "monthly_period_max": "11509",
+  "units": [
+    "110年=100"
+  ],
+  "source_url": "https://service.moea.gov.tw/EE520/opendata/d.csv",
+  "metadata_url": "https://data.gov.tw/dataset/6607",
+  "license": "Open Government Data License Taiwan 1.0",
+  "retrieved_at": "2026-11-06",
+  "note": "實際資源只有生產指數；metadata題名同時提價值不代表此CSV有生產價值。Z/I1等彙總碼不是官方分類細碼，不擅自join分類主表。"
+}

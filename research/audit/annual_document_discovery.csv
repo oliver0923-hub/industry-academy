@@ -1,0 +1,6 @@
+filing_id,issuer,anchor_label,url,pdf_pages,status
+D_F002,Mowi,"Annual Report (PDF, 10 MB)",https://mowi.com/wp-content/uploads/2024/03/Mowi_Integrated_Annual_Report_2023.pdf,332,annual_document_downloaded_identity_review_pending
+D_F014,Flex,"2024 10-K of 2024 Annual Report, PDF file, (opens in new window)",https://s202.q4cdn.com/732614612/files/doc_financials/2024/ar/2024-10-k.pdf,109,annual_document_downloaded_identity_review_pending
+D_F023,Walmart,2024 Annual Report,https://stock.walmart.com/_assets/_8c8425b76a1d46bbbbc16466da2a6b9c/walmart/db/950/9651/annual_report/Walmart+2024+Annual+Report.pdf,97,annual_document_downloaded_identity_review_pending
+D_F024,JPMorgan Chase,Download full Annual Report,https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/annualreport-2025.pdf,364,annual_document_downloaded_identity_review_pending
+D_F047,台積電,2024 Annual Report,https://investor.tsmc.com/sites/ir/annual-report/2024/2024-Annual%20Report-E.pdf,94,annual_document_downloaded_identity_review_pending

@@ -1,0 +1,7 @@
+paper_id,excluded_doi,excluded_title,excluded_container,reason,replacement_doi
+Xd92208d87,10.1007/978-3-031-76487-5,Contract Farming in Developing Countries,Palgrave Studies in Agricultural Economics and Food Policy,書名相近但並非所需原作：重印、百科條目或不同著作；已改用原作,10.1016/j.worlddev.2011.12.008
+Xad1253dbc,10.4337/9781781950005.00012,The market for 'lemons': quality uncertainty and the market mechanism,Market Failure or Success,書名相近但並非所需原作：重印、百科條目或不同著作；已改用原作,10.2307/1879431
+X380ac0033,10.4135/9781412994088.n352,Strength Of Weak Ties,Encyclopedia of Power,書名相近但並非所需原作：重印、百科條目或不同著作；已改用原作,10.1086/225469
+X19f70e4ce,10.1080/00213624.2001.11506429,Creative Industries: Contracts between Art and Commerce,Journal of Economic Issues,原結果是書評；不能當作原專書,
+X548ba6340,10.1215/03616878-26-5-851,Uncertainty and The Welfare Economics of Medical Care,"Journal of Health Politics, Policy and Law",書名相近但並非所需原作：重印、百科條目或不同著作；已改用原作,10.2307/1812044
+X7df7512f2,10.2307/2982474,The Rate and Direction of Inventive Activity: Economic and Social Factors.,Journal of the Royal Statistical Society. Series A (General),原結果是書評；不能當作原專書,

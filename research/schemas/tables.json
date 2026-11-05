@@ -1,0 +1,147 @@
+{
+  "classification_crosswalk": {
+    "encoding": "UTF-8",
+    "fields": [
+      "from_system",
+      "from_version",
+      "from_code",
+      "to_system",
+      "to_version",
+      "to_code",
+      "verified",
+      "confidence",
+      "notes",
+      "url"
+    ],
+    "unknown_value": "",
+    "read_dtype": "string",
+    "rows": 1808
+  },
+  "classification_master": {
+    "encoding": "UTF-8",
+    "fields": [
+      "system",
+      "version",
+      "code",
+      "label",
+      "definition",
+      "url",
+      "accessed_at",
+      "level",
+      "parent_code",
+      "verification_status"
+    ],
+    "unknown_value": "",
+    "read_dtype": "string",
+    "rows": 4609
+  },
+  "company_filings": {
+    "encoding": "UTF-8",
+    "fields": [
+      "filing_id",
+      "issuer",
+      "identifier",
+      "ticker",
+      "fiscal_year",
+      "reporting_currency",
+      "audited",
+      "source_url",
+      "filing_date",
+      "geography",
+      "lesson_ids",
+      "status",
+      "notes"
+    ],
+    "unknown_value": "",
+    "read_dtype": "string",
+    "rows": 79
+  },
+  "indicator_dictionary": {
+    "encoding": "UTF-8",
+    "fields": [
+      "indicator_id",
+      "label",
+      "definition",
+      "unit",
+      "stock_flow",
+      "scope_and_caution",
+      "required_metadata"
+    ],
+    "unknown_value": "",
+    "read_dtype": "string",
+    "rows": 10
+  },
+  "industry_lesson_matrix": {
+    "encoding": "UTF-8",
+    "fields": [
+      "lesson_id",
+      "reference_id",
+      "reference_type",
+      "source_role",
+      "confidence",
+      "verified_at",
+      "status"
+    ],
+    "unknown_value": "",
+    "read_dtype": "string",
+    "rows": 670
+  },
+  "literature_master": {
+    "encoding": "UTF-8",
+    "fields": [
+      "paper_id",
+      "authors",
+      "year",
+      "title",
+      "journal_or_publisher",
+      "publication_type",
+      "peer_reviewed",
+      "doi",
+      "landing_url",
+      "oa_url",
+      "access_status",
+      "license",
+      "theory",
+      "mechanism",
+      "industry_scope",
+      "lesson_ids",
+      "bibliographic_verified",
+      "fulltext_verified",
+      "notes",
+      "volume",
+      "issue",
+      "pages",
+      "metadata_url",
+      "online_first_year",
+      "review_status"
+    ],
+    "unknown_value": "",
+    "read_dtype": "string",
+    "rows": 35
+  },
+  "source_registry": {
+    "encoding": "UTF-8",
+    "fields": [
+      "source_id",
+      "agency",
+      "dataset",
+      "measure",
+      "definition",
+      "unit",
+      "nominal_real",
+      "geography",
+      "frequency",
+      "coverage",
+      "update_frequency",
+      "url",
+      "license",
+      "access_status",
+      "lesson_ids",
+      "downloaded_on",
+      "verification_status"
+    ],
+    "unknown_value": "",
+    "read_dtype": "string",
+    "rows": 51
+  }
+}

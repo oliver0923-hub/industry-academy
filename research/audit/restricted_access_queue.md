@@ -1,0 +1,95 @@
+# 全文與來源存取佇列
+
+已授權使用台大管理學院可用內容；未取得具體已登入 session，沒有讀取密碼或 token。公開全文與機構典藏優先；單一平台失敗不停止整批。
+
+- P001｜Relation of Profit Rate to Industry Concentration: American Manufacturing, 1936-1940｜https://doi.org/10.2307/1882217｜metadata_only_fulltext_not_acquired；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- P002｜The Five Competitive Forces That Shape Strategy｜https://hbr.org/2008/01/the-five-competitive-forces-that-shape-strategy｜metadata_only；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- P003｜Firm Resources and Sustained Competitive Advantage｜https://doi.org/10.1177/014920639101700108｜abstract_available；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- P004｜Transaction-Cost Economics: The Governance of Contractual Relations｜https://doi.org/10.1086/466942｜metadata_only_fulltext_not_acquired；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- P005｜The governance of global value chains｜https://doi.org/10.1080/09692290500049805｜metadata_only_fulltext_not_acquired；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- P006｜Profiting from technological innovation: Implications for integration, collaboration, licensing and public policy｜https://doi.org/10.1016/0048-7333(86)90027-2｜metadata_only_fulltext_not_acquired；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- P007｜Architectural Innovation: The Reconfiguration of Existing Product Technologies and the Failure of Established Firms｜https://doi.org/10.2307/2393549｜metadata_only_fulltext_not_acquired；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- P008｜Absorptive Capacity: A New Perspective on Learning and Innovation｜https://doi.org/10.2307/2393553｜metadata_only_fulltext_not_acquired；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- P009｜Dynamic capabilities and strategic management｜https://doi.org/10.1002/(SICI)1097-0266(199708)18:7<509::AID-SMJ882>3.0.CO;2-Z｜metadata_only_fulltext_not_acquired；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- P010｜Design Rules: The Power of Modularity｜https://doi.org/10.7551/mitpress/2366.001.0001｜metadata_only_fulltext_not_acquired；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- P011｜Ecosystem as Structure: An Actionable Construct for Strategy｜https://doi.org/10.1177/0149206316678451｜abstract_available；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- P012｜Platform Competition in Two-Sided Markets｜https://doi.org/10.1162/154247603322493212｜metadata_only_fulltext_not_acquired；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- P013｜The Relational View: Cooperative Strategy and Sources of Interorganizational Competitive Advantage｜https://doi.org/10.5465/amr.1998.1255632｜metadata_only_fulltext_not_acquired；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- P014｜TOWARDS AN ATTENTION-BASED VIEW OF THE FIRM: ATTENTION-BASED VIEW OF THE FIRM｜https://doi.org/10.1002/(SICI)1097-0266(199707)18:1+<187::AID-SMJ936>3.0.CO;2-K｜metadata_only_fulltext_not_acquired；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- P015｜Geopolitical disruptions in global supply chains: a state-of-the-art literature review｜https://doi.org/10.1080/09537287.2023.2286283｜metadata_only_fulltext_not_acquired；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- X4e42fe8e6｜The Economics of Two-Sided Markets｜https://doi.org/10.1257/jep.23.3.125｜abstract_available；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- Xd92208d87｜As You Sow, So Shall You Reap: The Welfare Impacts of Contract Farming｜https://doi.org/10.1016/j.worlddev.2011.12.008｜journal_metadata_preprint_separate；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- Xdac2a4a6b｜The dynamics of product innovation and firm competences｜https://doi.org/10.1002/smj.275｜abstract_available；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- X4a74e9f82｜The Competitive Advantage of Interconnected Firms: An Extension of the Resource-Based View｜https://doi.org/10.5465/amr.2006.21318922｜metadata_only_fulltext_not_acquired；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- X69013d8a3｜Banking, Liquidity, and Bank Runs in an Infinite Horizon Economy｜https://doi.org/10.1257/aer.20130665｜abstract_available；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- Xad1253dbc｜The Market for "Lemons": Quality Uncertainty and the Market Mechanism｜https://doi.org/10.2307/1879431｜metadata_only；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- X380ac0033｜The Strength of Weak Ties｜https://doi.org/10.1086/225469｜pdf_downloaded_scanned_unreviewed；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- X19f70e4ce｜Creative Industries: Contracts Between Art and Commerce｜https://www.hup.harvard.edu/books/9780674008083｜metadata_only_fulltext_not_acquired；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- X7df7512f2｜The Rate and Direction of Inventive Activity: Economic and Social Factors｜https://www.nber.org/books-and-chapters/rate-and-direction-inventive-activity-economic-and-social-factors｜metadata_only_fulltext_not_acquired；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- Xfb91eca5e｜Public Procurement for Innovation as mission-oriented innovation policy｜https://doi.org/10.1016/j.respol.2012.04.022｜metadata_only_fulltext_not_acquired；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- Xa5e4b00f4｜Toward a New Conception of the Environment-Competitiveness Relationship｜https://doi.org/10.1257/jep.9.4.97｜abstract_available；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- X37d13338b｜Diversification strategy and profitability｜https://doi.org/10.1002/smj.4250030407｜abstract_available；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- Xc64db7c78｜Supply Chain Decoupling: Geopolitical Debates and Economic Dynamism in East Asia｜https://doi.org/10.1111/aepr.12439｜abstract_available；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- Xa03c07055｜The Nature of the Firm｜https://doi.org/10.1111/j.1468-0335.1937.tb00002.x｜metadata_only；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- Xb0ab6d8cb｜The Tragedy of the Commons: The population problem has no technical solution; it requires a fundamental extension in morality.｜https://doi.org/10.1126/science.162.3859.1243｜abstract_available；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- Xedae9130f｜An empirical examination of advertising as a signal of product quality｜https://doi.org/10.1016/S0167-2681(98)00118-8｜metadata_only；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- Xa036b12b8｜Investment in Human Capital｜https://www.jstor.org/stable/1818907｜metadata_only；下一步：合法出版社或典藏全文／校園會話可用時核對。
+- X26e3113f6｜Revisiting the Commons: Local Lessons, Global Challenges｜https://doi.org/10.1126/science.284.5412.278｜abstract_available；下一步：合法出版社或典藏全文／校園會話可用時核對。
+
+## 實際失敗的下載
+
+- SIC_1987｜https://www.osha.gov/data/sic-manual｜restricted HTTP 403｜403 Client Error: Forbidden for url: https://www.osha.gov/data/sic-manual
+- ISIC_4｜https://unstats.un.org/unsd/classifications/Econ/isic/Rev4/default.asp｜failed HTTP 404｜404 Client Error: Not Found for url: https://unstats.un.org/unsd/classifications/Econ/isic/Rev4/default.asp
+- G_TIVA｜https://www.oecd.org/en/topics/sub-issues/trade-in-value-added.html｜restricted HTTP 403｜403 Client Error: Forbidden for url: https://www.oecd.org/en/topics/sub-issues/trade-in-value-added.html
+- G_UNIDO｜https://stat.unido.org/｜restricted HTTP 403｜403 Client Error: Forbidden for url: https://stat.unido.org/
+- G_STAN｜https://www.oecd.org/en/data/datasets/structural-analysis-database.html｜restricted HTTP 403｜403 Client Error: Forbidden for url: https://www.oecd.org/en/data/datasets/structural-analysis-database.html
+- G_ITU｜https://datahub.itu.int/｜restricted HTTP 403｜403 Client Error: Forbidden for url: https://datahub.itu.int/
+- G_TRANSPORT｜https://www.itf-oecd.org/transport-statistics｜restricted HTTP 403｜403 Client Error: Forbidden for url: https://www.itf-oecd.org/transport-statistics
+- G_ILOSTAT｜https://ilostat.ilo.org/data/｜restricted HTTP 403｜403 Client Error: Forbidden for url: https://ilostat.ilo.org/data/
+- G_IMF｜https://data.imf.org/｜restricted HTTP 403｜403 Client Error: Forbidden for url: https://data.imf.org/
+- T_AGRI｜https://agrstat.moa.gov.tw/sdweb/public/book/Book.aspx｜failed HTTP 404｜404 Client Error: Not Found for url: https://agrstat.moa.gov.tw/sdweb/public/book/Book.aspx
+- T_ENV｜https://stat.moenv.gov.tw/｜failed HTTP ｜HTTPSConnectionPool(host='stat.moenv.gov.tw', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000203746DA5D0>: Failed to resolve 'stat.moenv.gov.tw' ([Errno 11001] getaddrinfo failed)"))
+- T_NCC｜https://www.ncc.gov.tw/chinese/｜restricted HTTP 403｜403 Client Error: Forbidden for url: https://www.ncc.gov.tw/chinese/
+- T_MOTC｜https://stat.motc.gov.tw/mocdb/stmain.jsp?sys=100｜failed HTTP ｜HTTPSConnectionPool(host='stat.motc.gov.tw', port=443): Max retries exceeded with url: /mocdb/stmain.jsp?sys=100 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000020374581DD0>: Failed to resolve 'stat.motc.gov.tw' ([Errno 11001] getaddrinfo failed)"))
+- G_OICA｜https://www.oica.net/category/production-statistics/｜failed HTTP 404｜404 Client Error: Not Found for url: https://oica.net/category/production-statistics/
+- T_CBC｜https://statdb.cbc.gov.tw/｜failed HTTP ｜HTTPSConnectionPool(host='statdb.cbc.gov.tw', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000020374665BD0>: Failed to resolve 'statdb.cbc.gov.tw' ([Errno 11001] getaddrinfo failed)"))
+- T_LABOR｜https://statfy.mol.gov.tw/｜failed HTTP ｜HTTPSConnectionPool(host='statfy.mol.gov.tw', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000020374654150>, 'Connection to statfy.mol.gov.tw timed out. (connect timeout=8)'))
+- T_PROCURE｜https://web.pcc.gov.tw/｜failed HTTP ｜HTTPConnectionPool(host='web.pcc.gov.tw', port=80): Max retries exceeded with url: /pis (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000203746E8450>, 'Connection to web.pcc.gov.tw timed out. (connect timeout=8)'))
+- paper_geopolitical_oa｜https://www.tandfonline.com/doi/pdf/10.1080/00130095.2023.2281175｜restricted HTTP 403｜403 Client Error: Forbidden for url: https://www.tandfonline.com/doi/pdf/10.1080/00130095.2023.2281175
+- paper_decoupling_oa｜https://onlinelibrary.wiley.com/doi/pdf/10.1111/aepr.12439｜restricted HTTP 403｜403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdf/10.1111/aepr.12439
+- paper_P007｜https://dash.harvard.edu/server/api/core/bitstreams/99ac7120-48cf-4ff2-ba8a-60a3bd6ed0a0/content｜restricted HTTP 401｜401 Client Error:  for url: https://dash.harvard.edu/server/api/core/bitstreams/99ac7120-48cf-4ff2-ba8a-60a3bd6ed0a0/content
+- nestle_2024｜https://www.nestle.com/sites/default/files/2025-02/2024-annual-review-en.pdf｜failed HTTP 404｜404 Client Error: Not Found for url: https://www.nestle.com/sites/default/files/2025-02/2024-annual-review-en.pdf
+- isic4_structure｜https://unstats.un.org/unsd/classifications/Econ/isic4.csv｜failed HTTP 404｜404 Client Error: Not Found for url: https://unstats.un.org/unsd/classifications/Econ/isic4.csv
+- F001｜https://www.nestle.com/investors/annual-report｜restricted HTTP 403｜403 Client Error: Forbidden for url: https://www.nestle.com/investors/annual-report
+- F003｜https://www.bhp.com/investors/annual-reporting｜restricted HTTP 403｜403 Client Error: Forbidden for url: https://www.bhp.com/investors/annual-reporting
+- F005｜https://www.nationalgrid.com/investors/annual-reports-and-accounts｜restricted HTTP 403｜403 Client Error: Forbidden for url: https://www.nationalgrid.com/investors/annual-reports-and-accounts
+- F009｜https://www.caterpillar.com/en/investors/financial-information/annual-report.html｜restricted HTTP 403｜403 Client Error: Forbidden for url: https://www.caterpillar.com/en/investors/financial-information/annual-report.html
+- F007｜https://internationalpaper2022rd.q4web.com/investors/financials/annual-reports-and-proxy/default.aspx｜failed HTTP 404｜404 Client Error: Not Found for url: https://internationalpaper2022rd.q4web.com/investors/financials/annual-reports-and-proxy/default.aspx
+- F012｜https://www.intc.com/filings-reports/annual-report｜failed HTTP 404｜404 Client Error: Not Found for url: https://www.intc.com/filings-reports/annual-report
+- F010｜https://www.siemens.com/global/en/company/investor-relations/annual-reports.html｜failed HTTP 404｜404 Client Error: Not Found for url: https://www.siemens.com/global/en/company/investor-relations/annual-reports.html
+- F013｜https://www.asml.com/en/investors/annual-report｜restricted HTTP 403｜403 Client Error: Forbidden for url: https://investor.asml.com/annual-reports
+- F020｜https://investor.maersk.com/financials/annual-reports｜restricted HTTP 403｜403 Client Error: Forbidden for url: https://investor.maersk.com/financials/annual-reports
+- F022｜https://ir.cbre.com/financial-reports/annual-reports-and-proxy-statements｜failed HTTP 404｜404 Client Error: Not Found for url: https://ir.cbre.com/financial-reports/annual-reports-and-proxy-statements
+- F016｜https://investors.vodafone.com/reports-information/annual-reports｜failed HTTP 404｜404 Client Error: Not Found for url: https://investors.vodafone.com/reports-information/annual-reports
+- F026｜https://investor.accenture.com/financials/annual-reports/default.aspx｜restricted HTTP 403｜403 Client Error: Forbidden for url: https://investor.accenture.com/financials/annual-reports/default.aspx
+- F021｜https://www.vinci.com/en/finance/financial-information/annual-reports｜failed HTTP 404｜404 Client Error: Not Found for url: https://www.vinci.com/en/finance/financial-information/annual-reports
+- F029｜https://marriott.gcs-web.com/financial-information/annual-reports｜restricted HTTP 403｜403 Client Error: Forbidden for url: https://marriott.gcs-web.com/financial-information/annual-reports
+- F025｜https://www.wpp.com/investors/annual-report｜failed HTTP 404｜404 Client Error: Not Found for url: https://www.wpp.com/en/investors/annual-report
+- F030｜https://corporate.mcdonalds.com/corpmcd/investors/financial-information.html｜restricted HTTP 403｜403 Client Error: Forbidden for url: https://corporate.mcdonalds.com/corpmcd/investors/financial-information.html
+- F027｜https://www.adeccogroup.com/investors/financial-news/financial-results｜failed HTTP 404｜404 Client Error: Not Found for url: https://www.adeccogroup.com/investors/financial-news/financial-results
+- F035｜https://www.lockheedmartin.com/en-us/investor-relations/annual-reports.html｜failed HTTP 404｜404 Client Error: Not Found for url: https://www.lockheedmartin.com/en-us/investor-relations/annual-reports.html
+- F033｜https://plc.pearson.com/en-GB/investors/annual-reports｜failed HTTP 404｜404 Client Error: Not Found for url: https://plc.pearson.com/en-GB/investors/annual-reports
+- F041｜https://www.taipower.com.tw/｜failed HTTP 202｜empty response
+- F044｜https://www.fpc.com.tw/｜failed HTTP ｜HTTPSConnectionPool(host='www.fpc.com.tw', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+- F042｜https://www.eclat.com.tw/｜restricted HTTP 403｜403 Client Error: Forbidden for url: https://www.eclat.com.tw/
+- F048｜https://www.foxconn.com/en-us/investor-relations/annual-reports｜failed HTTP 404｜404 Client Error: Not Found for url: https://www.foxconn.com/en-us/investor-relations/annual-reports
+- F050｜https://www.cht.com.tw/en/home/cht/investors/financials/annual-reports｜failed HTTP 404｜404 Client Error: Not Found for url: https://www.cht.com.tw/en/home/cht/investors/financials/annual-reports
+- F060｜https://www.deloitte.com/tw/zh.html｜failed HTTP 404｜404 Client Error: Not Found for url: https://www.deloitte.com/tw/zh.html
+- F065｜https://www.fihregent.com/｜failed HTTP ｜HTTPSConnectionPool(host='www.fihregent.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+- F068｜https://www.bora-corp.com/｜failed HTTP ｜HTTPSConnectionPool(host='www.bora-corp.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1006)')))
+- F034｜https://investors.sci-corp.com/financial-information/annual-reports｜failed HTTP ｜HTTPSConnectionPool(host='investors.sci-corp.com', port=443): Read timed out. (read timeout=28)
+- F067｜https://www.cgmh.org.tw/｜failed HTTP ｜HTTPSConnectionPool(host='www.cgmh.org.tw', port=443): Read timed out. (read timeout=28)
+- crossref_X99340072e｜https://api.crossref.org/works/10.2307%2F1812044｜failed HTTP 404｜404 Client Error: Not Found for url: https://api.crossref.org/works/10.2307%2F1812044
+- crossref_Xa036b12b8｜https://api.crossref.org/works/10.2307%2F1818907｜failed HTTP 404｜404 Client Error: Not Found for url: https://api.crossref.org/works/10.2307%2F1818907
+- caves_publisher｜https://www.hup.harvard.edu/books/9780674008083｜failed HTTP 202｜empty response
+- coase_publisher｜https://onlinelibrary.wiley.com/doi/full/10.1111/j.1468-0335.1937.tb00002.x｜restricted HTTP 403｜403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/full/10.1111/j.1468-0335.1937.tb00002.x

@@ -11,3 +11,5 @@
 狀態：metadata=僅書目或入口；sourced=已有特定資料/文件且核對內容；reviewed=已閱讀原文與核對主張；teaching-ready=另需正式教材審查，本批不使用。HTTP 200 只代表入口可讀，不能證明資料已下載、全文可讀或單位一致。
 
 授權：未取得可用的已登入校園 session；不讀取憑證。使用者允許使用台大管理學院可用內容，取得困難時可略過。受限文件保留 DOI 與存取佇列。
+
+最終批次須接續 `python research/scripts/refine.py`、`python research/scripts/enrich.py`、`python research/scripts/supplement_official.py`、`python research/scripts/finalize.py`，最後 `python research/scripts/validate.py`。refine隔離同名書評及重印錯配，finalize保存人工版本核對；只重跑acquire不會重現最終人工查核狀態。
