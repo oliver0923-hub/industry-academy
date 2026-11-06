@@ -1,107 +1,310 @@
-<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>第00堂｜何謂產業？ · Industry Academy</title><meta name="description" content="從咖啡與外送平台理解產業、企業、場所、產品市場、台灣行業分類、NAICS、SIC與證交所分類。"><style>
-:root{--blue:#267dad;--dark:#173c56;--muted:#698293;--line:#dbeaf3;--bg:#f5fafd;--pale:#e3f3fc}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--dark);font:16px/1.9 system-ui,"Noto Sans TC","Microsoft JhengHei",sans-serif}button,input{font:inherit}a{color:#176f9d}a:hover{text-decoration:underline}.shell{max-width:1200px;margin:auto;display:grid;grid-template-columns:230px minmax(0,1fr);gap:35px;padding:30px 26px}.side{position:sticky;top:22px;align-self:start;background:white;border:1px solid var(--line);border-radius:17px;padding:23px 18px;max-height:calc(100vh - 44px);overflow:auto}.brand{font-size:14px;letter-spacing:.3px;font-weight:800;color:var(--blue);text-decoration:none}.slabel{font-size:10px;letter-spacing:2px;color:#8ba5b5;font-weight:800;margin:24px 0 9px}.side a.anchor{display:block;font-size:12px;color:#55758a;text-decoration:none;padding:6px 7px;border-radius:8px}.side a.anchor:hover{background:var(--pale)}.main{min-width:0}.hero{background:linear-gradient(125deg,#d6edfb,#f4fbff);padding:43px;border-radius:23px;border:1px solid #cfe6f5}.tag{display:inline-block;font-size:11px;color:#247eae;font-weight:800;letter-spacing:1.5px}.hero h1{font-size:clamp(28px,4vw,45px);line-height:1.35;letter-spacing:-1px;margin:17px 0}.hero p{max-width:720px;color:#4c7088;margin:10px 0 20px}.hero small{color:#6b91a6}.jump{display:inline-flex;background:#1b719f;color:white;padding:10px 17px;border-radius:10px;text-decoration:none;font-size:13px;font-weight:700}.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}.chip{border:1px solid #bfdeed;border-radius:30px;background:#f8fcff;padding:4px 12px;color:#377ba0;font-size:11px}.section{background:white;border:1px solid var(--line);border-radius:18px;padding:34px 37px;margin-top:22px;box-shadow:0 4px 18px #2a7aa208}.section h2{font-size:24px;margin:0 0 14px;line-height:1.4}.section h3{font-size:17px;margin:25px 0 6px}.section p{margin:11px 0}.section ul,.section ol{padding-left:23px}.section li{margin:8px 0}.cap{font-size:11px;letter-spacing:1.1px;color:var(--blue);font-weight:800}.example,.note{padding:17px 21px;border-radius:12px;margin:17px 0;background:#eef8fd;border-left:3px solid #6fb6db}.note{background:#f8fafc;border-left-color:#9db6c5}.tablewrap{overflow:auto;margin:20px 0}table{width:100%;border-collapse:collapse;font-size:13px;min-width:580px}th,td{border-bottom:1px solid #e1edf2;padding:11px 13px;text-align:left;vertical-align:top}th{background:#edf7fc;color:#24698e}td:first-child{font-weight:650}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.tile{padding:19px;background:#f5fbff;border:1px solid #e0eef7;border-radius:13px}.tile b{display:block;color:#217cac}.tile p{font-size:13px;margin:7px 0;color:#607f91}.flow{display:flex;align-items:center;flex-wrap:wrap;gap:8px;padding:15px 0}.flow span{font-size:12px;padding:10px 14px;background:#eff8fc;border:1px solid #dcecf4;border-radius:9px}.flow strong{color:#66a4c5}.figure{margin:20px 0;padding:21px;background:linear-gradient(140deg,#f2f9fd,#e6f4fc);border-radius:13px}.figure small{display:block;color:#7090a3}.formula{padding:15px 18px;background:#f2f8fb;border-radius:10px;font-weight:700;font-size:15px}.box{border:1px solid #d8e9f2;padding:18px;border-radius:13px;margin-top:14px;background:#fff}.field{margin:16px 0}.field label{display:flex;justify-content:space-between;font-size:13px;color:#4e7289;gap:12px}.field input[type=range]{width:100%;accent-color:#2888bb}.result{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}.result>div{background:#edf8fe;border-radius:11px;padding:15px}.result b{display:block;font-size:21px;color:#1a739f}.result span{font-size:11px;color:#6a899e}.controls{display:flex;flex-wrap:wrap;gap:8px;margin:15px 0}.choice{border:1px solid #b7d9e9;color:#236d94;background:#f7fcff;padding:9px 13px;border-radius:9px;font-size:12px;cursor:pointer}.choice:hover,.choice.selected{background:#1d7aa8;color:white}.choice:disabled{opacity:.5;cursor:not-allowed}.status{padding:15px;background:#ecf7fc;border-radius:12px;margin-top:12px;font-size:13px}.quiz-item{border-bottom:1px solid #e2edf3;padding:20px 0}.quiz-item:last-child{border:0}.quiz-item p{font-weight:700;margin:0 0 9px}.quiz-item label{display:block;padding:5px 8px;font-size:13px;cursor:pointer}.quiz-item label:has(input:checked){background:#f0f9ff;border-radius:7px}.btn{display:inline-block;border:0;background:#1c7dad;color:#fff;padding:11px 20px;border-radius:10px;font-size:13px;font-weight:750;cursor:pointer}.btn.alt{color:#286f97;background:#e9f5fb}.feedback{margin-top:11px;padding:12px 15px;background:#f0f8fc;border-radius:9px;font-size:12px}.refs li{font-size:13px;line-height:1.75;overflow-wrap:anywhere}.foot{color:#87a0af;text-align:center;padding:24px 0 55px;font-size:11px}@media(max-width:850px){.shell{display:block;padding:13px}.side{position:static;max-height:none;margin-bottom:15px}.side .anchors{display:none}.hero{padding:29px 23px}.section{padding:24px 20px}.grid{grid-template-columns:1fr}}@media(max-width:510px){.result{grid-template-columns:1fr}.section h2{font-size:21px}table{font-size:12px}}
-</style></head><body><div class="shell"><aside class="side"><a class="brand" href="./index.html#home">◈ Industry Academy</a><div class="slabel">LESSON 00 / 基礎與工具</div><strong>何謂產業？</strong><p style="font-size:12px;color:#7493a4">產業分類、企業邊界與統計口徑</p><div class="anchors"><div class="slabel">COURSE CONTENTS</div><nav><a class="anchor" href="#s1">01 · 從便利商店開始</a><a class="anchor" href="#s2">02 · 企業與產業的差別</a><a class="anchor" href="#s3">03 · 分類為何會改變</a><a class="anchor" href="#s4">04 · SIC、NAICS 與台灣</a><a class="anchor" href="#s5">05 · 一杯咖啡的供應鏈</a><a class="anchor" href="#s6">06 · 上市與非上市產業</a><a class="anchor" href="#s7">07 · 分類與市場競爭</a><a class="anchor" href="#s8">08 · 真實企業故事</a><a class="anchor" href="#s9">09 · 新科技與產業邊界</a><a class="anchor" href="#s10">10 · 三回合管理模擬</a><a class="anchor" href="#s11">11 · 重點、名詞與來源</a></nav></div><div class="slabel">資料基準</div><p style="font-size:11px;color:#7a98a8">2026-11-06 課程更新<br>台灣第 12 次修正已核對</p></aside><main class="main"><header class="hero"><span class="tag">FOUNDATION · LESSON 00</span><h1>何謂產業？<br>從一杯咖啡到全球經濟分類</h1><p>當我們說「餐飲業」、「半導體業」或「AI 產業」，究竟在描述什麼？一家公司可能在多個產業活動，一項產品也可能牽涉十幾種不同的經濟活動。本堂建立後續 49 堂課共用的分析語言。</p><a class="jump" href="#s1">開始閱讀 ↓</a><div class="chips"><span class="chip">初學者友善</span><span class="chip">全球 → 台灣 → 企業</span><span class="chip">敘事型教學講義</span><span class="chip">成本直覺與決策練習</span></div><small>版本：2026-11-06 易讀敘事修訂稿｜編輯審查中。情境數字為教學假設。</small></header>
-<section class="section" id="s1"><div class="cap">01 / 從生活出發</div><h2>走進便利商店：一家店，為什麼牽涉這麼多產業？</h2>
-<p>想像某個星期一早上，你趕著搭車上班，走進附近的便利商店。你從架上拿了一個飯糰，又買了一杯現煮咖啡，最後用手機付款。整個過程可能不到三分鐘，看起來只是一筆很普通的消費。</p>
-<p>但是，如果有人問你：「這間便利商店屬於什麼產業？」答案似乎沒有想像中簡單。它賣食物，能不能算食品業？它煮咖啡，算不算餐飲業？它還提供寄取包裹、代收帳單、售票和電子支付服務，難道又同時是物流業、金融業和資訊服務業？</p>
-<p>在日常生活裡，我們用「產業」來說明一群做相似事情的公司，例如餐飲業、汽車業或半導體業。但當政府要統計一個國家有多少企業、雇用多少員工、創造多少收入時，就不能完全靠「感覺很像」來分類。政府需要有明確規則，才能讓不同地區、不同年份的資料相互比較。</p>
-<p>我們可以先用兩個角度思考便利商店。第一個角度是看<strong>這家店主要在做什麼</strong>：它通常是向供應商買進商品，再透過門市提供給消費者，因此零售活動很重要。第二個角度是看<strong>它到底在和誰搶顧客</strong>：買現煮咖啡的顧客，也許會把超商咖啡、手搖飲和連鎖咖啡店放在一起比較。兩個問題都合理，卻不必得到相同的分類答案。</p>
-<p>這個差異，就是第 00 堂最重要的概念。分類可以幫助我們整理世界，但分類不是世界本身。要研究一家公司的生意、某個產品的競爭，或整個台灣經濟的變化，必須先弄清楚自己正在研究哪一個問題。</p>
-<div class="example"><strong>本堂的學習目標：</strong>讀完後，你應能用自己的話說出產業與企業的差別，理解為什麼政府和證交所使用不同分類，並知道遇到跨產業公司時該如何選擇資料。</div></section>
-<section class="section" id="s2"><div class="cap">02 / 先問清楚研究對象</div><h2>「同一家公司」不一定只做一種生意</h2>
-<p>先想像一家企業集團。它旗下有農場、食品加工廠、物流公司和連鎖餐廳。當董事長對外說「我們是一家食品集團」時，這種說法很方便，也能讓大家迅速理解公司的大致業務。但是，如果我們要計算這個集團旗下各種工作的就業人數，或者研究國內運輸業的產出，把整個集團都當成食品製造業就不一定合適。</p>
-<p>原因在於<strong>公司和經濟活動不是同一種東西</strong>。一家公司可以同時做很多事情；但一個特定的工廠、門市或辦公場所，通常有比較明確的主要工作。政府統計分類常需要依照實際統計單位及其主要經濟活動來歸類。這個單位可以是<strong>場所或事業單位（Establishment）</strong>，也就是某個地點從事經濟活動的單位。不同統計制度對單位的具體定義仍可能不同。</p>
-<p>再看另一種問題。如果你想知道附近咖啡店是否會被超商咖啡搶走客人，你就不一定需要先知道兩家公司被統計單位分到哪個行業。你真正關心的是：消費者在想買咖啡時，會不會把這些商品視為可以替換的選擇？這是在研究<strong>產品市場（Product Market）</strong>。</p>
-<p>還有一種常見情況：你打開股市網站，看到「半導體業」「食品工業」「金融保險」等選項。這些選項是為了方便投資人查找上市公司，不是用來描述台灣每一間店、醫院和學校。沒有上市的企業和公共服務，同樣是經濟活動的一部分。</p>
-<div class="tablewrap"><table><thead><tr><th>要研究什麼？</th><th>主要研究對象</th><th>實際問題</th></tr></thead><tbody>
-<tr><td>一間工廠、門市主要做什麼</td><td>場所／事業單位</td><td>這個地點主要生產或提供哪種服務？</td></tr>
-<tr><td>一家企業集團做哪些業務</td><td>企業或集團</td><td>它同時經營哪些事業？財報如何呈現？</td></tr>
-<tr><td>哪些產品彼此競爭</td><td>產品市場</td><td>顧客會把哪些產品拿來替代？</td></tr>
-<tr><td>某家公司在股市被放在哪類</td><td>上市公司產業標籤</td><td>交易所為了股票資訊如何分類？</td></tr>
-</tbody></table></div>
-<p>現在回頭看便利商店就清楚多了。說它主要從事零售活動，不等於否認它賣咖啡；分析它和咖啡店的競爭，也不表示要把整個便利商店集團改成餐飲業。<strong>研究問題不同，應使用的分類也不同。</strong></p></section>
-<section class="section" id="s3"><div class="cap">03 / 分類為何需要更新</div><h2>為什麼政府不能永遠使用同一張產業清單？</h2>
-<p>假設你在三十年前負責編一本產業分類手冊。那時人們熟悉工廠、農場、商店、旅館和銀行，但還沒有今天這種規模的雲端服務、串流平台、手機應用程式和資料中心。如果你只沿用舊手冊，有些新工作可能很難被清楚描述。</p>
-<p>所以產業分類不是一次寫好就永遠不改的名冊。它會隨經濟活動和統計需求變化而修訂。修訂的好處是能更準確描述當代產業；麻煩則是，原本某種活動可能被放在一個類別，後來又被拆分、合併或重新定義。當分類改變時，統計數字出現的變化，不一定全部來自真實經濟活動增加或減少。</p>
-<p>這也是為什麼研究者總是要記錄<strong>資料年度</strong>與<strong>分類版本</strong>。想像同一間學校第一年把資訊相關科系全部算成一個學院，第二年則把其中部分科系移到另一個學院。單看兩年各學院學生人數，你可能會以為某學院突然萎縮，但有一部分其實只是統計範圍變了。</p>
-<p>台灣由行政院主計總處公布行業統計分類。第 11 次修正發布於 2021 年 1 月；第 12 次修正則於 2026 年 1 月公布，官方提供新舊版本對照表。本學院既有的 50 堂課涵蓋矩陣以第 11 次版本建立，因此仍可作為教學規劃的歷史基準；實際要查詢最新行業類別時，應先核對第 12 次與相關統計的採用版本。</p>
-<p>分類版本並沒有讓我們失去比較產業的能力，而是提醒我們比較前先確認規則是否改變。這個觀念在研究科技業、數位平台或快速發展的新服務時，尤其重要。</p><div class="example">例如你發現某個類別在 2026 年突然多了很多家企業，第一個問題不應只有「市場是不是突然爆發？」還應問：「今年分類名稱或涵蓋的活動有沒有改變？」</div></section>
-<section class="section" id="s4"><div class="cap">04 / 全球常見分類工具</div><h2>SIC、NAICS、台灣分類：三套工具不是三種產業</h2>
-<p>如果你第一次看到 SIC 或 NAICS 這兩串英文字，並不需要立即背起所有代碼。先把它們想成圖書館的編目方法：同一本書可能在不同圖書館被安排在稍微不同的架位；但書本的內容不會因為換了架位就改變。產業分類也是如此。</p>
-<h3>SIC：比較舊的美國分類系統</h3>
-<p><strong>標準產業分類（Standard Industrial Classification, SIC）</strong>是美國長期使用過的一套產業分類制度。1987 年版本把經濟活動整理成十個大的分部（division），從農林漁業、礦業、營造和製造業，一直到服務與公共行政。歷史研究、舊資料庫和部分公司研究仍會用到 SIC，因此它沒有完全失去價值。</p>
-<p>不過，使用舊分類研究今日軟體、平台或其他新興活動時，就可能碰到分類不夠精細的問題。這不是說舊資料不能用，而是需要更仔細地說明，某個代碼在不同年代代表什麼。</p>
-<h3>NAICS：以生產活動組織的北美分類</h3>
-<p><strong>北美產業分類系統（North American Industry Classification System, NAICS）</strong>用於美國、加拿大和墨西哥的產業統計對照。美國 2022 NAICS 有 20 個主要部門（sector），涵蓋農業、能源、製造、營造、零售、交通、金融、教育、醫療、娛樂等活動。</p>
-<p>NAICS 的代碼可以一層層往下看：大類使用比較短的代碼，細分類則使用較長的代碼。想像你先找到圖書館的「自然科學」區，再進到「物理」，最後找到「光學」。分類愈細，描述的經濟活動通常愈具體。以美國版本而言，從兩位數的 sector 往下，可以延伸到六位數的 national industry。</p>
-<p>有個容易搞錯的小地方：製造業在 NAICS 裡常寫成「31–33」，但這代表同一個製造業大部門所涵蓋的代碼範圍，不是三個獨立的主要部門。零售業的「44–45」等寫法也是類似情況。因此不能只靠看數字有幾組就去猜部門數量。</p>
-<h3>台灣：看我們自己的經濟活動</h3>
-<p>台灣的主計總處也有官方行業統計分類，讓政府能整理本地的生產、就業與其他統計。不同版本可能有不同的細類安排，所以本學院會把第 11 次版本的原始課綱映射，和撰寫當下最新的官方分類清楚區分。</p>
-<div class="tablewrap"><table><thead><tr><th>名稱</th><th>最容易理解的用途</th><th>使用時要小心的事</th></tr></thead><tbody><tr><td>SIC（1987）</td><td>閱讀美國歷史產業資料與部分舊研究</td><td>舊行業與今日新活動不一定直接對應</td></tr><tr><td>NAICS（2022）</td><td>閱讀美國與北美相關產業統計</td><td>同一活動跨年可能需要版本轉換</td></tr><tr><td>台灣行業統計分類</td><td>理解台灣各種經濟活動的官方統計</td><td>2021 第 11 次與 2026 第 12 次要分清楚</td></tr><tr><td>證交所上市公司類別</td><td>找上市公司與比較股票資訊</td><td>不代表台灣所有企業或全部經濟活動</td></tr></tbody></table></div>
-<p>三套制度的差異，不是誰比較高級，而是各自服務不同時代、國家與統計需求。真正需要跨國比較時，研究者會進一步使用官方對照表，檢查兩邊分類的涵蓋範圍。不能因為中文翻譯看起來相同，就假設統計口徑完全一致。</p></section>
-<section class="section" id="s5"><div class="cap">05 / 分類與真實的產業鏈</div><h2>一杯咖啡，如何穿過農業、製造、物流與零售？</h2>
-<p>現在把剛剛學到的分類重新放回咖啡。咖啡豆在農場種植、採收，經過加工和運輸，到烘豆廠烘焙，最後出現在咖啡店、超商或電商平台上。同樣一杯咖啡，背後不是只有「咖啡業」這一種工作。</p>
-<div class="flow"><span>咖啡農場</span><strong>→</strong><span>加工與烘焙</span><strong>→</strong><span>運輸與批發</span><strong>→</strong><span>門市或平台</span><strong>→</strong><span>消費者</span></div>
-<p>咖啡農場需要土地、勞動與氣候條件；烘豆廠需要設備、穩定品質與加工知識；物流公司關心運輸時間、倉儲和配送效率；門市則要考慮地點、顧客體驗、員工與租金。這些公司相互依賴，但面對的成本和競爭者不一定相同。</p>
-<p>這種從原料一路追到消費者的流程，叫做<strong>價值鏈（Value Chain）</strong>。它幫助我們理解產品是如何被做出來並送到使用者手上。價值鏈和產業分類是兩種可以一起使用的工具：前者追蹤各個活動如何連接；後者則幫我們把各種活動放入可統計的類別。</p>
-<p>如果一杯咖啡賣 100 元，並不代表每個經手者都有 100 元的收入，更不能把所有階段的營收全部加起來，當成這杯咖啡對 GDP 的貢獻。農場的產品可能成為加工廠的原料，加工廠的產品又變成店家的成本。重複把每一段交易額相加，會重複計算部分已包含的價值。</p>
-<p>第 01 堂會更詳細說明<strong>營業收入、成本、附加價值（Value Added）與國內生產毛額（GDP）</strong>的差別。這裡先記住：統計上說「產業有多大」時，必須先確認是在算生產、交易、銷售還是新增價值。</p>
-<div class="example">一個很實用的閱讀習慣：看到「咖啡產業市場規模」時，先問它是咖啡豆的交易額、烘焙產品的出廠金額，還是消費者在咖啡店花的錢。三種數字都可能合理，但回答的是不同問題。</div></section>
-<section class="section" id="s6"><div class="cap">06 / 在台灣如何使用分類</div><h2>為什麼股市的產業清單，不能當成台灣所有產業的清單？</h2>
-<p>如果你平常會看股票，可能熟悉「半導體」「航運」「金融保險」「食品」等名稱。臺灣證券交易所依自己的上市公司分類規定，列有 33 種產業類別。投資人想從股票市場找到相近類型的公司，這套分類很方便。</p>
-<p>但現在想想你住家附近有哪些工作：牙醫診所、補習班、理髮店、獨立餐館、社區清潔公司、市政府和公立學校。這些活動都在提供服務、雇用人員或使用資源，卻不是每個單位都會出現在上市公司名單裡。</p>
-<p>所以，如果一份報告只使用上市公司資料，就不能直接說它代表「台灣全部企業」。它可能對觀察大型上市公司很有幫助，但對小型商家、未上市企業、部分專業服務及公共部門的涵蓋並不完整。</p>
-<p>台灣主計總處的行業分類處理的是更廣的經濟活動。原第 11 次修正的 A–S 共 19 大類，包括農林漁牧、製造、營建、批發零售、住宿餐飲、資訊通訊、金融保險、教育、醫療、藝文以及其他服務。第 12 次修正已公布，閱讀新的統計資料時應以該資料實際採用版本為準，而不是把第 11 次的所有代碼當成永遠有效。</p>
-<h3>如果要分析台灣產業，第一步怎麼做？</h3>
-<p>假設你想研究台灣電動車。第一件事不是在產業分類表裡找一個名叫「電動車產業」的代碼，而是先問你的研究範圍：是汽車整車製造、電池材料、充電站、電力供應、汽車銷售，還是車用軟體？這些活動可能跨越好幾個官方分類。當你把研究範圍講清楚，才知道要到哪裡找生產、銷售、進出口或就業資料。</p>
-<p>再例如你想分析台灣的醫療。藥品和醫療器材的製造，與醫院診所提供醫療服務，雖然都和健康有關，卻不是同一種生產活動。前者要看研發、製造和法規審查，後者則會遇到醫療服務交付、專業人力和支付制度。把它們全混成「生技醫療」一個數字，很可能會遮住重要差異。</p>
-<p>因此，本學院的 50 堂課是為了<strong>教學上容易理解</strong>而設計的主題，不是政府 50 個正式統計行業。各堂之間可以交叉，因為真實世界的生意本來就彼此連接。</p></section>
-<section class="section" id="s7"><div class="cap">07 / 分類與競爭是兩回事</div><h2>為什麼兩家「不同產業」的公司，可能還是在搶同一批客人？</h2>
-<p>想像星期五下午，你想買一杯提神的飲料。選擇包括現煮咖啡、瓶裝茶、能量飲料和手搖飲。它們的生產方式與銷售場所不同，背後涉及的統計分類也未必相同。但站在消費者的角度，你可能只是要一個「提神、方便、不太貴」的選項。</p>
-<p>因此，當一家咖啡店漲價，你可能改買超商咖啡；當某種瓶裝茶大幅促銷，你也可能改變選擇。這種「顧客是否會因價格、品質或便利性改變而轉向另一個產品」的關係，就是研究市場競爭時非常重要的線索。</p>
-<p>反過來說，兩家公司被分在同一個統計行業，也不保證它們互相競爭。例如都屬於資訊相關服務的公司，一家可能專門替醫院寫系統，另一家只做線上遊戲。它們使用某些相似技術，但面對的顧客、需求和定價方式可能很不同。</p>
-<p>因此，產業經濟學和策略管理會進一步問：顧客的替代選擇多不多？新公司容易進來嗎？供應商能不能提高價格？企業能不能靠品牌、規模、技術或通路留住顧客？官方代碼可以幫我們開始找資料，但無法直接回答這些競爭問題。</p>
-<h3>那企業為什麼不把每件事都自己做？</h3>
-<p>延伸剛才的咖啡例子，連鎖咖啡品牌可以自己經營農場、買貨車、開烘豆廠，也可以向不同供應商採購。到底該自己做，還是交給別人？經濟學家 Coase（1937）提出的重要想法是：在市場上跟別人交易，除了商品本身的價格，還要花時間找供應商、談條件、監督品質和解決糾紛；但把工作放進公司內部，同樣會產生管理成本。</p>
-<p>所以，公司該做多大、該外包哪些工作，不是「越大越好」或「全部自己做最好」的簡單問題，而是要比較不同做法的成本與好處。Barney（1991）從企業資源的角度提醒我們：即使兩家公司在相同產業，也可能因為技術、品牌、知識和組織能力不同而做出不同的策略選擇。</p>
-<p>這些理論不是要大家在第一堂就熟背，而是讓讀者開始看到：<strong>分類告訴我們企業大致做什麼，競爭分析才進一步回答它怎麼生存、怎麼賺錢。</strong></p></section>
-<section class="section" id="s8"><div class="cap">08 / 用企業故事理解分類</div><h2>Intel、台積電和便利商店，教我們三種不同的觀察方法</h2>
-<p>首先看 Intel 與台積電。一般人很容易把它們都稱為半導體公司，這並不算錯。但當我們想更深入比較兩家企業，就要問它們在哪些業務重疊，又有哪些活動不同。</p>
-<p>Intel 長期參與晶片設計與製造等活動。台積電則以替客戶製造晶片的晶圓代工業務聞名。兩者都和半導體有關，但我們若要研究「誰是晶圓代工市場的競爭者」，就不能不加區分地把所有半導體公司的整體營收拿來相加。需要先看哪些收入確實對應所研究的市場。</p>
-<p>同樣地，台灣證交所的「半導體業」是一個上市公司分類標籤，不會自動替研究者區分晶片設計、晶圓代工、封裝測試和設備材料之間的不同商業模式。若想理解這些差別，可以在第 18 與第 19 堂再深入研究。</p>
-<p>再看便利商店。一家連鎖超商的門市可能主要從事零售，但它賣出的現煮咖啡會和其他飲料選項競爭；它經營的物流或支付服務，又涉及其他產業活動。這時我們不用急著替整家公司找一個能描述所有事的標籤，而是把問題拆開：「我要研究門市活動，還是咖啡市場？我要研究集團的財報，還是物流供應鏈？」</p>
-<p>這三個案例讓我們看見同一個原則：企業很真實、產品也很真實，但研究者畫出的產業邊界是為了回答某個問題。好的產業分析，必須先把這條邊界說明白。</p></section>
-<section class="section" id="s9"><div class="cap">09 / 產業變化時怎麼辦</div><h2>當 AI、電商和電動車出現，舊分類還有用嗎？</h2>
-<p>現代企業常同時使用軟體、資料、設備與實體通路。譬如我們說「AI 產業」，可能是在談晶片、資料中心、模型研發、企業軟體或 AI 顧問服務。這些工作互相依賴，但它們不一定被放在同一個官方統計行業。</p>
-<p>如果我們為了方便，把所有與 AI 有關的公司全加在一起，很容易重複計算：某公司買了晶片建資料中心，另一家公司付費使用算力，再提供 AI 服務給企業，每一筆交易都可能出現在不同公司的營收裡。單純把這些收入相加，不代表得到一個沒有重複的「AI 產業 GDP」。</p>
-<p>但如果完全不使用「AI 產業」這樣的跨領域名稱，也很難討論一項新技術如何改變整條供應鏈。因此比較好的方法是<strong>同時保留兩張地圖</strong>：一張用官方分類整理可比較的統計活動，另一張依產品、市場和技術關係，把不同活動連起來。</p>
-<p>這種做法也適用於電動車、綠色能源、數位支付和電商。每當看到熱門的新產業名稱，先問「這是在說一種產品、一項技術，還是一整組經濟活動？」常常就能避免很多誤判。</p>
-<div class="example"><strong>一個重要提醒：</strong>官方分類的變動並不自動等於產業盛衰。要判斷市場真的成長或萎縮，還需要比較同口徑資料，搭配企業活動、需求和技術變化。</div></section>
-<section class="section" id="s10"><div class="cap">10 / INTERACTIVE DECISION LAB</div><h2>管理者模擬：要不要把配送變成自有部門？</h2><p>你經營一家虛構的連鎖咖啡企業，正在考慮自建配送團隊，或使用外部物流廠商。你可以先調整成本直覺，再完成連續三回合的決策。所有金額均為<b>教學示意</b>、單位新台幣／月，不代表任何真實企業。</p><div class="box"><h3>成本直覺計算器</h3><div class="field"><label for="order">每月配送訂單 <b id="order-v">2,000</b></label><input id="order" type="range" min="500" max="5000" step="100" value="2000"></div><div class="field"><label for="external">外包每單成本 <b id="external-v">70</b></label><input id="external" type="range" min="40" max="110" step="5" value="70"></div><div class="field"><label for="fixed">自建固定成本（每月） <b id="fixed-v">90,000</b></label><input id="fixed" type="range" min="30000" max="160000" step="5000" value="90000"></div><div class="field"><label for="internal">自建每單變動成本 <b id="internal-v">30</b></label><input id="internal" type="range" min="15" max="65" step="5" value="30"></div><div class="result"><div><span>外包月成本</span><b id="cost-out">140,000</b></div><div><span>自建月成本</span><b id="cost-in">150,000</b></div><div><span>成本較低的方案</span><b id="cost-winner">外包</b></div></div><p class="formula">外包 = 訂單 × 外包單價；自建 = 固定成本 + 訂單 × 內部單價。<br>若外包單價高於內部單價，損益兩平訂單量 = 固定成本 ÷（外包單價 − 內部單價）。</p><small id="break-even">計算中</small></div><div class="box"><h3>三回合連續策略決策</h3><p id="scenario">第 1 回合：以基準需求進行選擇。你要先簽一年外包合約，還是投資自建配送？</p><div id="decision-buttons" class="controls"><button class="choice" data-opt="outsource">外包配送</button><button class="choice" data-opt="internal">自建配送</button></div><div class="status" id="decision-status" aria-live="polite">尚未作決策。你的第一回合選擇會影響後續轉換成本與風險。</div><button id="restart" class="btn alt" type="button">重新進行模擬</button><div class="note">模擬比較的是固定成本、變動成本、轉換成本和風險衝擊。它不能證明特定公司的真實垂直整合決策，仍須考慮服務品質、資產專屬性與交易治理。</div></div></section>
-<section class="section" id="s11"><div class="cap">11 / 收束與延伸</div><h2>讀完這堂課，你最需要記住什麼？</h2>
-<p>回到開頭那間便利商店。現在你應該能回答：它賣咖啡不代表整間店只能被稱為餐飲業；它的咖啡會跟其他品牌競爭，也不表示政府必須把所有賣咖啡的單位放在同一個統計類別。更重要的是，一家公司在股市被放在哪一類，與它真正經營的每一種業務，也不是完全相同的問題。</p>
-<p>從這個例子延伸，SIC、NAICS 和台灣行業統計分類都是幫助我們整理經濟活動的工具。它們各有歷史和用途，使用時需要確認版本、統計單位及所涵蓋的活動。證交所的產業類別則主要協助整理上市公司，不能拿來代表整個台灣經濟。</p>
-<p>最重要的能力並不是背出每個代碼，而是先把自己的問題說清楚：<strong>我要研究的是誰？他在做什麼？與誰競爭？我要拿哪一種數據來回答？</strong>只要先把這四件事釐清，後續閱讀產業報告時就比較不容易把不同數字與概念混在一起。</p>
-<h3>讀者可以思考的五個問題</h3><ol>
-<li>超商賣咖啡，為什麼不一定要把整間超商歸為咖啡店？</li>
-<li>一家食品集團同時有牧場、加工廠與餐廳，應該怎麼分析旗下不同工作？</li>
-<li>為什麼同一個產品市場可能出現不同官方行業的競爭者？</li>
-<li>如果台灣某產業在分類修正後突然成長，應該先檢查哪些事情？</li>
-<li>為什麼上市公司資料不能代表台灣全部經濟活動？</li></ol>
-<h3>重要名詞</h3><p><strong>產業分類（Industry Classification）</strong>：依一定規則，把經濟活動整理成可統計的類別。<strong>場所或事業單位（Establishment）</strong>：在特定地點從事經濟活動的統計單位。<strong>企業（Firm / Enterprise）</strong>：從事經營活動的組織，可同時涉足多種產業。<strong>產品市場（Product Market）</strong>：從產品與消費者替代關係理解競爭範圍。</p>
-<p><strong>SIC</strong>：美國傳統的標準產業分類。<strong>NAICS</strong>：北美產業分類系統。<strong>價值鏈（Value Chain）</strong>：商品或服務從投入、製作到送達消費者的一系列活動。<strong>附加價值（Value Added）</strong>：生產活動扣除中間投入後新增的價值。</p>
-<h3>官方分類與學術來源</h3><ol class="refs">
-<li>行政院主計總處（2026），<a href="https://www.stat.gov.tw/News_Content.aspx?n=3144&amp;s=235560" target="_blank" rel="noopener">行業統計分類第 12 次修正（115 年 1 月）及新舊對照表</a>。</li>
-<li>U.S. Census Bureau，<a href="https://www.census.gov/naics/" target="_blank" rel="noopener">North American Industry Classification System（2022 NAICS）</a>。</li>
-<li>U.S. OSHA，<a href="https://www.osha.gov/data/sic-manual" target="_blank" rel="noopener">1987 Standard Industrial Classification Manual</a>。</li>
-<li>臺灣證券交易所（2025 年 6 月 9 日修正），<a href="https://twse-regulation.twse.com.tw/TW/law/DOC01.aspx?FLCODE=FL007104&amp;FLNO=2" target="_blank" rel="noopener">上市公司產業類別劃分暨調整要點</a>。</li>
-<li>Coase, R. H. (1937). The Nature of the Firm. <i>Economica</i>, 4(16), 386–405. <a href="https://doi.org/10.1111/j.1468-0335.1937.tb00002.x">DOI</a>.</li>
-<li>Barney, J. (1991). Firm Resources and Sustained Competitive Advantage. <i>Journal of Management</i>, 17(1), 99–120. <a href="https://doi.org/10.1177/014920639101700108">DOI</a>.</li>
-<li>Teece, D. J., Pisano, G., &amp; Shuen, A. (1997). Dynamic Capabilities and Strategic Management. <i>Strategic Management Journal</i>, 18(7), 509–533. <a href="https://doi.org/10.1002/(SICI)1097-0266(199708)18:7%3C509::AID-SMJ882%3E3.0.CO;2-Z">DOI</a>.</li>
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="從一份早餐理解產業、企業、產品市場、價值鏈，以及全球與台灣產業結構。Lesson 00 教材候選稿，審閱中。">
+<title>第00堂｜什麼是產業 · Industry Academy</title>
+<link rel="stylesheet" href="./lesson-00.css?v=1"><script src="./lesson-00.js?v=1" defer></script>
+</head><body><a class="skip-link" href="#lesson-content">直接閱讀正文</a>
+<div class="reading-track" aria-hidden="true"><span id="reading-bar"></span></div>
+<header class="reader-header"><a class="wordmark" href="./index.html">Industry Academy <small>產業與企業策略學院</small></a><a href="./index.html#lesson/0">← 返回課程導覽</a></header>
+<div class="reader-layout"><aside class="reader-aside"><details id="lesson-toc"><summary>本堂目錄</summary><nav aria-label="本堂章節"><div class="toc">
+<ul>
+<li><a href="#1">1 一份早餐，為什麼需要一張產業地圖？</a></li>
+<li><a href="#2">2 企業是一個組織，產業是一種觀察活動的方法</a></li>
+<li><a href="#3">3 分類相同，不表示面對同一群顧客</a></li>
+<li><a href="#4">4 為什麼世界需要不只一套產業分類？</a></li>
+<li><a href="#5">5 從一件產品走向價值鏈：誰做事、誰付錢、誰承擔風險？</a></li>
+<li><a href="#6">6 產業有多大？先問數字量的是什麼</a></li>
+<li><a href="#7">7 全球與台灣：服務業比重大，製造業仍然關鍵</a></li>
+<li><a href="#8">8 產業為何不同：從生產條件推回成本與競爭</a></li>
+<li><a href="#9-walmart">9 兩個企業窗口：台積電與Walmart，如何幫助我們看見產業？</a></li>
+<li><a href="#10">10 把產業當成一組可以追問的關係</a></li>
+<li><a href="#_26">原始來源與註記</a></li>
+</ul>
+</div>
+</nav></details>
+<div class="position-card"><span id="position-label" role="status">目前位置 0%</span><button id="resume-reading" type="button" hidden>回到上次位置</button><button id="mark-read" type="button">自行標記已讀</button><small>位置與標記僅保存在此瀏覽器；標記不代表測驗或審查通過。</small></div></aside>
+<main id="lesson-content" class="reader" tabindex="-1"><div class="eyebrow">LESSON 00 · 基礎與工具</div><h1>什麼是產業</h1>
+<p class="edition">2026年11月6日候選稿 · 約一萬字正文 · 可自由閱讀</p>
+<div class="candidate-notice"><strong>教材候選稿・審閱中</strong><p>尚未完成獨立第二輪審讀；全球三項產業比率的加總口徑仍待核對，相關來源註記已保留。本頁供先行閱讀，尚未標示為正式發布。</p></div>
+<p class="reader-hint">可由左側或上方目錄選讀；點按圖表可放大。無需完成測驗才能閱讀後續內容。</p>
+<article class="lesson-text"><p>學院導覽：何謂產業？SIC、NAICS、台灣行業統計分類、證交所分類的差異</p>
+<h2 id="1">1　一份早餐，為什麼需要一張產業地圖？</h2>
+<p>先想像一個教學情境：早上出門，你在住家附近買了一份麵包和一杯飲料，以手機付款，再搭車上班。這裡沒有要描述某家真實店鋪，也不假定店家使用哪個品牌的原料。問題只是：這筆看似簡單的消費，究竟靠多少種經濟活動才能完成？</p>
+<p>店員把商品交到你手上，是整段過程最容易看見的部分。但麵粉來自穀物加工，原料要經過種植、收穫、運輸與儲存。店裡需要烤爐、冰箱、照明與用水；手機付款需要設備、軟體與支付服務；商品若由工廠配送，還需要包裝、倉儲及送貨。消費者看到的是一份早餐，生產者面對的卻是一組相互依賴的活動。</p>
+<p>如果只問「這家店叫什麼名字」，我們看見的是企業。如果問「有哪些業者從事相近的活動」，我們開始看見產業。如果問「早餐變貴時，人們會改買什麼」，問題又轉向市場與替代選擇。如果問「一份麵包怎麼從原料變成可購買的早餐」，便需要沿著價值鏈追查。</p>
+<p>這些問法都合理，卻各自照亮不同的部分。產業研究的第一步，不是背下一串企業排名，而是知道自己正在問哪一種問題。分類可以幫助整理資料，但不能自動解釋競爭；公司財報可以告訴我們一家企業賺多少錢，卻不等於整個產業創造多少價值。</p>
+<p>本課會從這份早餐出發，建立一套可以帶到其他課程的閱讀方法：先辨認企業與活動，再區分行業分類和產品市場；沿著價值鏈看分工、交易與風險；最後用全球與台灣的官方資料，理解不同產業在經濟體系中的位置。你不需要先懂會計或經濟學，遇到必要概念時，我們會把它拆開說明。</p>
+<h2 id="2">2　企業是一個組織，產業是一種觀察活動的方法</h2>
+<h3 id="_1">從招牌往裡看：公司不只有一件事</h3>
+<p>日常說話時，我們很容易把熟悉的公司名稱當成產業名稱。然而，一家企業可能擁有工廠、物流中心、門市和資訊部門，也可能同時銷售商品、出租空間或提供維修。這些活動在同一套管理體系裡，不表示它們具有相同的生產方式。</p>
+<p><strong>企業（enterprise）</strong>可以先理解為組織與管理經濟活動的單位；<strong>場所單位（establishment）</strong>則把目光拉近到具體的生產或服務地點。台灣行業統計分類以場所單位為基礎，觀察它主要做什麼。官方說明指出，一個企業可以包含多個場所，而這些場所從事的主要活動可能相同，也可能不同。這使統計不必把一整個多角化企業都壓成同一種活動。<sup id="fnref:units"><a class="footnote-ref" href="#fn:units">3</a></sup></p>
+<p>想像一家食品企業另設配送中心與零售門市。這個例子不是在替任何真實企業指定分類碼，而是提醒讀者：要研究工廠勞動，與要研究門市服務，就不應只拿公司名稱當作觀察單位。實際統計如何處理配送、總部或企業內部輔助活動，仍要依各套分類的具體規則與資料編製方式判斷。</p>
+<p>也不能把「企業」直接當成「品牌」。品牌是商品或服務被辨認的名稱；公司則涉及經營與法律組織。消費者熟悉的一個品牌，背後可能由不同地區的經營單位提供服務。反過來，同一企業也可能經營多個品牌。因此，看到一個名稱時，先問它代表品牌、公司、工廠、門店還是集團，比急著給它貼產業標籤更有用。</p>
+<h3 id="_2">產業邊界取決於要回答的問題</h3>
+<p>本課將<strong>產業（industry）</strong>理解為：為了研究生產、交換與競爭，把具有相關活動、產品或服務的生產者放在一起觀察。這是一個分析用的工作定義。當目的是編製官方統計，邊界要依明確的分類制度；當目的是研究競爭，邊界還需要看顧客與供應商能否替代；當目的是理解一件產品如何完成，研究範圍又可能跨越好幾個官方行業。</p>
+<p>例如，「半導體」可以是理解晶片設計、製造與封裝測試的教學主題；但要精確計算某項經濟活動，仍需說明究竟統計哪個環節。設計服務、工廠製造與設備供應，不能因為都和晶片有關，就不加區別地當成同一個資料欄位。同樣地，「食物」是一個生活主題，會跨越農業、食品製造、運輸、零售與餐飲。</p>
+<p>這不是說產業沒有邊界，而是邊界必須說明理由。對一家麵包店而言，麵粉廠是供應者，鄰近早餐店可能是競爭者，提供貸款的銀行則是資金服務者。三者都影響店家，卻不是同一種關係。若把所有相關者統稱為「同一產業」，便失去區分供應、替代與融資的能力。</p>
+<p>台灣現行分類也提醒我們，不宜只用營收判定所有活動。理論上，主要經濟活動以附加價值最大者判斷；拿不到這項資料時，才審慎使用產出或投入的替代指標。對商品買賣活動而言，買賣差價通常比整筆商品營業額更接近分類所需的產出概念。後面會解釋這個看似細微的差別，為何足以改變產業比較。<sup id="fnref:principal"><a class="footnote-ref" href="#fn:principal">4</a></sup></p>
+<h3 id="_3">同一個公司名稱，也需要時間與範圍</h3>
+<p>企業會擴張、分拆或調整業務。一份多年以前的公司分類，可以描述當時主要業務，不能直接保證今天完全相同。閱讀財報時也是如此：報告涵蓋的是母公司本身，還是包括子公司的合併範圍？期間是曆年，還是另一個結束日的會計年度？</p>
+<p>這些問題不是專業人士才需要的細節。假如用一個跨國集團的全球營收，去代表它在台灣某一種活動的規模，就把公司邊界、地理邊界與行業邊界混在一起了。先把觀察對象說清楚，後面的故事與數字才不會彼此矛盾。</p>
+<h3 id="_4">沒有公司招牌，也可能有需要理解的生產活動</h3>
+<p>到這裡，我們多用企業來說明，但整體經濟不等於公司名錄。世界銀行的服務業定義，包含公共行政、教育與醫療等活動；參與者不必全是上市公司，也不必以相同方式收費。理解一項服務，應先問提供了什麼、用了哪些資源，以及由誰支付成本，而不是只問經營者有沒有股票可以買。<sup id="fnref:noncompany"><a class="footnote-ref" href="#fn:noncompany">1</a></sup></p>
+<p>例如，若一項服務由公共機構提供，使用者當下支付的費用，就未必能單獨描述支撐服務的全部資源。若它由家庭成員自行完成，也不能直接套用收費企業的收入資料。這些區分會影響觀察對象與統計範圍，不能用「都沒有售價」把不同活動合成一類。</p>
+<p>主計總處的國民所得概念說明，自給消費的農產品即使未經市場交易，也須估計生產價值；家庭內自給的育兒與家務服務，則不納入相同的生產與消費統計範圍。這表示統計有明確的生產邊界，不是只把所有收付款機械地加起來，也不是對每一項生活活動的重要性評分。討論照顧、食物或教育時，先說清楚統計包括哪些提供者，會比只比金額更接近真正的問題。<sup id="fnref:productionboundary"><a class="footnote-ref" href="#fn:productionboundary">2</a></sup></p>
+<h2 id="3">3　分類相同，不表示面對同一群顧客</h2>
+<h3 id="_5">產品市場從「會改買什麼」開始</h3>
+<p>再回到早餐。假設你原本打算買一杯咖啡，店家卻調高價格。你可能換一家咖啡店，也可能改喝茶，或決定在家沖泡。這些只是可能反應，不是已經觀察到的消費調查。它們揭示一個重要問題：什麼選擇，真的會對原供應者形成競爭壓力？</p>
+<p><strong>產品市場（product market）</strong>關心商品或服務之間的替代性。台灣公平交易委員會的處理原則，以功能、特性、用途或價格條件上的高度需求或供給替代性說明產品市場；並指出，需求替代是界定相關市場的主要考量。白話地說，就是交易相對人是否能夠、也願意轉向其他選擇。<sup id="fnref:market"><a class="footnote-ref" href="#fn:market">5</a></sup></p>
+<p>因此，兩家業者即使有相同分類碼，也不保證其所有產品彼此密切競爭。它們可能服務不同用途、品質要求或顧客。反過來，官方分類不同的活動，也可能在某一項消費需求上互相替代。用一個共同的產業名稱宣布「大家都在同一個市場」，通常太快了。</p>
+<p>但也不能走向另一個極端，把「都會花掉消費者的錢」當成充分理由，宣稱所有商品都在同一市場。早餐和度假都涉及支出，卻不能只因預算有限就認定兩者是直接替代品。替代關係有強弱，要依具體條件、轉換成本、使用情境與實際證據判斷。</p>
+<h3 id="_6">距離、時間與轉換成本會改變競爭</h3>
+<p><strong>地理市場（geographic market）</strong>則問：顧客可以在什麼區域內，容易地選擇或轉換交易對象？一項商品能運送很遠，不表示所有地區的供應者對每位顧客都形成相同壓力。運費、等待時間、維修便利性或法規，都可能影響選擇。公平會的原則明列運輸成本、取得便利性、交易成本與相關法規等考量，也允許視個案衡量時間因素。<sup id="fnref:marketgeo"><a class="footnote-ref" href="#fn:marketgeo">6</a></sup></p>
+<p>假設早餐只剩十分鐘就要上班，另一個城市較便宜的麵包，未必是當下可行的替代選擇。若改成採購可長期儲存的原料，運輸距離的作用又不同。這是分析示例，不是在替某種早餐市場作法律認定。</p>
+<p><strong>轉換成本（switching costs）</strong>是更換交易對象或產品時付出的額外代價。它可以是學習新系統、重新檢驗品質、搬移資料所需的時間，也可以是合約與設備的配合成本。有替代品存在，不表示今天就能毫無代價地使用。分析競爭時，必須把「有沒有別人提供」與「現在能不能可靠地換過去」分開。</p>
+<p>這也說明，市場占有率必須先有市場邊界。分母若是某地所有咖啡銷售，和分母若是所有早餐飲品，得到的比率不同。比率變了，不一定表示企業本身改變了；可能只是研究者改了觀察範圍。在討論一家企業是否強勢之前，先把產品、顧客、地區與期間寫出來。</p>
+<h2 id="4">4　為什麼世界需要不只一套產業分類？</h2>
+<h3 id="_7">分類制度是共同語言，也是一段歷史</h3>
+<p>如果各機關都自行決定什麼叫製造業、零售業或服務業，資料很難接在一起。就業統計的一個行業，可能和產出統計的同名行業範圍不同。分類制度的用處，就是讓調查、整理與比較有共同規則。它不是替所有研究問題預先寫好的答案，而是一套可反覆使用的統計語言。</p>
+<p>聯合國的<strong>國際標準行業分類（International Standard Industrial Classification of All Economic Activities, ISIC）</strong>，最初版本於1948年採用，後來成為各國發展行業分類與跨國比較的重要參考。聯合國統計委員會於2023年認可第五次修訂。這表示國際分類框架向前更新，不表示每個國家、每張舊統計表都在同一天改用新制。<sup id="fnref:isic"><a class="footnote-ref" href="#fn:isic">7</a></sup></p>
+<p>美國的歷史提供另一個例子。2022年NAICS手冊追溯，1937年美國成立跨部會委員會，製造業與非製造業的行業清單分別於1938、1939年出現，形成早期的<strong>標準產業分類（Standard Industrial Classification, SIC）</strong>。SIC後來多次修訂，最後一次修訂為1987年。<sup id="fnref:naicshistory"><a class="footnote-ref" href="#fn:naicshistory">8</a></sup></p>
+<p>當經濟活動改變，舊分類受到新的要求：如何描述新興服務？如何比較生產投入與產出？如何讓鄰近經濟體的資料更容易對照？<strong>北美產業分類系統（North American Industry Classification System, NAICS）</strong>便由美國、加拿大與墨西哥合作發展，美國統計於1997年首次使用。它以生產過程的相似性為重要組織原則，並定期檢視修訂。<sup id="fnref2:naicshistory"><a class="footnote-ref" href="#fn:naicshistory">8</a></sup></p>
+<p>因此，讀到SIC與NAICS時，不能只把前者叫「舊碼」、後者叫「新碼」就結束。某份歷史研究可能需要保留當時的SIC，才能忠實描述資料如何編製；較新的統計可能使用不同年份的NAICS。分類碼的用途與版本，和碼本身同樣重要。</p>
+<h3 id="196712">台灣分類：從1967年試行到第12次修正</h3>
+<p>台灣於1967年參照國際分類及國情，公布試行行業統計分類；1971年第一次修訂後，層級擴充為大、中、小、細類。第12次修正主要參照ISIC第五次修訂、工業及服務業普查與國內產業發展，分為20個大類、88個中類、254個小類及530個細類，自2026年1月1日生效。<sup id="fnref:twhistory"><a class="footnote-ref" href="#fn:twhistory">9</a></sup></p>
+<p>層級的意義，可以想成逐步放大地圖。較大的類別讓我們看經濟結構，較細的類別讓我們辨認具體活動。放大地圖不一定讓每個研究問題都更準確；若資料品質不足，或研究對象本來跨越多個細類，最細的碼也可能給人不必要的精確感。</p>
+<p>第12次修正對零售的一項調整，尤其容易理解：原則上不再以實體店面或非實體店面的銷售方式區分類別，而改依商品種類歸類，並保留零售攤販的特定架構。這反映「透過什麼通路賣」和「主要賣什麼」可以是不同的分類取向；它不表示網路銷售消失，也不表示線上與線下經營完全沒有差異。<sup id="fnref:twretail"><a class="footnote-ref" href="#fn:twretail">10</a></sup></p>
+<p>分類改版會影響時間比較。假如某一類業者改歸別類，新版某行業的家數增加，就不能立即說成現實中突然多了這麼多企業。必須先看舊新分類對照，以及原資料是否已重新編製。相同碼在不同版本中，也可能包含不同內容。</p>
+<h3 id="_8">證交所分類回答另一組問題</h3>
+<p>投資新聞中的產業標籤，常來自上市公司分類。台灣證券交易所的要點，是為股票初次上市公司劃分類別，以及在上市後業務性質變更時調整。2025年6月9日修正版列有半導體、食品、金融保險、數位雲端等33種類別；分類會考量營業收入與其他業務證據，並有定期調整規則。<sup id="fnref:twse"><a class="footnote-ref" href="#fn:twse">11</a></sup></p>
+<p>這套分類的觀察對象是上市公司，不是全國所有場所，更不是所有自營工作者、家庭企業與未上市公司。若用股市中的半導體公司市值，去代表台灣半導體的生產價值，就跨過了兩個沒有交代的步驟：從上市公司變成全體業者，以及從投資者評價變成當期生產。</p>
+<p>下面的比較表不是分類碼互換表，而是提醒讀者先選對工具。</p>
+<p>| 分類或觀察方式 | 主要用途 | 不宜直接推論的事 |</p>
+<p>|---|---|---|</p>
+<p>| ISIC | 組織經濟活動、協助國際統計比較 | 各國所有資料已採相同版本 |</p>
+<p>| SIC | 理解採該制度編製的歷史或特定資料 | 舊碼可不經對照直接替換NAICS |</p>
+<p>| NAICS | 北美經濟活動與生產關係的統計 | 所有細碼在三國都一對一可比 |</p>
+<p>| 台灣行業統計分類 | 以主要經濟活動整理場所統計 | 分類碼自動決定所有行政管制 |</p>
+<p>| 證交所上市公司分類 | 上市公司產業歸屬及調整 | 已涵蓋全國所有生產活動 |</p>
+<p>| 相關市場分析 | 判斷具體競爭約束與替代範圍 | 行業碼相同就屬同一競爭市場 |</p>
+<p>NAICS手冊也明示，北美三國能比較到的層級因行業而異，不是每個最細碼都能直接互換。台灣分類公告則特別區分統計用途與行政管理：若其他機關把分類用於管制，仍需依管理目的自行認定。這兩項提醒共同指出，資料標準有邊界，不能把它變成萬用規則。<sup id="fnref:classificationlimits"><a class="footnote-ref" href="#fn:classificationlimits">12</a></sup></p>
+<h2 id="5">5　從一件產品走向價值鏈：誰做事、誰付錢、誰承擔風險？</h2>
+<h3 id="_9">把產品拆成活動，而不只拆成零件</h3>
+<p><strong>價值鏈（value chain）</strong>描述一項商品或服務，從投入、製作、交付到使用所涉及的活動與關係。它不只是一張零件清單，也包括設計、協調、運輸、銷售及售後。追問價值鏈，是要看每個環節解決什麼問題，以及環節之間如何連接。</p>
+<p>早餐的食物鏈可以畫成原料、加工、物流、零售或餐飲、消費者。但這張直線圖只是教學上的簡化。電力、金融、軟體和設備會同時支援多個環節；原料有時先經貿易商，有時直接採購；產品賣不掉，還可能形成報廢、退貨與回收。現實更像網絡，而不是只有一條從左到右的線。</p>
+<p><button aria-label="放大圖1：食物相關活動與支援服務的概念示意" class="figure-expand" type="button"><img alt="食物相關活動與支援服務的概念示意" decoding="async" loading="lazy" src="assets/lesson-00/food-network.svg"/></button></p>
+<p>圖1　概念示意，並非某品牌實際供應網絡，也未按交易量繪製。依活動邏輯及行業分類概念自行繪製。</p>
+<p>讀這張圖時，至少要追三條線。第一條是商品或服務流：誰把什麼交給誰？第二條是付款與信用：誰先付錢，誰容許對方日後付款？第三條是資訊與責任：誰決定規格，誰回報需求，品質出問題時由誰處理？三條線未必同方向，也未必同時發生。</p>
+<p>例如，在一個假設的食品訂單中，零售商先下單，工廠先購料生產，貨物交付後才收款。即使最終消費需求良好，工廠仍可能先承擔庫存與資金壓力。這說明「產品最後賣得出去」與「每個環節都能順利經營」不是同一件事；實際責任與現金流仍要看合約，不能由圖上的位置推斷。</p>
+<h3 id="_10">真實例子：整合不等於全部自己擁有</h3>
+<p>Tyson的2024年度報告說明，其雞肉業務涵蓋育種、契約農戶、飼料生產、加工、行銷與運輸。這是一個可以具體看到多環節協調的企業例子。值得注意的是，報告同時列出契約農戶；因此，不能把「垂直整合的生產流程」解讀為每一個農場都由公司直接持有。<sup id="fnref:tyson"><a class="footnote-ref" href="#fn:tyson">13</a></sup></p>
+<p><strong>垂直整合（vertical integration）</strong>關心前後相接的活動如何被組織；產權、契約與管理控制，卻仍要逐一辨認。一家公司可以直接擁有某些環節，和另一部分參與者簽長期契約，也可能向外部市場採購。企業簡介裡的一個詞，不能取代具體的組織資料。</p>
+<p>為什麼不讓所有活動都交給市場買賣？Coase在1937年的企業理論指出，尋找價格、協商及訂立契約本身有成本；把某些交易放進企業內部，可以改用組織協調。但內部管理也有成本，並非企業愈大、做得愈多就一定愈有效率。<sup id="fnref:coase"><a class="footnote-ref" href="#fn:coase">14</a></sup></p>
+<p>把這個想法放回早餐：若規格容易說清楚、供應者很多、檢驗簡單，透過交易可能相當方便。若每次修改產品都需要密切配合，或品質問題難以界定，持續合作、共同調整乃至內部化的價值可能提高。這是依理論推導的條件比較，不是宣稱某家店當初就是為了這個原因才自己烘焙。</p>
+<h3 id="_11">分工之後，權力不一定平均分配</h3>
+<p>全球價值鏈研究進一步提醒，交易的複雜度、資訊能否清楚編碼，以及供應商能否達到要求，會影響企業如何協調。Gereffi、Humphrey與Sturgeon的研究提出不同治理形式，也強調同一產業不必只有一種關係，價值鏈並不沿著單一路線演進。<sup id="fnref:gvc"><a class="footnote-ref" href="#fn:gvc">15</a></sup></p>
+<p>用白話說，「把工作交出去」不是一種固定的安排。買標準品，與共同開發一個難以寫成規格的新產品，需要的互動不同；能獨立完成複雜任務的供應者，與只能執行少數指定步驟的供應者，面對的依賴也不同。</p>
+<p>因此，身處同一條鏈不表示所有人同時獲利，也不表示最上游或最下游必然最強。若要判斷誰能議價，還要看替代選擇、技術與品質能力、容量、規格控制及轉換成本。價值鏈圖的箭頭告訴我們活動如何連接，不能單靠箭頭讀出利潤分配。</p>
+<h2 id="6">6　產業有多大？先問數字量的是什麼</h2>
+<h3 id="_12">一份商品不能沿途重複算成全部新價值</h3>
+<p>一家店的收入很直覺：賣出商品，收到款項。但把所有企業的收入加總，並不能直接得到整個經濟新創造的價值，因為同一份原料可能在不同交易中反覆出現。</p>
+<p>下面是一個完全假設的例子，金額不是任何產業的實際成本。假設原料生產者以20元出售原料，加工者以35元出售加工品，烘焙者以65元賣出麵包，零售者最後以100元賣給消費者。為了單獨說明重複計算，暫時假設除了鏈上向前一環節購買的投入，沒有其他外購中間投入、進口與稅額調整。</p>
+<p>如果把20、35、65、100全部相加，得到220元。但顧客買到的最終商品只有100元；中間投入的價值已包含在後續售價裡。各環節新增的部分，依次是20、15、30與35元，合計才是100元。前三個生產環節以售價說明產出；最後一個環節是轉售商品，100元是商品銷售額，零售服務的產出則以35元買賣差價觀察。在本例沒有其他外購中間投入的假設下，這35元也是零售環節的附加價值。因此，下圖將沿途金額標成「交易金額」，不把零售整筆營收叫作零售產出。</p>
+<p><strong>附加價值（value added）</strong>就是產出價值減去中間消費。主計總處的國民所得基本概念，以棉紗加工成棉布解釋同樣的道理：投入原料的價值不能全部當成本環節新創造的價值。這裡的「附加」不是廣告上的高級感，也不是公司淨利，而是會計上的生產貢獻。<sup id="fnref:valueadded"><a class="footnote-ref" href="#fn:valueadded">16</a></sup></p>
+<p><button aria-label="放大圖2：假設四環節交易金額與新增價值" class="figure-expand" type="button"><img alt="假設四環節交易金額與新增價值" decoding="async" loading="lazy" src="assets/lesson-00/value-added.svg"/></button></p>
+<p>圖2　教學假設，單位為元；20、35、65、100是各階段商品交易金額，20、15、30、35是各環節附加價值。並非真實麵包價格或毛利調查。原理參照主計總處國民所得年報附錄一。</p>
+<p>附加價值之中，還要支持受僱者報酬、資產使用與其他所得項目；不能直接視為老闆最後帶走的利潤。真實零售者還會使用電力、外部配送等投入，所以100元售價減65元進貨的35元，也不能不作其他調整就當成實際零售附加價值。假設的功能是拆出一個概念，而不是替現實經營下結論。</p>
+<p><strong>國內生產毛額（Gross Domestic Product, GDP）</strong>描述一段期間內經濟領域的生產成果。由生產面理解時，關鍵是各活動新增的價值，而不是把每次商品轉手的金額全算一次；完整帳表還需依編製規則處理估價、稅額與統計差異。<strong>國民經濟會計制度（System of National Accounts, SNA）</strong>則提供生產、所得與支出相互連接的架構。<sup id="fnref:accounts"><a class="footnote-ref" href="#fn:accounts">18</a></sup></p>
+<h3 id="_13">零售營業額與零售附加價值有不同用途</h3>
+<p>經濟部在2025年1月23日發布的2024年統計，列出台灣零售業全年營業額4兆8,530億元。同份資料也列出全年網路銷售額6,533億元，占零售業營收13.5%。這些數字有助理解交易規模與銷售方式，但營業額不是零售業的附加價值。<sup id="fnref:retaildata"><a class="footnote-ref" href="#fn:retaildata">19</a></sup></p>
+<p>網路銷售也不等於「只有電子購物公司賣出的商品」。有店面的業者也能接受線上訂單。同樣地，消費者在線上付款，並不自動把原本從事商品零售的活動變成軟體業。通路、付款技術與主要經濟活動，是需要分開觀察的面向。</p>
+<p>這組統計依當時第11次行業分類發布，本文保留其版本，不能把它改標成2026年新制數字。未來若看到不同的2024年總額，先查是否有回溯修訂或範圍變動，不宜先認定其中一個數字一定錯誤。</p>
+<h3 id="_14">比較之前，替每個數字補上身分</h3>
+<p><strong>產能（production capacity）</strong>是生產能力的描述；實際產量是某段時間完成多少。<strong>出口（exports）</strong>在貨物貿易統計中描述對外貨物流動，國民經濟會計另依常住性、所有權等原則調整；企業營收是報告範圍內的收入；<strong>市值（market capitalization）</strong>則是特定時點股價與股數形成的市場評價。它們可以都很重要，卻沒有理由被當作同一種「產業規模」。</p>
+<p>存量與流量也必須分開。年底銀行持有多少資產，是時點的存量；一家企業一年取得多少收入，是期間的流量。只因兩者都用貨幣表達，就把它們放在同一張「誰比較大」的排名裡，會失去經濟意義。</p>
+<p>貨幣金額還要問價格。<strong>名目值（nominal value）</strong>使用當期價格；<strong>實質值（real value）</strong>則試圖排除價格變動，以觀察數量或生產的變化。收入上升可能來自售價、銷量、產品組合或報告範圍變化，不能只看到金額增加，就說技術進步或生活品質提高。<sup id="fnref:prices"><a class="footnote-ref" href="#fn:prices">17</a></sup></p>
+<p>最實用的習慣，是替每個重要數字補上六項身分：誰編製、哪一年、哪裡、什麼活動、什麼單位、哪個版本。若還要比較企業，再加上個體或合併、會計年度及報告準則。這些身分不是附屬小字，而是數字的意義本身。</p>
+<h2 id="7">7　全球與台灣：服務業比重大，製造業仍然關鍵</h2>
+<h3 id="_15">先看世界，再問世界平均遮住了什麼</h3>
+<p>世界銀行的世界發展指標（World Development Indicators, WDI），提供按活動區分的附加價值占GDP比率。在2026年10月8日更新版本中，2024年世界彙總的農林漁業約為4.1%、工業約25.4%、服務業約63.3%。這裡的工業包括營造，也包括製造、採礦及公用事業，不能把25.4%直接改稱製造業比重。<sup id="fnref:wdi"><a class="footnote-ref" href="#fn:wdi">20</a></sup></p>
+<p>這三個世界彙總指標加起來並不是100%。不要為了畫出完整圓餅，就把剩餘部分命名成一個未被來源定義的「其他產業」，也不要自行把三者重新正規化。國際資料有不同估價、編製與涵蓋問題，世界彙總還需要處理各經濟體資料。本課保留原指標，使用分開的數值表，而不把它包裝成已完整調和的世界帳表。</p>
+<p>| 2024年WDI世界彙總指標 | 占GDP比率，約數 |</p>
+<p>|---|---:|</p>
+<p>| 農業、林業與漁業附加價值 | 4.1% |</p>
+<p>| 工業附加價值，含營造 | 25.4% |</p>
+<p>| 服務業附加價值 | 63.3% |</p>
+<p>這是全球大局的入口，不是所有國家的共同樣貌。世界彙總並不代表每個經濟體都由相同比例的活動構成，也不提供「哪一種結構一定最好」的答案。產業占比還會受到價格、國際分工、人口、資源與制度等條件影響。要解釋結構差異，還需對具體地區追查，而不是用一個比率替所有國家排發展階段。</p>
+<h3 id="_16">台灣的製造與服務，同時存在於一套生產網絡</h3>
+<p>主計總處《113年國民所得統計年報》的產業結構圖，列出2024年農業1.5%、工業40.4%、服務業58.1%；其中製造業35.7%，是工業的一部分，不能再與工業相加。同一份圖表中的2015年比重，分別為農業1.8%、工業36.3%、服務業62.0%。本文沿用該年報版本與圖表定義，不冒稱後續修訂後的最新值。<sup id="fnref:twstructure"><a class="footnote-ref" href="#fn:twstructure">21</a></sup></p>
+<p><button aria-label="放大圖3：台灣2015與2024年產業結構比重" class="figure-expand" type="button"><img alt="台灣2015與2024年產業結構比重" decoding="async" loading="lazy" src="assets/lesson-00/taiwan-structure.svg"/></button></p>
+<p>圖3　依主計總處113年國民所得年報〈國內生產與結構變動〉圖4自行重繪；名目生產毛額的產業結構比重，單位%。製造業包含在工業中；四捨五入可能影響加總。這張圖與WDI世界指標的編製及彙總基礎不同，不作未調和的精確百分點比較。</p>
+<p>從這組台灣資料，可以同時看見兩件事：服務活動占有很大位置，製造活動也構成重要的生產基礎。「服務業大」不表示不需要工廠；「製造業強」也不表示物流、金融、資訊與商業服務只是附屬品。工廠需要設備維修、研發、運輸與資金，服務企業也需要建物、機器與數位設備。</p>
+<p>這些關係讓「產業升級就是從製造改做服務」成為過度簡化的敘述。企業可能改善製程，也可能增加設計、維修或軟體服務；新的服務可以支持製造活動，製造活動也可以創造服務需求。是否提高附加價值、改善工作或形成可持續的能力，需要分別觀察，不能只看名稱從哪一類改到哪一類。</p>
+<p>占比下降也不必然表示產出減少。假設一項活動的名目生產從100增加到110，而其他活動成長更快，它的占比仍可能下降。這是一個比例的邏輯例子，不是台灣某年的實際數據。判斷衰退，必須再看絕對金額、價格調整後的變化、就業與企業情況，不能把一張結構圖當成完整診斷。</p>
+<h3 id="_17">看見分類以外的生活重要性</h3>
+<p>農業的附加價值比重較小，不表示食物供應不重要。農產品還會連接加工、運輸、餐飲與零售；這些後續活動在分類上通常不全留在農業。若研究的問題是食物如何送上餐桌，就需要跨分類追蹤。若問題是農場本身的生產，範圍則應保持清楚。</p>
+<p>同樣地，一項活動在GDP中占比大，不表示每位工作者都獲得高收入；占比小，也不表示社會可以輕易失去它。統計描述的是特定規則下的經濟量，不能單獨替代安全、韌性、環境與分配問題的判斷。理解產業結構，是把問題問得更準確，而不是讓一個數字決定所有重要性。</p>
+<h2 id="8">8　產業為何不同：從生產條件推回成本與競爭</h2>
+<h3 id="_18">規模不是只看公司大不大</h3>
+<p>不同活動需要不同的投入與時間。有些工作依賴設備，有些依賴專業人力；有些可以先做成庫存，有些需要顧客到場；有些產品可以遠距交付，有些需要在地設施。這些條件會改變成本與經營方式。以下是有條件的分析例子，不是把每一種產業永久分成兩類。</p>
+<p><strong>固定成本（fixed cost）</strong>是在指定期間與產量範圍內，不隨產出直接同比變動的成本；<strong>變動成本（variable cost）</strong>則會隨生產活動改變。時間範圍很重要：短期租約可能暫時固定，較長期間卻可以重新選址或調整規模；同一項支出不能不看條件就永遠稱為固定。</p>
+<p>假設一套設備在安全及品質條件相同時，可以把初期投入分攤到更多合格產品，平均成本便可能下降。<strong>規模經濟（economies of scale）</strong>指的就是規模擴大可能降低平均成本的關係，而不是「大公司必然賺錢」。若訂單不足、管理複雜、運輸距離拉長或設備閒置，擴大規模也可能增加負擔。</p>
+<p>對餐飲或醫療等需要特定時段交付的服務而言，沒有使用的時段通常不能像一箱包裝商品那樣留到隔天出售；但這也不代表所有服務都不能儲存或重複交付。軟體、預錄內容與某些資料服務具有不同的交付條件。分析時應說明哪個環節、哪種服務，而不是只用「服務業」三個字推論成本。</p>
+<p>農業也不能只用「靠天吃飯」概括。不同作物、養殖或畜牧活動，對生長週期、環境控制與投入的依賴不同。若生產需要生物成長時間，增加投入通常不能讓所有產品立刻提前成熟；若設施可以改善環境條件，也不表示自然風險全部消失。這些是理解生產限制的方向，具體效果仍需各產業資料。</p>
+<h3 id="_19">設備、人力與制度，可能形成不同的進入條件</h3>
+<p><strong>進入障礙（barriers to entry）</strong>是新參與者不易進入或形成有效競爭的條件。它可能涉及資金、技術、許可、客戶認證與服務網絡。不能只因創業花錢，就宣稱一個市場存在不可逾越的障礙；也不能只因有人新成立公司，就認定它已經能以同樣品質與規模競爭。</p>
+<p>想像兩種假設活動：一種可以用通用設備、小量試做並逐步找到顧客；另一種必須在接單前完成昂貴設備與長期驗證。兩者的新進者面對不同風險。前者也許容易開始，卻可能很難維持差異；後者也許需要較長準備期，但最終表現仍取決於需求、技術與組織能力。</p>
+<p>競爭也不只發生在售價。顧客可能在意準時交貨、可靠度、維修、資訊安全或使用便利。若只能看見最低價，就會忽略產品真正被選擇的理由。但我們也不能反過來，單憑公司聲稱「品質好」，便認定它具有持續競爭優勢；需要可比較的品質、成本與交易證據。</p>
+<p>制度則會改變可行的交易方式。食品安全、金融監理、專業資格與環境規範，各自處理不同問題；同一分類碼不能取代主管機關對實際活動的認定。規範可能要求額外投入，也可能建立交易信任。若要解釋一項規範的實際效果，仍須看適用範圍、執行方式與企業反應，不能只把它叫作「限制」或「保護」。<sup id="fnref2:classificationlimits"><a class="footnote-ref" href="#fn:classificationlimits">12</a></sup></p>
+<h3 id="_20">數位化讓邊界移動，卻沒有讓分類失去用途</h3>
+<p>當零售商加入線上訂購、製造商提供遠端維修，原本的活動會增加新的連接方式。這時應問：主要產出改變了嗎？新增的是銷售方式、支援工具，還是一項可以獨立提供的服務？答案不同，分類與分析的處理也可能不同。</p>
+<p>台灣第12次分類特別舉例，某些免費線上服務以廣告取得營收，若只看錢從哪裡來，就可能把主要活動錯判成廣告服務。官方因而提醒，在這類情況要考量人力、資本等投入。這個例子說明，分類判斷需要理解活動本身，不能只看收入項目的名稱。<sup id="fnref:platform"><a class="footnote-ref" href="#fn:platform">22</a></sup></p>
+<p>公平會對<strong>多邊市場（multi-sided market）</strong>的說明，則關心平台如何促進不同用戶群體互動，以及一群使用者如何影響另一群使用者取得的價值。這和「提供線上服務就屬哪一類」是不同問題。統計分類與競爭分析各有用途，數位化反而讓區分兩者更重要。<sup id="fnref:platformmarket"><a class="footnote-ref" href="#fn:platformmarket">23</a></sup></p>
+<h2 id="9-walmart">9　兩個企業窗口：台積電與Walmart，如何幫助我們看見產業？</h2>
+<h3 id="_21">台積電：把製造本身變成對外提供的服務</h3>
+<p>台積電的1998年原始年報介紹，公司於1987年在新竹成立，以專業晶圓製造為定位。這份歷史文件還說明，公司章程限制設計製造自有品牌積體電路，並以成為客戶的合作夥伴、而非自有品牌競爭者描述自身角色。這是當時公司對組織定位的說明，不能擴張成所有代工企業共同的法律規則。<sup id="fnref:tsmc"><a class="footnote-ref" href="#fn:tsmc">24</a></sup></p>
+<p><strong>積體電路（integrated circuit, IC）</strong>可以先理解為把電路功能整合在晶片上的產品；本課不需要先學會電路設計，但要分清楚「決定電路如何運作」與「把設計製造成可使用的晶片」是不同任務。所謂<strong>專業晶圓代工（dedicated semiconductor foundry）</strong>，就是以製造能力服務其他晶片設計需求的組織方式。台積電的歷史文件，提供了這種分工的具體窗口。</p>
+<p>這個安排讓我們看見：一家企業沒有把一件最終產品從頭做到尾，仍可能在其中一個環節扮演重要角色。專業製造需要設備、製程與品質協調；客戶則有其產品與設計需求。要讓分工運作，不能只有一份訂單，還需要技術資訊、進度與品質要求能被雙方理解和執行。</p>
+<p>1998年年報列出，當年底公司有兩座六吋、三座八吋晶圓廠，年產能約160萬片八吋約當晶圓；同年年中，WaferTech開始量產。這些資訊能說明當時製造布局與能力的規模，卻不能把產能當實際出貨，更不能直接接上今天的市場排名。<sup id="fnref:tsmccapacity"><a class="footnote-ref" href="#fn:tsmccapacity">25</a></sup></p>
+<p>「約當」也是閱讀產業數據的重要提示。不同尺寸的晶圓，不能只拿片數直接相加。標準化單位讓比較有可能，但仍要看換算方式。這和分類碼的道理相近：共同單位提供比較基礎，不會消除所有產品與技術差異。</p>
+<p>從這個故事可以提出一個有根據的理解：企業邊界可以圍繞一項專業活動形成，並透過跨企業協調參與更長的價值鏈。但不能只憑公司後來發展，就斷言這種模式在所有時期都比整合經營更有效，也不能把成立年份當作成功原因。要解釋後來的表現，還需要技術、客戶、資本與競爭等更完整的證據。</p>
+<h3 id="walmart">Walmart：門店形式改變，也改變活動的組合</h3>
+<p>Walmart官方歷史記載，第一家店於1962年在美國Arkansas州Rogers開幕；1983年開出第一家Sam’s Club；1988年在Missouri州Washington開出首家Supercenter，把一般商品與完整超市結合；1991年透過與Cifra合作進入墨西哥。這幾個節點顯示，企業成長可以同時涉及業態、商品組合與跨國經營。<sup id="fnref:walmart"><a class="footnote-ref" href="#fn:walmart">26</a></sup></p>
+<p>這裡最值得學習的，不是把年份背起來，而是辨認問題怎麼變了。綜合商品與食品放在同一個購物場所，可能讓顧客一次完成更多採買；也會讓經營者面對不同商品的補貨、保存與需求條件。這是活動組合所帶出的分析問題，不是已證明某一事件造成營收成長的因果估計。</p>
+<p>Walmart的2024年度報告，涵蓋截至2024年1月31日的會計年度，列出總營收648,125百萬美元、淨銷售642,637百萬美元。兩者不同，是因為總營收還包含會員及其他收益。報告同頁列出營業利益27,012百萬美元。這三個數字分別回答收入範圍與經營結果，不能互相替代。<sup id="fnref:walmartfinancial"><a class="footnote-ref" href="#fn:walmartfinancial">27</a></sup></p>
+<p>也不能拿這個全球企業的營收，直接和台灣零售業的附加價值比較。前者是企業合併報告的收入，後者是特定經濟領域活動的新增價值；地理、期間、幣別與會計概念也不同。先前的分類、邊界與統計概念，在這裡連成了同一個閱讀動作。</p>
+<p>這兩個企業案例刻意呈現不同的活動：一個是製造分工，一個是零售交付。它們都提醒我們，企業故事有用，是因為故事能打開產業問題；不是因為一家著名公司的經歷足以代表所有供應商、新進者與退出者。理解產業，還要持續追問那些沒有出現在成功故事中的參與者。</p>
+<h2 id="10">10　把產業當成一組可以追問的關係</h2>
+<p>現在再看最初的早餐。你可以辨認提供原料、生產設備、加工、運輸、零售、支付與能源的不同活動；也知道同一企業可能跨越多個環節，同一行業裡可能有不同市場，而一條食物鏈又會跨過多種官方分類。</p>
+<p>讀到「某產業成長」時，先問成長的是產量、營收、實質附加價值，還是股市評價。讀到「某企業很強」時，先問強在哪種產品、哪個地區、哪段期間，以及它和供應者、顧客的關係。讀到「台灣需要轉型」時，則追問改變的是活動組合、技術、需求、制度還是價值分配。</p>
+<p>分類制度讓我們能整理經濟活動；市場分析幫助辨認替代與競爭；價值鏈呈現分工與協調；統計則用有明確範圍的數字描述規模與變化。把這幾種工具接起來，產業便不再只是新聞裡的標籤，而成為可以觀察、比較與逐步理解的生產世界。</p>
+<h3 id="_22">理解問題</h3>
+<ol>
+<li>
+<p>一家企業擁有工廠與門市時，研究企業營運和研究各地零售活動，為什麼可能需要不同統計單位？</p>
+</li>
+<li>
+<p>兩種商品有相同的行業分類，為什麼仍不能直接認定屬於同一產品市場？反方向又可能如何發生？</p>
+</li>
+<li>
+<p>為什麼不能把價值鏈所有企業的營收直接加總，當作整條鏈對GDP的貢獻？</p>
+</li>
+<li>
+<p>某產業占比下降時，還需要哪些資料才能判斷它是否真的衰退？</p>
+</li>
+<li>
+<p>台積電與Walmart各自幫助我們理解什麼產業問題？它們的歷史又不能支持哪些因果結論？</p>
+</li>
 </ol>
-<p>下一堂第 01 課會接著回答另一個問題：企業把東西賣出去，為什麼營收不是利潤？為什麼一條供應鏈的交易額不能全部相加當作 GDP？學完今天的「分類與邊界」，再讀下一堂「產業如何賺錢」，就能知道產業統計到底在算什麼。</p>
-<a class="jump" href="./lesson-01.html">下一堂：產業如何賺錢 →</a></section><footer class="foot">Industry Academy · Lesson 00 · 來源可追溯，例子與模擬數字均清楚區分</footer></main></div><script>
-const $=id=>document.getElementById(id),fmt=n=>Math.round(n).toLocaleString('zh-TW');const inputs=['order','external','fixed','internal'];function cost(){const [n,o,f,v]=inputs.map(id=>Number($(id).value));inputs.forEach(id=>$(id+'-v').textContent=fmt(Number($(id).value)));$('cost-out').textContent=fmt(n*o);$('cost-in').textContent=fmt(f+n*v);$('cost-winner').textContent=n*o===f+n*v?'相同':n*o<f+n*v?'外包':'自建';$('break-even').textContent=o<=v?'外包單價不高於內部每單成本；單靠訂單增加無法攤平自建固定成本。':'在這組假設下，成本損益兩平量約為 '+fmt(f/(o-v))+' 單／月。';}inputs.forEach(x=>$(x).addEventListener('input',cost));cost();
-let round=0,history=[],strategy='',shock=0;function play(option){if(round===0){strategy=option;history=[option];round=1;$('scenario').textContent='第 2 回合：訂單量突然減少 30%，外包廠又通知每單加價 12 元。你要維持既定安排，還是切換方案（切換需要一次性 40,000 元）？';$('decision-buttons').innerHTML='<button class="choice" data-opt="stay">維持原方案</button><button class="choice" data-opt="switch">支付 40,000 元切換</button>';$('decision-status').textContent='已選 '+(option==='outsource'?'外包':'自建')+'。下一回合要考慮沉沒成本與轉換成本。';}else if(round===1){history.push(option);if(option==='switch')strategy=strategy==='outsource'?'internal':'outsource';round=2;$('scenario').textContent='第 3 回合：顧客要求更穩定的當日配送。你可增加每月 20,000 元的服務品質投資，或維持現狀。';$('decision-buttons').innerHTML='<button class="choice" data-opt="quality">投資 20,000 元提升品質</button><button class="choice" data-opt="keep">維持成本優先</button>';$('decision-status').textContent='第 2 回合：'+(option==='switch'?'切換了方案':'維持原方案')+'。目前採 '+(strategy==='outsource'?'外包':'自建')+'。';}else if(round===2){history.push(option);round=3;const n=Math.round(Number($('order').value)*.7),o=Number($('external').value)+12,f=Number($('fixed').value),v=Number($('internal').value);const selected=strategy==='outsource'?n*o:f+n*v;const switchCost=history[1]==='switch'?40000:0,qualityCost=option==='quality'?20000:0,total=selected+switchCost+qualityCost;const opposite=strategy==='outsource'?f+n*v:n*o;$('scenario').textContent='模擬結束：你最後採 '+(strategy==='outsource'?'外包':'自建')+'，'+(option==='quality'?'並投入品質改善。':'維持成本優先。');$('decision-buttons').innerHTML='';$('decision-status').innerHTML='在新需求 '+fmt(n)+' 單／月下：當期總成本約 <b>'+fmt(total)+' 元</b>（包含切換與品質投資），若不算切換與品質投資，最終方案成本為 '+fmt(selected)+' 元，另一方案為 '+fmt(opposite)+' 元。<br><b>反事實：</b>同一需求下直接採另一方案的當期基本成本差額為 '+fmt(Math.abs(selected-opposite))+' 元；但它不包含新方案前期投資、延遲與品質效果。<br>這說明決策有路徑依賴：只看最後每單成本不夠，早期承諾也影響總成本。';}}$('decision-buttons').addEventListener('click',e=>{const b=e.target.closest('[data-opt]');if(b)play(b.dataset.opt)});$('restart').addEventListener('click',()=>{round=0;history=[];strategy='';$('scenario').textContent='第 1 回合：以基準需求進行選擇。你要先簽一年外包合約，還是投資自建配送？';$('decision-buttons').innerHTML='<button class="choice" data-opt="outsource">外包配送</button><button class="choice" data-opt="internal">自建配送</button>';$('decision-status').textContent='尚未作決策。你的第一回合選擇會影響後續轉換成本與風險。';});
-const questions=[{q:'研究「某家咖啡門市主要生產什麼」時，最適合哪種分析單位？',opts:['整個股票市場','場所／事業單位','全國 GDP'],a:1,why:'場所或事業單位的主要經濟活動才是此題的分類對象。'},{q:'在 2022 NAICS 中，31–33 指的是？',opts:['三個不同的 sector','一個以代碼區間表示的製造業 sector','三個產品市場'],a:1,why:'美國官方將製造業視為一個 sector，以 31–33 表示。'},{q:'為何不能把企業集團營收視為產業市場規模？',opts:['集團可能跨多個產品市場與活動','企業財報完全無用','產業只包含上市公司'],a:0,why:'企業邊界與產品市場邊界不一致，且收入與統計產值口徑也不同。'},{q:'台灣行業分類第 11 次與第 12 次比較時，第一步是？',opts:['直接把代碼合併','檢查官方版本對照及資料年份','只看公司股價'],a:1,why:'分類版本會影響時間序列可比性。'},{q:'100 元咖啡的各階段營收加總，是否能直接當 GDP 貢獻？',opts:['可以','不可以，會把中間投入重複計算','只有大型企業可以'],a:1,why:'國民帳的附加價值需扣除中間消耗。'},{q:'Coase（1937）主要解釋的是？',opts:['企業為何存在及活動何時內部化','特定公司的 2024 年市占','所有企業都應自建物流'],a:0,why:'市場交易成本與內部組織成本的比較，決定企業邊界。'},{q:'台灣證交所 33 類別的正確用途為？',opts:['代表全台灣所有經濟活動','上市公司股票產業分類索引','全球所有市場的官方對照'],a:1,why:'TWSE 的上市公司產業類別不能取代整體經濟行業分類。'},{q:'兩家公司在不同統計產業，是否可能互相競爭？',opts:['絕對不可能','可能，產品需求可能彼此替代','只有在公司合併後才可能'],a:1,why:'競爭市場的界定依替代關係，不必和統計生產活動相同。'}];$('quiz').innerHTML=questions.map((q,i)=>'<div class="quiz-item" id="qi'+i+'"><p>'+(i+1)+'. '+q.q+'</p>'+q.opts.map((o,j)=>'<label><input type="radio" name="q'+i+'" value="'+j+'"> '+o+'</label>').join('')+'<div id="fb'+i+'" class="feedback" style="display:none"></div></div>').join('');$('check-quiz').addEventListener('click',()=>{let correct=0,answered=0;questions.forEach((q,i)=>{const selected=document.querySelector('input[name="q'+i+'"]:checked');const fb=$('fb'+i);fb.style.display='block';if(selected){answered++;const ok=Number(selected.value)===q.a;if(ok)correct++;fb.textContent=(ok?'✓ 正確。':'✗ 正確答案：'+q.opts[q.a]+'。')+q.why;}else fb.textContent='未作答。'+q.why;});$('quiz-summary').style.display='block';$('quiz-summary').textContent='完成 '+answered+' / 8 題，答對 '+correct+' 題。可調整答案後再次檢核。';});
-</script></body></html>
+<h3 id="_23">產業情境：早餐店增加網路訂購</h3>
+<p>以下是假設情境，並非真實公司的決策紀錄。一家早餐店原本由顧客到店購買，現在增加線上預訂，並委託外部配送。請分別畫出商品、付款與資訊的流向，再回答：主要生產活動是否必然改變？多出哪些合作對象與成本？如果顧客覺得配送費太高，可能轉向哪些選擇？需要什麼資料，才能判斷實際市場邊界？</p>
+<p>這個情境不要求唯一的分類答案。好的回答應先交代店家實際做什麼、資料要衡量什麼，再說明哪些部分仍需依正式分類或交易證據判斷。</p>
+<h3 id="_24">重要術語</h3>
+<p>| 中文 | 英文 | 本課用法 |</p>
+<p>|---|---|---|</p>
+<p>| 產業 | Industry | 依研究目的，把相關生產活動或生產者放在一起觀察。 |</p>
+<p>| 企業 | Enterprise | 組織經濟活動的單位，可能包含多個場所與業務。 |</p>
+<p>| 場所單位 | Establishment | 在具體地點觀察主要生產活動的統計單位。 |</p>
+<p>| 產品市場 | Product market | 依具體替代關係辨認商品或服務的競爭範圍。 |</p>
+<p>| 地理市場 | Geographic market | 顧客容易選擇或轉換交易對象的區域範圍。 |</p>
+<p>| 價值鏈 | Value chain | 從投入到交付與使用的活動及連接關係。 |</p>
+<p>| 垂直整合 | Vertical integration | 前後相接活動的組織安排；需分辨產權與契約。 |</p>
+<p>| 附加價值 | Value added | 產出價值扣除中間消費，並非公司淨利。 |</p>
+<p>| 固定／變動成本 | Fixed / variable cost | 依指定期間與產出範圍，區分成本的變動關係。 |</p>
+<p>| 規模經濟 | Economies of scale | 在特定條件下，擴大規模可降低平均成本。 |</p>
+<p>| 轉換成本 | Switching costs | 更換供應者或產品所需的額外時間、資源與代價。 |</p>
+<p>| 名目／實質值 | Nominal / real value | 使用當期價格／排除價格變動後的觀察方式。 |</p>
+<h3 id="_25">相關課程</h3>
+<p>依原課綱，可接續第01堂〈產業如何賺錢〉、第02堂全球價值鏈、第03堂產業競爭與第04堂產業研究方法；也可直接選讀第05堂農業、第18堂半導體或第30堂零售相關主題。這些是課綱上的閱讀方向，不表示各課已正式發布，無須先完成其他課才能理解本課。</p>
+<h2 id="_26">原始來源與註記</h2>
+<div class="footnote">
+<hr/>
+<ol>
+<li id="fn:noncompany">
+<p>World Bank，WDI服務業指標定義，ISIC Rev.4第45–99類所涵蓋活動包括公共行政、教育、醫療等。<a href="https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NV.SRV.TOTL.ZS">官方定義</a>。 <a class="footnote-backref" href="#fnref:noncompany" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+<li id="fn:productionboundary">
+<p>行政院主計總處，《113年國民所得統計年報》，附錄一，印刷p.95／分檔PDF2，「國民所得統計之範圍」。 <a class="footnote-backref" href="#fnref:productionboundary" title="Jump back to footnote 2 in the text">↩</a></p>
+</li>
+<li id="fn:units">
+<p>行政院主計總處，《行業統計分類》第12次修正，說明「統計單位」，印刷pp.2–3／PDF7–8。<a href="https://ws.dgbas.gov.tw/001/Upload/463/ebook/ebook_356166/pdf/full.pdf">官方全文</a>。 <a class="footnote-backref" href="#fnref:units" title="Jump back to footnote 3 in the text">↩</a></p>
+</li>
+<li id="fn:principal">
+<p>同上，說明「行業判定原則」，印刷pp.3–4／PDF8–9。主要活動、替代指標與限制均須一併閱讀。 <a class="footnote-backref" href="#fnref:principal" title="Jump back to footnote 4 in the text">↩</a></p>
+</li>
+<li id="fn:market">
+<p>公平交易委員會（2023年11月22日修正），《對於相關市場界定之處理原則》，第2、3、4、7點。<a href="https://law.ftc.gov.tw/law/LawContent.aspx?id=GL000242">現行規範</a>。 <a class="footnote-backref" href="#fnref:market" title="Jump back to footnote 5 in the text">↩</a></p>
+</li>
+<li id="fn:marketgeo">
+<p>同上，第2、3、5點；本文飲料與早餐例均為教學假設，非個案市場認定。 <a class="footnote-backref" href="#fnref:marketgeo" title="Jump back to footnote 6 in the text">↩</a></p>
+</li>
+<li id="fn:isic">
+<p>United Nations Statistics Division，ISIC官方介紹與Revision5說明；1948年起源、2023年認可，2026年11月6日核讀。<a href="https://unstats.un.org/unsd/classifications/Econ/isic">官方說明</a>。 <a class="footnote-backref" href="#fnref:isic" title="Jump back to footnote 7 in the text">↩</a></p>
+</li>
+<li id="fn:naicshistory">
+<p>Executive Office of the President, Office of Management and Budget（2022），<em>North American Industry Classification System, United States, 2022</em>，印刷pp.13–14／PDF15–16。<a href="https://www.census.gov/naics/reference_files_tools/2022_NAICS_Manual.pdf">官方手冊</a>。 <a class="footnote-backref" href="#fnref:naicshistory" title="Jump back to footnote 8 in the text">↩</a><a class="footnote-backref" href="#fnref2:naicshistory" title="Jump back to footnote 8 in the text">↩</a></p>
+</li>
+<li id="fn:twhistory">
+<p>行政院主計總處，第12次行業分類，行政院2025年12月12日函／PDF4；前言印刷p.1／PDF6。資料年與生效日不相同。 <a class="footnote-backref" href="#fnref:twhistory" title="Jump back to footnote 9 in the text">↩</a></p>
+</li>
+<li id="fn:twretail">
+<p>同上，分類原則，印刷p.2／PDF7，第4項。 <a class="footnote-backref" href="#fnref:twretail" title="Jump back to footnote 10 in the text">↩</a></p>
+</li>
+<li id="fn:twse">
+<p>臺灣證券交易所（2025年6月9日修正），《上市公司產業類別劃分暨調整要點》，第1–5點。<a href="https://twse-regulation.twse.com.tw/TW/law/DAT0201.aspx?FLCODE=FL007104">官方全文</a>。 <a class="footnote-backref" href="#fnref:twse" title="Jump back to footnote 11 in the text">↩</a></p>
+</li>
+<li id="fn:classificationlimits">
+<p>NAICS2022手冊，印刷p.4／PDF6；台灣第12次分類，PDF4、印刷pp.1–2／PDF6–7。前者說明跨國可比層級的限制，後者區分統計與行政用途。 <a class="footnote-backref" href="#fnref:classificationlimits" title="Jump back to footnote 12 in the text">↩</a><a class="footnote-backref" href="#fnref2:classificationlimits" title="Jump back to footnote 12 in the text">↩</a></p>
+</li>
+<li id="fn:tyson">
+<p>Tyson Foods, Inc.（2024），<em>Form10-K, fiscal year ended September28,2024</em>，Item1 Business，印刷p.3／PDF4。<a href="https://s203.q4cdn.com/483587180/files/doc_financials/2024/q4/TSN-FY2024-10K.pdf">原始年報</a>。 <a class="footnote-backref" href="#fnref:tyson" title="Jump back to footnote 13 in the text">↩</a></p>
+</li>
+<li id="fn:coase">
+<p>Coase, R. H.（1937）。“The Nature of the Firm.” <em>Economica</em>,4(16),386–405，特別是pp.388–394。<a href="https://doi.org/10.1111/j.1468-0335.1937.tb00002.x">DOI</a>。這是理論推導，並非本課例子的因果估計。 <a class="footnote-backref" href="#fnref:coase" title="Jump back to footnote 14 in the text">↩</a></p>
+</li>
+<li id="fn:gvc">
+<p>Gereffi, G., Humphrey, J., &amp; Sturgeon, T.（2005）。“The Governance of Global Value Chains.” <em>Review of International Political Economy</em>,12(1),78–104，pp.83–87、97–99。<a href="https://doi.org/10.1080/09692290500049805">DOI</a>。 <a class="footnote-backref" href="#fnref:gvc" title="Jump back to footnote 15 in the text">↩</a></p>
+</li>
+<li id="fn:valueadded">
+<p>行政院主計總處，《113年國民所得統計年報》，附錄一「國民所得基本概念及重要名詞解釋」，印刷pp.95–96／分檔PDF2–3。<a href="https://ws.dgbas.gov.tw/001/Upload/463/relfile/11025/235627/%E9%99%84%E9%8C%84%E4%B8%80.pdf">官方附錄</a>。 <a class="footnote-backref" href="#fnref:valueadded" title="Jump back to footnote 16 in the text">↩</a></p>
+</li>
+<li id="fn:prices">
+<p>World Bank，NY.GDP.MKTP.CD指標官方metadata，sourceNote說明當期價格未排除跨期價格變動。<a href="https://api.worldbank.org/v2/indicator/NY.GDP.MKTP.CD?format=json">官方定義</a>。 <a class="footnote-backref" href="#fnref:prices" title="Jump back to footnote 17 in the text">↩</a></p>
+</li>
+<li id="fn:accounts">
+<p>同上，印刷pp.94–96／分檔PDF1–3；本註支持國民經濟會計架構與附加價值概念。本文假設例已省略完整國民經濟會計調整。 <a class="footnote-backref" href="#fnref:accounts" title="Jump back to footnote 18 in the text">↩</a></p>
+</li>
+<li id="fn:retaildata">
+<p>經濟部統計處（2025年1月23日），〈113年12月批發、零售及餐飲業營業額統計〉，PDF2–3，表2、表3；依第11次分類發布。<a href="https://www.moea.gov.tw/Mns/populace/news/wHandNews_File.ashx?file_id=119727">原始發布檔</a>。 <a class="footnote-backref" href="#fnref:retaildata" title="Jump back to footnote 19 in the text">↩</a></p>
+</li>
+<li id="fn:wdi">
+<p>World Bank，WDI，2024年世界彙總，2026-10-08版本；NV.AGR.TOTL.ZS、NV.IND.TOTL.ZS、NV.SRV.TOTL.ZS。<a href="https://api.worldbank.org/v2/country/WLD/indicator/NV.AGR.TOTL.ZS?date=2024&amp;format=json">農林漁業資料</a>、<a href="https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NV.IND.TOTL.ZS">工業定義</a>、<a href="https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NV.SRV.TOTL.ZS">服務業定義</a>。未重新正規化為100%。<strong>待核對：三個世界彙總系列加總差額的估價與涵蓋分解尚未完成；因此不將它們畫成完整組成圖，也不據此做精確跨國差距排名。</strong> <a class="footnote-backref" href="#fnref:wdi" title="Jump back to footnote 20 in the text">↩</a></p>
+</li>
+<li id="fn:twstructure">
+<p>行政院主計總處，《113年國民所得統計年報》，〈國內生產與結構變動〉，分檔PDF3，圖4及產業結構段落。<a href="https://ws.dgbas.gov.tw/001/Upload/463/relfile/11025/235627/1-2.pdf">官方原文</a>。 <a class="footnote-backref" href="#fnref:twstructure" title="Jump back to footnote 21 in the text">↩</a></p>
+</li>
+<li id="fn:platform">
+<p>行政院主計總處，第12次行業分類，印刷p.4／PDF9，「投入替代指標」與免費線上服務例。 <a class="footnote-backref" href="#fnref:platform" title="Jump back to footnote 22 in the text">↩</a></p>
+</li>
+<li id="fn:platformmarket">
+<p>公平交易委員會（2023），前引處理原則，第2點第6–7款、第4點第4款。 <a class="footnote-backref" href="#fnref:platformmarket" title="Jump back to footnote 23 in the text">↩</a></p>
+</li>
+<li id="fn:tsmc">
+<p>Taiwan Semiconductor Manufacturing Company，<em>1998 Annual Report</em>, “Company Profile”，成立、章程與專業代工段。<a href="https://investor.tsmc.com/static/annualReports/1998/html/intro.htm">當年原始年報</a>。1998為資料年度；該HTML未明載獨立出版日期。 <a class="footnote-backref" href="#fnref:tsmc" title="Jump back to footnote 24 in the text">↩</a></p>
+</li>
+<li id="fn:tsmccapacity">
+<p>同上，晶圓廠產能與WaferTech段；160萬片為年產能、八吋約當單位，不是實際出貨量。 <a class="footnote-backref" href="#fnref:tsmccapacity" title="Jump back to footnote 25 in the text">↩</a></p>
+</li>
+<li id="fn:walmart">
+<p>Walmart，官方歷史時間線1962、1983、1988、1991項，2026年11月6日核讀。<a href="https://corporate.walmart.com/about/history">歷史時間線</a>。公司自述可支持事件，不單獨證明成功機制。 <a class="footnote-backref" href="#fnref:walmart" title="Jump back to footnote 26 in the text">↩</a></p>
+</li>
+<li id="fn:walmartfinancial">
+<p>Walmart Inc.（2024），<em>2024 Annual Report</em>，印刷p.41／PDF43，Consolidated Results of Operations。<a href="https://stock.walmart.com/_assets/_8c8425b76a1d46bbbbc16466da2a6b9c/walmart/db/950/9651/annual_report/Walmart+2024+Annual+Report.pdf">原始年報</a>。期間截至2024年1月31日，單位百萬美元。 <a class="footnote-backref" href="#fnref:walmartfinancial" title="Jump back to footnote 27 in the text">↩</a></p>
+</li>
+</ol>
+</div></article>
+<footer class="lesson-end"><a href="./index.html#lesson/0">← 返回第00堂導覽</a><a href="./lesson-01.html">延伸閱讀：第01堂 →</a></footer></main></div>
+<dialog id="figure-viewer" aria-labelledby="figure-title"><form method="dialog"><button autofocus aria-label="關閉放大圖">關閉 ✕</button></form><h2 id="figure-title">圖表放大</h2><div class="zoom-scroll"><img id="zoom-image" alt=""></div></dialog>
+<footer class="site-footer">Industry Academy · 全球與台灣的產業知識 · 教材候選稿</footer>
+<!-- candidate-sha256: c659f0563db7a8a601119d5edc9dcc61251e6782ebf53c99502fc6e599c2c2f7 -->
+</body></html>
