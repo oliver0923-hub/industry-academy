@@ -93,3 +93,7 @@
 - crossref_Xa036b12b8｜https://api.crossref.org/works/10.2307%2F1818907｜failed HTTP 404｜404 Client Error: Not Found for url: https://api.crossref.org/works/10.2307%2F1818907
 - caves_publisher｜https://www.hup.harvard.edu/books/9780674008083｜failed HTTP 202｜empty response
 - coase_publisher｜https://onlinelibrary.wiley.com/doi/full/10.1111/j.1468-0335.1937.tb00002.x｜restricted HTTP 403｜403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/full/10.1111/j.1468-0335.1937.tb00002.x
+
+## 八課深度驗證後續批次
+
+本檔上方保留為先前Phase1–4快照；部分受限文獻已有合法替代來源。2026-11-06後續核讀狀態、數值與逐課缺口以[deep evidence](../evidence/deep-2026-11-06/README.md)及其paper_reviews.csv、gaps.csv為準；不將舊入口覆蓋率解讀為完成率。

@@ -1,0 +1,13 @@
+{
+  "python": "3.11.9",
+  "packages": {
+    "pypdf": "6.19.0",
+    "requests": "2.32.3",
+    "pandas": "2.3.0",
+    "beautifulsoup4": "4.13.4",
+    "PyMuPDF": "2.1",
+    "rapidocr_onnxruntime": "1.4.4",
+    "numpy": "2.2.6"
+  },
+  "purpose": "PDF original extraction, OCR for scans, CSV integrity; no credentials or browser sessions exported"
+}

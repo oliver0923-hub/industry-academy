@@ -1,0 +1,12 @@
+conflict_id,lesson_ids,identities,issue,handling
+K01,00;04,TW11 / TW12 / ISIC source versions,既有TW11是歷史分類；2026TW12不可靜默替換；658筆TW/ISIC版次衝突仍隔離。,retain historical versions; no verified crosswalk inferred
+K02,02;05;18,GVC2003 vs2005,作者稿與正式版各自核對核心段落及Table1；正式版頁87，稿本自身頁8。,both acquired; distinct page locators; no full-text identity or verbatim diff claimed
+K03,01;04;05,MOA582848m vs709800m TWD,產品產值與含服務／副產品等的廣義總產出不同；年報部分初估。,scope conflict explained; revised yearbook reconciliation open
+K04,01;02;18,OECD broad16-HS vs Taiwan IC,2022全球廣籃子與2024IC不同年不同範圍；進出口可重複跨境。,no direct denominator/share calculation
+K05,04;31,FSC Mega4166596m vs consolidated4192553.310m TWD,銀行監理列與銀行子公司合併財報有不同範圍；#定義未取得。,both retained; exact bridge unresolved
+K06,31,JPMorgan bank vs holding company,本包使用JPMorgan Chase Bank N.A.；JPMorgan Chase & Co.母集團177556m收入不取代銀行161326m。,identities separated; no double-count company case
+K07,05,Tyson FY vs Dachan calendar2024,Tyson年度截至2024-09-28，大成截至12-31，幣別及集團業務範圍不同。,no unqualified same-year revenue ranking
+K08,04;18,Intel consolidated net loss vs attributable,-19233m與-18756m USD為不同損益歸屬。,separate metrics
+K09,04;18,TSMC Taiwan annual vs IASB20-F,年報淨利1172431759千TWD；IASB20-F1157523.9百萬TWD，營收近乎一致。,different accounting/version basis; exact profit bridge not yet verified; no overwrite
+K10,04;05,PNAS online2019 vs issue2020; HTML vs PDF,正式卷期2020；原文HTML已讀，PDF精確頁碼未取得。,retain publication/online years and locator gap
+K11,01;31,BIS cross-border credit vs total bank assets,信用為貸款加債券；跨境存量不是全球銀行總資產或產業收入。,do not compute Taiwan/global asset share

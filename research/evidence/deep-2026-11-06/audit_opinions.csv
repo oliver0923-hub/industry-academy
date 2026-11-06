@@ -1,0 +1,7 @@
+case_id,source_id,locator,opinion,status
+TYSON,S_tyson_10k_2024,PDF86/printed85,present fairly; USGAAP,opinion_text_read
+DACHAN,S_dachan_audited_2024,PDF4,present fairly; Taiwan-endorsed IFRS and securities issuer regulations,opinion_text_read
+INTEL,S_intel_2024,PDF62/printed54; PDF64 cross-reference,unqualified financial statement opinion; USGAAP,opinion_text_read
+TSMC,S_tsmc_20f_2024,PDF92/F-2,present fairly; IFRS as issued by IASB; not annual Taiwan profit basis,opinion_text_read
+JPMBANK,S_jpm_bank_official,PDF3/printed1; dated2025-02-14 PDF4,present fairly; USGAAP; bank subsidiaries,opinion_text_read
+MEGA,S_mega_audited_2024,"PDF5,11; OCR scan",present fairly; Taiwan-endorsed IFRS and public bank financial regulations; dated2025-02-24,opinion_OCR_read

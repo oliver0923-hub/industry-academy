@@ -1,0 +1,50 @@
+check,passed,detail
+sources_keys,True,28 distinct records required
+observations_keys,True,55 distinct records required
+paper_reviews_keys,True,10 distinct records required
+company_cases_keys,True,6 distinct records required
+sufficiency_keys,True,8 distinct records required
+claims_keys,True,42 distinct records required
+gaps_keys,True,8 distinct records required
+source_url_unique,True,No exact duplicate evidence URL
+all_source_bytes_match,True,[]
+observations_source_fk,True,set()
+paper_reviews_source_fk,True,set()
+company_cases_source_fk,True,set()
+audit_opinions_source_fk,True,set()
+observations_metadata,True,All numeric observations have units/period/scope/locator/caution; values may be rounded/lower bounds
+TYSON_income_original_page,True,PDF45; missing numeric tokens=[]
+DACHAN_income_original_page,True,PDF8; missing numeric tokens=[]
+INTEL_income_original_page,True,PDF65; missing numeric tokens=[]
+TSMC_income_original_page,True,PDF64; missing numeric tokens=[]
+JPMBANK_income_original_page,True,PDF5; missing numeric tokens=[]
+MEGA_income_original_page,True,PDF13; missing numeric tokens=[]
+jpm_assets_original,True,"Bank subsidiary consolidated balance, not holding group"
+mega_assets_original,True,Bank consolidated balance
+tsmc_duplicate_financial_table,True,Both annual variants financial page64 match after whitespace normalization; original files/SHA retained
+tsmc_iasb_profit_conflict_retained,True,Different reporting basis retained; no artificial reconciliation
+taiwan_bank_snapshot_keys,True,"ROC113 December,38 unique reporting entries"
+regulatory_mega_original,True,Regulatory row retained; no replacement by annual consolidated value
+conceptual_papers_no_invented_sample,True,Theoretical model time/publication years not sample periods
+gvc_versions_distinct,True,Both versions read; original2005 Table1 has its own printed p87
+mof_primary_value,True,"Original MOF preliminary2024 total, USD million; not rounded CBC figure"
+dynamic_capability_version,True,1997 processes/positions/paths; later framework not backdated
+pnas_locator_not_fabricated,True,HTML fulltext read; exact print-page locator not invented
+pnas_design_not_panel,True,Income location FE vs individual labor household FE separated
+barney_vrin,True,Original1991 attributes not later framework
+hendersongeneration_measure,True,Table2 not annual market share
+only_eight_sufficiency_records,True,No added industries
+no_false_complete_status,True,All eight retain full-lesson gaps; structural pass does not promote status
+six_company_cases,True,One global and one Taiwan firm for each demonstration industry
+operating_indicator_each_case,True,"Each case links a specific segment, operating or loan indicator"
+six_audit_opinion_locators,True,Opinion scope/year separate from financial figure scope
+evidence_relative_links,True,[]
+lesson_00_pack,True,Evidence/pending/limitations separated
+lesson_01_pack,True,Evidence/pending/limitations separated
+lesson_02_pack,True,Evidence/pending/limitations separated
+lesson_03_pack,True,Evidence/pending/limitations separated
+lesson_04_pack,True,Evidence/pending/limitations separated
+lesson_05_pack,True,Evidence/pending/limitations separated
+lesson_18_pack,True,Evidence/pending/limitations separated
+lesson_31_pack,True,Evidence/pending/limitations separated
+unselected_lessons_unchanged,True,"['research/notes/lessons/lesson-00/index.md', 'research/notes/lessons/lesson-01/index.md', 'research/notes/lessons/lesson-02/index.md', 'research/notes/lessons/lesson-03/index.md', 'research/notes/lessons/lesson-04/index.md', 'research/notes/lessons/lesson-05/index.md', 'research/notes/lessons/lesson-18/index.md', 'research/notes/lessons/lesson-31/index.md']"

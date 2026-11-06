@@ -608,12 +608,12 @@ lesson_id,reference_id,reference_type,source_role,confidence,verified_at,status
 46,F054,filing,firm,candidate official issuer; comparable scope pending,,metadata
 48,F072,filing,firm,candidate official issuer; comparable scope pending,,metadata
 49,F072,filing,firm,candidate official issuer; comparable scope pending,,metadata
-00,A_tsmc_2024,filing,firm,official annual document downloaded; financial review pending,2026-11-06,sourced
-02,A_tsmc_2024,filing,firm,official annual document downloaded; financial review pending,2026-11-06,sourced
-03,A_tsmc_2024,filing,firm,official annual document downloaded; financial review pending,2026-11-06,sourced
-04,A_tsmc_2024,filing,firm,official annual document downloaded; financial review pending,2026-11-06,sourced
-18,A_tsmc_2024,filing,firm,official annual document downloaded; financial review pending,2026-11-06,sourced
-19,A_tsmc_2024,filing,firm,official annual document downloaded; financial review pending,2026-11-06,sourced
+00,D_F047,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
+02,D_F047,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
+03,D_F047,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
+04,D_F047,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
+18,D_F047,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
+19,D_F047,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
 23,A_microsoft_2024,filing,firm,official annual document downloaded; financial review pending,2026-11-06,sourced
 24,A_microsoft_2024,filing,firm,official annual document downloaded; financial review pending,2026-11-06,sourced
 48,A_berkshire_2024,filing,firm,official annual document downloaded; financial review pending,2026-11-06,sourced
@@ -646,12 +646,6 @@ lesson_id,reference_id,reference_type,source_role,confidence,verified_at,status
 30,D_F023,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
 31,D_F024,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
 32,D_F024,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
-00,D_F047,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
-02,D_F047,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
-03,D_F047,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
-04,D_F047,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
-18,D_F047,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
-19,D_F047,filing,firm,direct official PDF link; identity review pending,2026-11-06,sourced
 05,W_Bellemare_2010,paper,theory,author-deposited working-paper version; selected sections read,2026-11-06,reviewed
 10,W_Bellemare_2010,paper,theory,author-deposited working-paper version; selected sections read,2026-11-06,reviewed
 10,T_MOEA_IP,source,taiwan,official data file schema checked; exact series per lesson pending,2026-11-06,sourced
@@ -669,3 +663,19 @@ lesson_id,reference_id,reference_type,source_role,confidence,verified_at,status
 25,T_MOEA_IP,source,taiwan,official data file schema checked; exact series per lesson pending,2026-11-06,sourced
 26,T_MOEA_IP,source,taiwan,official data file schema checked; exact series per lesson pending,2026-11-06,sourced
 43,T_MOEA_IP,source,taiwan,official data file schema checked; exact series per lesson pending,2026-11-06,sourced
+05,DEEP_TYSON,filing,firm,source_scoped,2026-11-06,specific_financial_tables_reviewed_not_whole_lesson
+01,DEEP_TYSON,filing,firm,source_scoped,2026-11-06,specific_financial_tables_reviewed_not_whole_lesson
+04,DEEP_TYSON,filing,firm,source_scoped,2026-11-06,specific_financial_tables_reviewed_not_whole_lesson
+05,DEEP_DACHAN,filing,firm,source_scoped,2026-11-06,specific_financial_tables_reviewed_not_whole_lesson
+01,DEEP_DACHAN,filing,firm,source_scoped,2026-11-06,specific_financial_tables_reviewed_not_whole_lesson
+04,DEEP_DACHAN,filing,firm,source_scoped,2026-11-06,specific_financial_tables_reviewed_not_whole_lesson
+18,DEEP_INTEL,filing,firm,source_scoped,2026-11-06,specific_financial_tables_reviewed_not_whole_lesson
+01,DEEP_INTEL,filing,firm,source_scoped,2026-11-06,specific_financial_tables_reviewed_not_whole_lesson
+04,DEEP_INTEL,filing,firm,source_scoped,2026-11-06,specific_financial_tables_reviewed_not_whole_lesson
+01,D_F047,filing,firm,source_scoped,2026-11-06,specific_financial_tables_reviewed_not_whole_lesson
+31,DEEP_JPMBANK,filing,firm,source_scoped,2026-11-06,specific_financial_tables_reviewed_not_whole_lesson
+01,DEEP_JPMBANK,filing,firm,source_scoped,2026-11-06,specific_financial_tables_reviewed_not_whole_lesson
+04,DEEP_JPMBANK,filing,firm,source_scoped,2026-11-06,specific_financial_tables_reviewed_not_whole_lesson
+31,DEEP_MEGA,filing,firm,source_scoped,2026-11-06,specific_financial_tables_reviewed_not_whole_lesson
+01,DEEP_MEGA,filing,firm,source_scoped,2026-11-06,specific_financial_tables_reviewed_not_whole_lesson
+04,DEEP_MEGA,filing,firm,source_scoped,2026-11-06,specific_financial_tables_reviewed_not_whole_lesson

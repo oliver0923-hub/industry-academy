@@ -6,17 +6,17 @@
 - PASS classification_crosswalk_utf8_no_bom: pandas read with string dtypes
 - PASS classification_master_unique: 4609 rows; keys ['system', 'version', 'code']
 - PASS classification_master_utf8_no_bom: pandas read with string dtypes
-- PASS company_filings_unique: 79 rows; keys ['filing_id']
+- PASS company_filings_unique: 83 rows; keys ['filing_id']
 - PASS company_filings_utf8_no_bom: pandas read with string dtypes
 - PASS indicator_dictionary_unique: 10 rows; keys ['indicator_id']
 - PASS indicator_dictionary_utf8_no_bom: pandas read with string dtypes
-- PASS industry_lesson_matrix_unique: 670 rows; keys ['lesson_id', 'reference_id', 'source_role']
+- PASS industry_lesson_matrix_unique: 680 rows; keys ['lesson_id', 'reference_id', 'source_role']
 - PASS industry_lesson_matrix_utf8_no_bom: pandas read with string dtypes
-- PASS literature_master_unique: 35 rows; keys ['paper_id']
+- PASS literature_master_unique: 37 rows; keys ['paper_id']
 - PASS literature_master_utf8_no_bom: pandas read with string dtypes
 - PASS source_registry_unique: 51 rows; keys ['source_id']
 - PASS source_registry_utf8_no_bom: pandas read with string dtypes
-- PASS DOI_unique: 29 nonempty DOIs
+- PASS DOI_unique: 30 nonempty DOIs
 - PASS 50_lessons: IDs 00–49 preserved
 - PASS source_foreign_keys: []
 - PASS paper_foreign_keys: []
@@ -32,13 +32,13 @@
 - PASS TW11_level_4: official manual required 522; range codes and ODT typo reconciled
 - PASS NAICS2022_sectors: 20 sectors, including combined manufacturing/retail/transport codes
 - PASS version_conflicts_quarantined: 658 mappings withheld from verified use
-- PASS download_checksum: 176 success records matched bytes; mismatches []
+- PASS download_checksum: 216 success records matched bytes; mismatches []
 - PASS unchanged_docs/index.html: same Git content vs origin/main; Windows checkout CRLF normalized
 - PASS unchanged_docs/styles.css: same Git content vs origin/main; Windows checkout CRLF normalized
 - PASS unchanged_docs/app.js: same Git content vs origin/main; Windows checkout CRLF normalized
 - PASS private_not_tracked: No PDF/raw private data in public Git index
 - PASS no_pdf_public: All PDFs local ignored only
-- PASS one_card_per_paper: 35 cards expected
+- PASS one_card_per_paper: 37 cards expected
 - PASS 50_lesson_source_packs: Per-lesson sources and gaps
 - PASS industrial_data_unique: 124988 actual source rows
 - PASS industrial_units: Volume index; cannot be treated as revenue/GDP

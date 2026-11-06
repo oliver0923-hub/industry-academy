@@ -1,0 +1,2 @@
+alias,canonical,reason,action
+A_tsmc_2024,D_F047,same issuer/publication/year; cover and financial table PDF64 match; SHA variants retained in download log,remove redundant active index row; archive full old row; canonicalize matrix keys; retain raw files

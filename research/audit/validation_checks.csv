@@ -3,17 +3,17 @@ classification_crosswalk_unique,True,"1808 rows; keys ['from_system', 'from_vers
 classification_crosswalk_utf8_no_bom,True,pandas read with string dtypes
 classification_master_unique,True,"4609 rows; keys ['system', 'version', 'code']"
 classification_master_utf8_no_bom,True,pandas read with string dtypes
-company_filings_unique,True,79 rows; keys ['filing_id']
+company_filings_unique,True,83 rows; keys ['filing_id']
 company_filings_utf8_no_bom,True,pandas read with string dtypes
 indicator_dictionary_unique,True,10 rows; keys ['indicator_id']
 indicator_dictionary_utf8_no_bom,True,pandas read with string dtypes
-industry_lesson_matrix_unique,True,"670 rows; keys ['lesson_id', 'reference_id', 'source_role']"
+industry_lesson_matrix_unique,True,"680 rows; keys ['lesson_id', 'reference_id', 'source_role']"
 industry_lesson_matrix_utf8_no_bom,True,pandas read with string dtypes
-literature_master_unique,True,35 rows; keys ['paper_id']
+literature_master_unique,True,37 rows; keys ['paper_id']
 literature_master_utf8_no_bom,True,pandas read with string dtypes
 source_registry_unique,True,51 rows; keys ['source_id']
 source_registry_utf8_no_bom,True,pandas read with string dtypes
-DOI_unique,True,29 nonempty DOIs
+DOI_unique,True,30 nonempty DOIs
 50_lessons,True,IDs 00–49 preserved
 source_foreign_keys,True,[]
 paper_foreign_keys,True,[]
@@ -29,13 +29,13 @@ TW11_level_3,True,official manual required 249; range codes and ODT typo reconci
 TW11_level_4,True,official manual required 522; range codes and ODT typo reconciled
 NAICS2022_sectors,True,"20 sectors, including combined manufacturing/retail/transport codes"
 version_conflicts_quarantined,True,658 mappings withheld from verified use
-download_checksum,True,176 success records matched bytes; mismatches []
+download_checksum,True,216 success records matched bytes; mismatches []
 unchanged_docs/index.html,True,same Git content vs origin/main; Windows checkout CRLF normalized
 unchanged_docs/styles.css,True,same Git content vs origin/main; Windows checkout CRLF normalized
 unchanged_docs/app.js,True,same Git content vs origin/main; Windows checkout CRLF normalized
 private_not_tracked,True,No PDF/raw private data in public Git index
 no_pdf_public,True,All PDFs local ignored only
-one_card_per_paper,True,35 cards expected
+one_card_per_paper,True,37 cards expected
 50_lesson_source_packs,True,Per-lesson sources and gaps
 industrial_data_unique,True,124988 actual source rows
 industrial_units,True,Volume index; cannot be treated as revenue/GDP
