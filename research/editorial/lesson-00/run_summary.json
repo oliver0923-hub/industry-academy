@@ -1,0 +1,28 @@
+{
+  "base_commit": "afb4730",
+  "lesson": "00",
+  "new_downloaded_originals": 11,
+  "new_downloaded_formats": {
+    ".html": 5,
+    ".pdf": 2,
+    ".json": 4
+  },
+  "shared_downloader_attempts": 12,
+  "supplemental_api_downloads": 1,
+  "unused_failed_source": "L00_EU_MARKET",
+  "failed_web_probe": "NY.GDP.MKTP.CD glossary404",
+  "sources_read_with_explicit_scope": 21,
+  "verified_claims": 37,
+  "hypotheses_and_reasoning": 8,
+  "body_cjk_prose_only": 9942,
+  "publication_ready": false,
+  "website_implementation_ready": false,
+  "independent_review_completed": false,
+  "validation": {
+    "lesson00_publication": "167/167",
+    "full_acquisition": "149/149",
+    "prior_teaching_foundation": "197/197",
+    "deep_evidence": "49/49",
+    "research_structure": "40/40"
+  }
+}

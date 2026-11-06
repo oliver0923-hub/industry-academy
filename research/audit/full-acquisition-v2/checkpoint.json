@@ -1,8 +1,8 @@
 {
-  "run_id": "20261106T081655",
-  "finished_at": "2026-11-06T08:17:11+00:00",
-  "attempts_this_run": 7,
-  "new_download_bytes": 0,
-  "total_state_rows": 72,
+  "run_id": "20261106T100346",
+  "finished_at": "2026-11-06T10:03:56+00:00",
+  "attempts_this_run": 4,
+  "new_download_bytes": 236978,
+  "total_state_rows": 84,
   "running_in_background": false
 }

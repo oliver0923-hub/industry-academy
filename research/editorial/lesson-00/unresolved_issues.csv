@@ -1,0 +1,4 @@
+issue_id,section_id,severity,status,issue,minimum_resolution,website_implementation_ready
+P001,all,publication_blocker,open,未完成由未參與撰寫者執行的獨立第二輪審讀,獨立審閱者對正文、37項來源主張、8項假設與3圖給出可追溯意見；修正後記錄複核,false
+P002,S07,publication_blocker,open,WDI世界三部門比率加總差額尚無同版本估價與全球彙總涵蓋分解；現稿已明標,補官方估價及aggregation覆蓋資料支持說明，或刪除三項並列表、保留不依賴加總的單一全球指標；不需擴增產業,false
+O001,all,optional_reader_validation,not_performed,尚未招募真實零基礎讀者作閱讀測試,如有測試，記錄誤解、停頓點與修正；不得把編者視角當實測,not_a_standalone_gate

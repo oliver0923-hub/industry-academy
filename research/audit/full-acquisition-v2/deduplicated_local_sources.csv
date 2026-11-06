@@ -18,12 +18,14 @@ sha256,paths,origin_urls
 1309c51c1d986b9415ce203a99d576f2809214fe67930c453add32e922926767,private_sources/F045.html,https://www.hiwin.tw/
 13b6729104c719e1d72f6c09326d4ed391ab6501052111bfe6a0f9f20fc5f7ae,private_sources/full-v2/V2_CR_ROBOT.json,https://api.crossref.org/works/10.3386%2Fw23285
 143b76f7056c150a7d35caccb97a1ed43c5e9d2e75883058a7537bd7f294d886,private_sources/query_45d3988c64.json,https://api.crossref.org/works?query.title=The%20Value%20of%20Corporate%20Real%20Estate%20Assets%3A%20An%20Empirical%20Investigation&rows=1
+148e4ce8dbde667887a142214774f821c0b5b7831ae2bd7d26a995470e4c7370,private_sources/full-v2/L00_WDI_SRV.json,https://api.worldbank.org/v2/country/USA;CHN;WLD/indicator/NV.SRV.TOTL.ZS?date=2024&format=json&per_page=100
 160ddfff86054c2a84ca75b9273749646605a41d0b274f98765dd9106025e543,private_sources/hbr_porter.html,https://hbr.org/2008/01/the-five-competitive-forces-that-shape-strategy
 181b5f417c71d44438050ae4415c46268d827ee04fb8ce834524f64c40378a89,private_sources/deep_bellemare_author.html,https://marcfbellemare.com/wordpress/research
 188c66ec8f71a35713528a2b56cb06a664e74922533b56458e00f758c464ffc2,private_sources/query_a63cb95d06.json,https://api.crossref.org/works?query.title=The%20Strength%20of%20Weak%20Ties&rows=1
 18b645efc5a0b001fda5852cfd0690eb579011651e405631e50cb2d271ee2cc6,private_sources/isic4_official.csv,https://unstats.un.org/unsd/classifications/Econ/Download/In%20Text/ISIC_Rev_4_english_structure.Txt
 19fe2a9a7464760a9b9b30e0eda4930b074d7bbdbaa0e7cf018b12cd0846b129,private_sources/crossref_P008.json,https://api.crossref.org/works/10.2307%2F2393553
 1cc688195bbbf30614ccaf191bf1b0b4f3235ae778f9abcffbebf8f132c4ad0d,private_sources/deep_bis_2024.html,https://www.bis.org/statistics/rppb2504.htm
+2070f93cfc9322613731ad5084ea493846aba508ada8f6d1ffd033e6696bd962,private_sources/full-v2/L00_TWSE.html,https://twse-regulation.twse.com.tw/TW/law/DAT0201.aspx?FLCODE=FL007104
 217c9e0d4d74e7517bc288f5f308b73aa0de5ee787976a6dd222412be28ada22,private_sources/naics_structure.xlsx,https://www.census.gov/naics/2022NAICS/2022_NAICS_Structure.xlsx
 21ef340edc42d83bb1e4c01c5a7918998380327f0522886a38001bf7a39f9d58,private_sources/deep_fsc_assets_data.html,https://data.gov.tw/dataset/104098
 2283ecc47a3a0267166d3ebfe2717158ffc48dab02e244bf5939f13e47148bb8,private_sources/query_b13ea4dc57.json,https://api.crossref.org/works?query.title=The%20Simple%20Economics%20of%20Artificial%20Intelligence&rows=1
@@ -105,6 +107,7 @@ sha256,paths,origin_urls
 632280494ac525682d689d5f4d8a97ba459acef24ae0a82aead439d1a9258328,private_sources/deep_mof_ic_direct.html,https://service.mof.gov.tw/public/Data/statistic/d3.js/demo/trade06/index.html
 643ef9bd0c253cf91735610abddc5232abcaee1b085e0325df09553a957e845a,private_sources/deep_coase_university.pdf,https://msuweb.montclair.edu/~lebelp/coasenatfirmec1937.pdf
 64f17933ec750733e6d4d3a1665c12d923fb6e5f5ed6bbd494eddd214916af4a,private_sources/query_4a0a8e6142.json,https://api.crossref.org/works?query.title=A%20theory%20of%20regulatory%20capture&rows=1
+66afe26ebc0b730a16bcb7e1f3d7ff32e35144f7f7756f7f0a5ad9300199382d,private_sources/full-v2/L00_META_AGR.html,https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NV.AGR.TOTL.ZS
 66ba04e716eacfbd0601c980c442969da345a33403ec67c077e993a22710c74a,private_sources/G_TRIALS.html,https://clinicaltrials.gov/data-api/api
 66eecc8a64a87b281c99967b6177a400c282ab646ef987bafa85bb0a7c2edd2c,private_sources/T_EDU.html,https://stats.moe.gov.tw/
 673c26fc6c16a2c3e4db0b66ebc64f0ec9bb2dcd3c8b4efe92005c2d19bd3519,private_sources/discover_F040.html;private_sources/F040.html,https://www.cpc.com.tw/
@@ -125,6 +128,7 @@ sha256,paths,origin_urls
 760f34d3d93ba960e0ccf2511dab20d01099c53713dac45e6f7a0d61d24370e4,private_sources/full-v2/T_ROBOTS_JPE2020.pdf,https://economics.mit.edu/sites/default/files/publications/Robots%20and%20Jobs%20-%20Evidence%20from%20US%20Labor%20Markets.p.pdf
 767186a3f11af2d9573904ec0653c490ae06973630e9110a9aaa358b580c6273,private_sources/crossref_X19f70e4ce.json,https://api.crossref.org/works/10.1080%2F00213624.2001.11506429
 76993bee861718ffbe3f91813842b464aed018fdc9d45717ebb1843356497068,private_sources/tw12_version_notice.html,https://www.stat.gov.tw/News_Content.aspx?n=3144&s=235560
+76bc097dfb202b467a3f2863209f628eb69c08cde73b98152e03da5d7c3f0a93,private_sources/full-v2/L00_WDI_IND.json,https://api.worldbank.org/v2/country/USA;CHN;WLD/indicator/NV.IND.TOTL.ZS?date=2024&format=json&per_page=100
 76d0b4f173913a5cd33ae99fe0b1ddaee28eaf353465766989ed4501b7ad6ade,private_sources/query_de301b4ce3.json,https://api.crossref.org/works?query.title=Dynamic%20Returns%20in%20Imperfectly%20Competitive%20Markets&rows=1
 76ed2d5bc8cd3443dc86f0c3225b83e6d187f3fc47d4c5696c911a3234f1716f,private_sources/naics22_17.xlsx,https://www.census.gov/naics/concordances/2022_to_2017_NAICS.xlsx
 78443e60b3188a70673ca7042d0bf9e4dc596d04072af729242886d22bd0a4e3,private_sources/deep_jpm_2024.pdf,https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/annualreport-2024.pdf
@@ -145,6 +149,7 @@ sha256,paths,origin_urls
 881fa7a1be8570e0fd78e22354f6def6c00254e2afc52bbeb707344cd3041e94,private_sources/T_CULTURE.html,https://stat.moc.gov.tw/
 892e3f1d0c60a4d46422805439b1e6d256d1d0bdde5b365652f14213c89d4124,private_sources/deep_bot_annual.html,https://www.bot.com.tw/tw/about/annual-report
 8a19163d845163abe7e93f3e26b9c9110fa6752e4a2797146b593a1818643202,private_sources/naics_manual.pdf,https://www.census.gov/naics/reference_files_tools/2022_NAICS_Manual.pdf
+8b7ec263c9492a37531a95738192ce02ac0c0d50bd4d153adebdd4cc8918e00e,private_sources/full-v2/L00_META_SRV.html,https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NV.SRV.TOTL.ZS
 8c0103d93c80175bc2e1102bc759dac2b184b52cc3420707bc9388564f374a9c,private_sources/tw11_definitions.odt,https://ws.dgbas.gov.tw/001/Upload/463/attachment/11195/90015/01222134057t64vqlsy.odt
 8c030314d7cabdf95cd23b32bf2876ac91d7d9709dd60f4af98dc2444c9ee5bf,private_sources/deep_williamson_1979.pdf,https://management.web.uniroma1.it/sites/default/files/optional%20reading%204%20transaction%20costs%20%20%281%29_1.pdf
 8da6b0946d8ec84ae007a5b85756b56eae25fbb2a55c1dc0701bf04e8ae83432,private_sources/F069.html,https://www.public.com.tw/
@@ -157,6 +162,7 @@ sha256,paths,origin_urls
 985045aeaa2d49a24c64b99787801e18936a9ca7d97196d8acccb7c1906dee31,private_sources/tw11_manual.pdf,https://ws.dgbas.gov.tw/001/Upload/463/attachment/11195/90015/012221854690wg0x9i.pdf
 98536fef6fc20739c4e02585e97ae3c6ebb5dd13d2a2e68a62f1994616306d5e,private_sources/crossref_X37d13338b.json,https://api.crossref.org/works/10.1002%2Fsmj.4250030407
 99bb314511ae3f8468806f3737805f2dc25d932da5bef9697d35c8c8ba5f2486,private_sources/G_BEA.html,https://www.bea.gov/data/gdp/gdp-industry
+99e7d5629c8dd47867a7dfc82a91fa42744219ea9cd0ff9f3d9441c61fa8e0ee,private_sources/full-v2/L00_DGBAS_STRUCTURE.pdf,https://ws.dgbas.gov.tw/001/Upload/463/relfile/11025/235627/1-2.pdf
 9adfeb8acbca23f97797b495a8969959d3fdfc8c2fd58217e06c470e7dc212a9,private_sources/full-v2/T_YULON24.pdf,https://ylesg.yulon-motor.com.tw/dl/file/VQNFwHlphCaeNjeh
 9afdfbbd87df48564b82bb4c6741ebf7f105ae8f5e440cab4f39c03c6586c150,private_sources/deep_teece_1997_copy.pdf,https://www.edegan.com/pdfs/Teece%20Pisano%20Shuen%20%281997%29%20-%20Dynamic%20capabilities%20and%20strategic%20management.pdf
 9b24386ebf92e32cc47288f38acf37d2deb723df2cb0457eb17ac53e8693f6f1,private_sources/crossref_Xad1253dbc.json,https://api.crossref.org/works/10.4337%2F9781781950005.00012
@@ -214,6 +220,7 @@ dcea1ee18338481aac1df1b856883b348547229b2c9c1d84e4c267d5b576c71a,private_sources
 dd5030651b94261c441627edd5b8cf55a8ca2e2c0d0a1c825081167fc44ce75f,private_sources/full-v2/T_TTVMA.html,https://www.ttvma.org.tw/industry
 df9a6c3ae812c65628f1b295b2c6ac26f7f6ae7b41450f0b568a446930645f2b,private_sources/G_BIS.html,https://data.bis.org/
 dfd0de00882bd8add4237d87a16942e75fc8829171239d368098eacc41e9ee9c,private_sources/F023.html,https://stock.walmart.com/financials/annual-reports/default.aspx
+dfe9b8601e9b24c5a17bb255954dba0f93d59bb567f7e26e80eabe98a5fe3544,private_sources/full-v2/L00_DGBAS_CONCEPTS.pdf,https://ws.dgbas.gov.tw/001/Upload/463/relfile/11025/235627/%E9%99%84%E9%8C%84%E4%B8%80.pdf
 e00e572d6cf4653ff3085d788d7ae2d062d3d31306b95021275dc43b90e59e44,private_sources/D_F023.pdf,https://stock.walmart.com/_assets/_8c8425b76a1d46bbbbc16466da2a6b9c/walmart/db/950/9651/annual_report/Walmart+2024+Annual+Report.pdf
 e152971a0f1284fe4c7a14f60ce5bb8613154a578bcc9e3ceebf85c4f5e3ad02,private_sources/harvard_henderson_metadata.json,https://dash.harvard.edu/server/api/core/items/3affcf33-4dea-4371-ab4c-4767380018ab
 e297ed6ec4371bb7d3853982c6a1139cd6efc577128392b408f97f097c3f4678,private_sources/G_CBP.html,https://www.census.gov/programs-surveys/cbp.html
@@ -225,6 +232,7 @@ e78505922425cf5d52a56577196c6f53deb0bf62adf95f04a00486cb7a770f5d,private_sources
 e7d6c678671ba94e79217f3ed76de34cf93d3414d9677cedecb66c84089846af,private_sources/G_FAO.html,https://www.fao.org/faostat/en/
 e85cc43e6f9849d0e97e4ba5d0c944ddb96cd1d4a24b1bd75e0be20b3de78c42,private_sources/full-v2/T_TSMC_1998.html,https://investor.tsmc.com/static/annualReports/1998/html/intro.htm
 e97e239da060e0bc18c36a4f5d3c0fbee2a2f61618774fc0fe3270868209de95,private_sources/G_TOURISM.html,https://www.unwto.org/tourism-statistics/tourism-statistics-database
+eb24ca7b690123b2e0f43a178aed27fd748f3a9a3b758c4c8cd88f8b93d2f782,private_sources/full-v2/L00_WDI_AGR.json,https://api.worldbank.org/v2/country/USA;CHN;WLD/indicator/NV.AGR.TOTL.ZS?date=2024&format=json&per_page=100
 eb2b30c7f72c0e105a6b60d7dbe354c6c17d25bc5241754f21841e242052eb60,private_sources/deep_ocasio_1997.pdf,https://elearning15.unibg.it/pluginfile.php/554242/mod_resource/content/1/Ocasio%20%281997%29%20Attention-Based%20View.pdf
 ed5592de0390a7940fd1a5929a536e7a2cfa2962dc3ad62732a6643d9652667f,private_sources/T_FISH.html,https://www.fa.gov.tw/
 ed6a9e2ed3f0e1283daf9c561b6f9995aa2fad156d23692262fd0f85edd8523f,private_sources/TW_SIC_FILES_11.html,https://www.stat.gov.tw/News_Content.aspx?n=3144&s=90015
@@ -242,6 +250,7 @@ f57590bbf3863a918752f3d95c28eb143633fada4ef2b2967e5e136d11015dae,private_sources
 f5b8982d5320efac36c0ef310069c9bb1aa49f0f34bd9b199eb610739c9b2713,private_sources/query_70b9636d6f.json,https://api.crossref.org/works?query.title=The%20Rate%20and%20Direction%20of%20Inventive%20Activity%3A%20Economic%20and%20Social%20Factors&rows=1
 f5f4d102b5d41e1343a319228c9e45256a24313891011ec322eb766b0627cec7,private_sources/F015.html,https://investor.apple.com/sec-filings/default.aspx
 f60b7e5b2f4de8dad6a5a14e1d6342ea6985ee04de12bacd4ff3dd250bfc05aa,private_sources/deep_moa_2024.html,https://www.moa.gov.tw/sp_ws.php?id=2517097
+f65b7307919e905f6bfffc0e0ffd446b8a7350eaa19662aa7150541588cfdd5b,private_sources/full-v2/L00_FTC_MARKET.html,https://law.ftc.gov.tw/law/LawContent.aspx?id=GL000242
 f782c5f7ba4f0764579756985b39ffff3413a188a784e20eba318024e6d11bc1,private_sources/query_5e6caab85b.json,https://api.crossref.org/works?query.title=System%20competition%20and%20network%20effects&rows=1
 f799e94ea979f712d9efc6b9d5bcf59343bd594ace7989ed6934ac643108ab4e,private_sources/deep_fao_production.html,https://www.fao.org/statistics/highlights-archive/highlights-detail/agricultural-production-statistics-2010-2024/
 f7ccaa5e707b83bf459df3eba591c5435c49f3d3da885f38ba8f341771a8400e,private_sources/full-v2/D_6fad5a97cd76.pdf,https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
@@ -252,4 +261,5 @@ fc69c317c4e613844a55d56e64126e93a008b63b5213888b7f6fd1ac5b979c24,private_sources
 fd731b678b5ab3a0fcfa7cf7bb049ae3308706d3a52a5202763396eb74d7a446,private_sources/full-v2/V2_TW12_MANUAL.pdf,https://ws.dgbas.gov.tw/001/Upload/463/ebook/ebook_356166/pdf/full.pdf
 fe1ab6319a73bfd838643761234cd0b54a28c78216875bb7dada7eac6c3045c2,private_sources/deep_henderson_1990.pdf,https://josephmahoney.web.illinois.edu/BA549_Fall%202018/Session%206/6_Henderson_Clark%20%281990%29.pdf
 fe781337dd71b42fde00289fe038b279ed61c3175bd566889fff8b0ff1064c28,private_sources/deep_bank_csv.csv,https://www.banking.gov.tw/webdowndoc?file=/stat/opendata/banking55.csv
+feefd4969f95675b174781aa0dcb1bce23a1baed084f67e6aedd1d756b05912a,private_sources/full-v2/L00_META_IND.html,https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NV.IND.TOTL.ZS
 fff7e74d62a9a12d5b2dc26560c56440cdff603aa0808a886c46af85502c5faf,private_sources/query_261063187a.json,https://api.crossref.org/works?query.title=The%20market%20for%20lemons%20quality%20uncertainty%20and%20the%20market%20mechanism&rows=1

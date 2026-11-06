@@ -2,7 +2,7 @@
 
 這是來源盤點，不是教材。狀態：claim_checked_partial。
 
-原始文件可用（SHA去重）14；已核讀研究3；已定位數值16。
+原始文件可用（SHA去重）15；已核讀研究3；已定位數值16。
 
 ## 已有來源與下載層級
 
@@ -11,7 +11,7 @@
 - C_NAICS_2022｜官方分類 2022｜fulltext_downloaded｜https://www.census.gov/naics/
 - C_SIC_1987｜官方分類 1987｜restricted｜https://www.osha.gov/data/sic-manual
 - C_TWSE_accessed_2026-11-06｜官方分類 accessed_2026-11-06｜identified｜https://twse-regulation.twse.com.tw/TW/law/DOC01.aspx?FLCODE=FL007104&FLNO=2
-- C_ISIC_5｜官方分類 5｜identified｜https://unstats.un.org/unsd/classifications/Econ/isic
+- C_ISIC_5｜官方分類 5｜fulltext_downloaded｜https://unstats.un.org/unsd/classifications/Econ/isic
 - C_ISIC_4｜官方分類 4｜fulltext_downloaded｜https://unstats.un.org/unsd/classifications/Econ/Download/In%20Text/ISIC_Rev_4_english_structure.Txt
 - G_ILOSTAT｜ILOSTAT data｜restricted｜https://ilostat.ilo.org/data/
 - G_BIS｜BIS Data Portal｜identified｜https://data.bis.org/

@@ -1,0 +1,4 @@
+figure_id,file,kind,purpose,sources,claim_ids,license,limitation
+FIG1,figures/food-network.svg,conceptual,食品活動與支援服務不只一條直線,TW12;GVC,F01;F17,Original design; no third-party image copied,非特定公司供應網絡；非按流量比例
+FIG2,figures/value-added.svg,teaching_hypothesis,分辨商品交易金額與新增價值,GDP_DEF,F18;E04,Original design and hypothetical numbers,假設外購其他中間投入為零；非實際成本
+FIG3,figures/taiwan-structure.svg,official_statistics_redrawn,台灣農工服務名目結構的兩年對照,TW_STRUCTURE,F27,Original redrawing of factual values; cite DGBAS,不與WDI混合，不另加製造業，不消除四捨五入

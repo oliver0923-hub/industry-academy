@@ -1,0 +1,18 @@
+observation_id,source_id,indicator,geography,data_year,value,unit,version,status,scope_limit
+WDI_AGR_CHN,WDI_AGR,NV.AGR.TOTL.ZS,CHN,2024,6.7975741844132,percent_of_GDP,2026-10-08,original_value_verified,industry includes construction; values not normalized; USA2024 null not replaced with another year
+WDI_AGR_USA,WDI_AGR,NV.AGR.TOTL.ZS,USA,2024,,percent_of_GDP,2026-10-08,missing_not_zero,industry includes construction; values not normalized; USA2024 null not replaced with another year
+WDI_AGR_WLD,WDI_AGR,NV.AGR.TOTL.ZS,WLD,2024,4.07045929837122,percent_of_GDP,2026-10-08,original_value_verified,industry includes construction; values not normalized; USA2024 null not replaced with another year
+WDI_IND_CHN,WDI_IND,NV.IND.TOTL.ZS,CHN,2024,36.3710179811644,percent_of_GDP,2026-10-08,original_value_verified,industry includes construction; values not normalized; USA2024 null not replaced with another year
+WDI_IND_USA,WDI_IND,NV.IND.TOTL.ZS,USA,2024,,percent_of_GDP,2026-10-08,missing_not_zero,industry includes construction; values not normalized; USA2024 null not replaced with another year
+WDI_IND_WLD,WDI_IND,NV.IND.TOTL.ZS,WLD,2024,25.435604452787,percent_of_GDP,2026-10-08,original_value_verified,industry includes construction; values not normalized; USA2024 null not replaced with another year
+WDI_SRV_CHN,WDI_SRV,NV.SRV.TOTL.ZS,CHN,2024,56.831400416389,percent_of_GDP,2026-10-08,original_value_verified,industry includes construction; values not normalized; USA2024 null not replaced with another year
+WDI_SRV_USA,WDI_SRV,NV.SRV.TOTL.ZS,USA,2024,,percent_of_GDP,2026-10-08,missing_not_zero,industry includes construction; values not normalized; USA2024 null not replaced with another year
+WDI_SRV_WLD,WDI_SRV,NV.SRV.TOTL.ZS,WLD,2024,63.3018068599679,percent_of_GDP,2026-10-08,original_value_verified,industry includes construction; values not normalized; USA2024 null not replaced with another year
+TW_agriculture_2015,TW_STRUCTURE,yearbook_Figure4_agriculture,Taiwan,2015,1.8,percent_yearbook_structure,113年國民所得年報 Figure4,original_value_verified,published chart basis and rounding; not reconciled to WDI denominator
+TW_industry_2015,TW_STRUCTURE,yearbook_Figure4_industry,Taiwan,2015,36.3,percent_yearbook_structure,113年國民所得年報 Figure4,original_value_verified,published chart basis and rounding; not reconciled to WDI denominator
+TW_services_2015,TW_STRUCTURE,yearbook_Figure4_services,Taiwan,2015,62.0,percent_yearbook_structure,113年國民所得年報 Figure4,original_value_verified,published chart basis and rounding; not reconciled to WDI denominator
+TW_agriculture_2024,TW_STRUCTURE,yearbook_Figure4_agriculture,Taiwan,2024,1.5,percent_yearbook_structure,113年國民所得年報 Figure4,original_value_verified,published chart basis and rounding; not reconciled to WDI denominator
+TW_industry_2024,TW_STRUCTURE,yearbook_Figure4_industry,Taiwan,2024,40.4,percent_yearbook_structure,113年國民所得年報 Figure4,original_value_verified,published chart basis and rounding; not reconciled to WDI denominator
+TW_services_2024,TW_STRUCTURE,yearbook_Figure4_services,Taiwan,2024,58.1,percent_yearbook_structure,113年國民所得年報 Figure4,original_value_verified,published chart basis and rounding; not reconciled to WDI denominator
+TW_manufacturing_2015,TW_STRUCTURE,yearbook_Figure4_manufacturing,Taiwan,2015,31.4,percent_yearbook_structure,113年國民所得年報 Figure4,original_value_verified,manufacturing is a component of industry; not an additional sector
+TW_manufacturing_2024,TW_STRUCTURE,yearbook_Figure4_manufacturing,Taiwan,2024,35.7,percent_yearbook_structure,113年國民所得年報 Figure4,original_value_verified,manufacturing is a component of industry; not an additional sector

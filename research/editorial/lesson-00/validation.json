@@ -1,0 +1,21 @@
+{
+  "checks": 167,
+  "passed": 167,
+  "failed": [],
+  "candidate_sha256": "c659f0563db7a8a601119d5edc9dcc61251e6782ebf53c99502fc6e599c2c2f7",
+  "body_cjk_prose_only": 9942,
+  "body_cjk_including_small_tables_and_headings": 10952,
+  "footnotes": 27,
+  "source_records": 21,
+  "verified_source_claims": 37,
+  "hypotheses_and_conditional_reasoning": 8,
+  "figures": 3,
+  "publication_ready": false,
+  "website_implementation_ready": false,
+  "independent_review_completed": false,
+  "publication_blockers": [
+    "P001",
+    "P002"
+  ],
+  "scope": "Consistency, source SHA, values and editorial records; not external expert review"
+}

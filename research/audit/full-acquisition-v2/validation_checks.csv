@@ -1,5 +1,5 @@
 check,passed,detail
-task_keys_unique,True,75
+task_keys_unique,True,87
 normalized_task_urls_unique,True,"same URL reused, not downloaded twice"
 all_lessons_have_inventory,True,00–49 exactly
 nine_gap_dimensions_per_lesson,True,classification/global/Taiwan/history/academic/company/recent/visual/cross-industry
@@ -54,11 +54,22 @@ bytes_T_FORD_ARCHIVE,True,private_sources/full-v2/T_FORD_ARCHIVE.pdf
 bytes_T_TSMC_1998,True,private_sources/full-v2/T_TSMC_1998.html
 bytes_T_BASKER_2007,True,private_sources/full-v2/T_BASKER_2007.html
 bytes_T_ROBOTS_JPE2020,True,private_sources/full-v2/T_ROBOTS_JPE2020.pdf
-catalog_ids_unique,True,271
-source_registry_keys,True,118
+bytes_L00_UN_ISIC,True,private_sources/ISIC_5.html
+bytes_L00_TWSE,True,private_sources/full-v2/L00_TWSE.html
+bytes_L00_DGBAS_STRUCTURE,True,private_sources/full-v2/L00_DGBAS_STRUCTURE.pdf
+bytes_L00_DGBAS_CONCEPTS,True,private_sources/full-v2/L00_DGBAS_CONCEPTS.pdf
+bytes_L00_WDI_AGR,True,private_sources/full-v2/L00_WDI_AGR.json
+bytes_L00_WDI_IND,True,private_sources/full-v2/L00_WDI_IND.json
+bytes_L00_WDI_SRV,True,private_sources/full-v2/L00_WDI_SRV.json
+bytes_L00_FTC_MARKET,True,private_sources/full-v2/L00_FTC_MARKET.html
+bytes_L00_META_AGR,True,private_sources/full-v2/L00_META_AGR.html
+bytes_L00_META_IND,True,private_sources/full-v2/L00_META_IND.html
+bytes_L00_META_SRV,True,private_sources/full-v2/L00_META_SRV.html
+catalog_ids_unique,True,282
+source_registry_keys,True,129
 literature_master_keys,True,41
 company_filings_keys,True,84
-industry_lesson_matrix_keys,True,1171
+industry_lesson_matrix_keys,True,1183
 matrix_source_references,True,legacy union source/paper/filing plus deep document catalog
 doi_valid_unique,True,"DOI shape and uniqueness, not proof of content"
 working_papers_not_journal,True,NBER original cover explicitly says not peer reviewed
@@ -116,6 +127,17 @@ private_path_T_FORD_ARCHIVE,True,private_sources/full-v2/T_FORD_ARCHIVE.pdf
 private_path_T_TSMC_1998,True,private_sources/full-v2/T_TSMC_1998.html
 private_path_T_BASKER_2007,True,private_sources/full-v2/T_BASKER_2007.html
 private_path_T_ROBOTS_JPE2020,True,private_sources/full-v2/T_ROBOTS_JPE2020.pdf
+private_path_L00_UN_ISIC,True,private_sources/ISIC_5.html
+private_path_L00_TWSE,True,private_sources/full-v2/L00_TWSE.html
+private_path_L00_DGBAS_STRUCTURE,True,private_sources/full-v2/L00_DGBAS_STRUCTURE.pdf
+private_path_L00_DGBAS_CONCEPTS,True,private_sources/full-v2/L00_DGBAS_CONCEPTS.pdf
+private_path_L00_WDI_AGR,True,private_sources/full-v2/L00_WDI_AGR.json
+private_path_L00_WDI_IND,True,private_sources/full-v2/L00_WDI_IND.json
+private_path_L00_WDI_SRV,True,private_sources/full-v2/L00_WDI_SRV.json
+private_path_L00_FTC_MARKET,True,private_sources/full-v2/L00_FTC_MARKET.html
+private_path_L00_META_AGR,True,private_sources/full-v2/L00_META_AGR.html
+private_path_L00_META_IND,True,private_sources/full-v2/L00_META_IND.html
+private_path_L00_META_SRV,True,private_sources/full-v2/L00_META_SRV.html
 new_downloads_not_claims,True,download states never imply content read
 claim_source_fk,True,12
 original_values_V2_FAO_FISH24,True,"['223.2', '185.4', '37.8']; manual scope/period review separate"

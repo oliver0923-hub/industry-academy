@@ -2,7 +2,7 @@
 
 這是來源盤點，不是教材。狀態：claim_checked_partial。
 
-原始文件可用（SHA去重）15；已核讀研究4；已定位數值6。
+原始文件可用（SHA去重）26；已核讀研究4；已定位數值6。
 
 ## 已有來源與下載層級
 
@@ -11,7 +11,7 @@
 - C_NAICS_2022｜官方分類 2022｜fulltext_downloaded｜https://www.census.gov/naics/
 - C_SIC_1987｜官方分類 1987｜restricted｜https://www.osha.gov/data/sic-manual
 - C_TWSE_accessed_2026-11-06｜官方分類 accessed_2026-11-06｜identified｜https://twse-regulation.twse.com.tw/TW/law/DOC01.aspx?FLCODE=FL007104&FLNO=2
-- C_ISIC_5｜官方分類 5｜identified｜https://unstats.un.org/unsd/classifications/Econ/isic
+- C_ISIC_5｜官方分類 5｜fulltext_downloaded｜https://unstats.un.org/unsd/classifications/Econ/isic
 - C_ISIC_4｜官方分類 4｜fulltext_downloaded｜https://unstats.un.org/unsd/classifications/Econ/Download/In%20Text/ISIC_Rev_4_english_structure.Txt
 - G_WDI｜World Development Indicators｜identified｜https://data.worldbank.org/
 - G_BEA｜GDP by Industry｜identified｜https://www.bea.gov/data/gdp/gdp-industry
@@ -21,6 +21,17 @@
 - D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
 - D_1cb5b0c805ae｜2022 NAICS Manual｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/2022_NAICS_Manual.pdf
 - T_TSMC_1998｜1998 annual report introduction｜fulltext_downloaded｜https://investor.tsmc.com/static/annualReports/1998/html/intro.htm
+- L00_EU_MARKET｜Market definition notice C/2024/1645｜failed｜https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52024XC01645
+- L00_TWSE｜上市公司產業類別劃分暨調整要點｜fulltext_downloaded｜https://twse-regulation.twse.com.tw/TW/law/DAT0201.aspx?FLCODE=FL007104
+- L00_DGBAS_STRUCTURE｜113年國民所得年報：國內生產與結構變動｜fulltext_downloaded｜https://ws.dgbas.gov.tw/001/Upload/463/relfile/11025/235627/1-2.pdf
+- L00_DGBAS_CONCEPTS｜113年國民所得年報附錄一｜fulltext_downloaded｜https://ws.dgbas.gov.tw/001/Upload/463/relfile/11025/235627/%E9%99%84%E9%8C%84%E4%B8%80.pdf
+- L00_WDI_AGR｜WDI NV.AGR.TOTL.ZS 2024 USA CHN WLD｜fulltext_downloaded｜https://api.worldbank.org/v2/country/USA;CHN;WLD/indicator/NV.AGR.TOTL.ZS?date=2024&format=json&per_page=100
+- L00_WDI_IND｜WDI NV.IND.TOTL.ZS 2024 USA CHN WLD｜fulltext_downloaded｜https://api.worldbank.org/v2/country/USA;CHN;WLD/indicator/NV.IND.TOTL.ZS?date=2024&format=json&per_page=100
+- L00_WDI_SRV｜WDI NV.SRV.TOTL.ZS 2024 USA CHN WLD｜fulltext_downloaded｜https://api.worldbank.org/v2/country/USA;CHN;WLD/indicator/NV.SRV.TOTL.ZS?date=2024&format=json&per_page=100
+- L00_FTC_MARKET｜相關市場界定之處理原則｜fulltext_downloaded｜https://law.ftc.gov.tw/law/LawContent.aspx?id=GL000242
+- L00_META_AGR｜WDI metadata NV.AGR.TOTL.ZS｜fulltext_downloaded｜https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NV.AGR.TOTL.ZS
+- L00_META_IND｜WDI metadata NV.IND.TOTL.ZS｜fulltext_downloaded｜https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NV.IND.TOTL.ZS
+- L00_META_SRV｜WDI metadata NV.SRV.TOTL.ZS｜fulltext_downloaded｜https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NV.SRV.TOTL.ZS
 - P003｜Firm Resources and Sustained Competitive Advantage｜fulltext_verified｜https://doi.org/10.1177/014920639101700108
 - P009｜Dynamic Capabilities and Strategic Management｜fulltext_verified｜https://doi.org/10.1002/(SICI)1097-0266(199708)18:7<509::AID-SMJ882>3.0.CO;2-Z
 - P014｜Towards an Attention-Based View of the Firm｜fulltext_verified｜https://doi.org/10.1002/(SICI)1097-0266(199707)18:1+<187::AID-SMJ936>3.0.CO;2-K
