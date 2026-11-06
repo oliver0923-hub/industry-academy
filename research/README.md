@@ -19,3 +19,11 @@
 最新可用證據見[evidence/deep-2026-11-06](evidence/deep-2026-11-06/README.md)：8篇正式期刊PDF核心段落核讀、1篇正式HTML（PDF精確頁碼待補）、1份作者稿、6家企業、8堂Evidence Pack。候選來源並未全部轉為知識庫，8課仍各有缺口。
 
 本批人工核讀結果由`build_deep_evidence.py`產生；依序執行`validate_deep_evidence.py`與`validate.py`。使用`deep_acquire.py --evidence-manifest`可重取sources.csv所列文件並比對既有SHA；網站或授權可能變動，版本改變會標記。不要以較早finalize流程覆寫本批核讀狀態。原始全文及OCR僅在本機private_sources。
+
+## 50課全來源蒐集 v2
+
+使用者已授權將來源蒐集擴大至00–49全部課程；本輪不撰寫教材。先前八課深度核讀保留。新入口：[逐課涵蓋](audit/coverage_report.md)、[九類缺口](audit/full-acquisition-v2/lesson_gaps.csv)、[續跑指令](audit/next_actions.md)、[來源catalog](sources/catalog.csv)。來源總編輯指令與Master原文保存在project_instructions/；編輯規範仍依repository根目錄。
+
+`full_acquisition.py`提供init/fetch/report/inventory，按lesson或task篩選、resume/skip-verified/retry-failures、rate-limit、output-dir、每輪檔數與bytes、單檔bytes上限、dry-run。output-dir必須位於被忽略的private_sources。首次盤點存baseline_inventory.csv，每輪更新current_inventory.csv；不同SHA版本保留，不把相同URL或工作稿/期刊版盲目合併。不要重跑舊acquire的Phase1或finalize覆寫已核讀成果。
+
+成功下載只代表檔案及格式可取得，全文段落與主張核對另列。主表保留舊欄位並追加v2欄位；schema與migration見schemas/full_acquisition_v2.json與audit/full-acquisition-v2/schema_migration.csv。全部50課目前均未達出版級充分性。

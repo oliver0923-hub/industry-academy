@@ -1,0 +1,94 @@
+check,passed,detail
+task_keys_unique,True,59
+normalized_task_urls_unique,True,"same URL reused, not downloaded twice"
+all_lessons_have_inventory,True,00–49 exactly
+nine_gap_dimensions_per_lesson,True,classification/global/Taiwan/history/academic/company/recent/visual/cross-industry
+no_complete_lessons,True,candidate and download counts not publication readiness
+bytes_V2_TW12_MANUAL,True,private_sources/full-v2/V2_TW12_MANUAL.pdf
+bytes_V2_USGS26,True,private_sources/full-v2/V2_USGS26.pdf
+bytes_V2_FAO_FISH24,True,private_sources/full-v2/V2_FAO_FISH24.html
+bytes_V2_FAO_FISH26,True,private_sources/full-v2/V2_FAO_FISH26.html
+bytes_V2_IEA_ELECTRICITY,True,private_sources/full-v2/V2_IEA_ELECTRICITY.html
+bytes_V2_EIA_OIL,True,private_sources/full-v2/V2_EIA_OIL.html
+bytes_V2_WHO25,True,private_sources/full-v2/V2_WHO25.pdf
+bytes_V2_WHO25_RELEASE,True,private_sources/full-v2/V2_WHO25_RELEASE.html
+bytes_V2_MOHW113,True,private_sources/full-v2/V2_MOHW113.html
+bytes_V2_MOE_HIGHER113,True,private_sources/full-v2/V2_MOE_HIGHER113.html
+bytes_V2_UNCTAD_MARITIME24,True,private_sources/full-v2/V2_UNCTAD_MARITIME24.html
+bytes_V2_ITU24,True,private_sources/full-v2/V2_ITU24.html
+bytes_V2_WTO24,True,private_sources/full-v2/V2_WTO24.pdf
+bytes_V2_ILO_SERVICES,True,private_sources/full-v2/V2_ILO_SERVICES.html
+bytes_V2_TW_CULTURE,True,private_sources/T_CULTURE.html
+bytes_V2_TW_ENERGY,True,private_sources/T_ENERGY.html
+bytes_V2_TW_TOURISM,True,private_sources/T_TOURISM.html
+bytes_V2_TW_HEALTH_STATS,True,private_sources/full-v2/V2_TW_HEALTH_STATS.html
+bytes_V2_US_CENSUS_HISTORY,True,private_sources/NAICS_2022.html
+bytes_V2_TWSE_FILINGS,True,private_sources/full-v2/V2_TWSE_FILINGS.json
+bytes_V2_BERK24,True,private_sources/berkshire_2024.pdf
+bytes_V2_MSFT24,True,private_sources/microsoft_2024.html
+bytes_V2_MCD24,True,private_sources/full-v2/V2_MCD24.pdf
+bytes_V2_NBER_ROBOTS,True,private_sources/full-v2/V2_NBER_ROBOTS.pdf
+bytes_V2_NBER_EDTECH,True,private_sources/full-v2/V2_NBER_EDTECH.pdf
+bytes_V2_HOSPITAL_REVIEW,True,private_sources/full-v2/V2_HOSPITAL_REVIEW.html
+bytes_V2_TOURISM_RESEARCH,True,private_sources/full-v2/V2_TOURISM_RESEARCH.pdf
+bytes_V2_CR_ROBOT,True,private_sources/full-v2/V2_CR_ROBOT.json
+bytes_V2_CR_EDTECH,True,private_sources/full-v2/V2_CR_EDTECH.json
+bytes_V2_CR_TOURISM,True,private_sources/full-v2/V2_CR_TOURISM.json
+bytes_V2_MOHW113_A,True,private_sources/full-v2/V2_MOHW113_A.pdf
+bytes_D_6aabe5713013,True,private_sources/full-v2/D_6aabe5713013.pdf
+bytes_D_a8ab18439da0,True,private_sources/full-v2/D_a8ab18439da0.pdf
+catalog_ids_unique,True,255
+source_registry_keys,True,102
+literature_master_keys,True,41
+company_filings_keys,True,84
+industry_lesson_matrix_keys,True,1153
+matrix_source_references,True,legacy union source/paper/filing plus deep document catalog
+doi_valid_unique,True,"DOI shape and uniqueness, not proof of content"
+working_papers_not_journal,True,NBER original cover explicitly says not peer reviewed
+tw12_counts,True,official PDF4 and21–37
+tw11_historical_preserved,True,not current reference in2026
+tw12_parent_keys,True,do not guess industry fine-code crosswalk
+private_path_V2_TW12_MANUAL,True,private_sources/full-v2/V2_TW12_MANUAL.pdf
+private_path_V2_USGS26,True,private_sources/full-v2/V2_USGS26.pdf
+private_path_V2_FAO_FISH24,True,private_sources/full-v2/V2_FAO_FISH24.html
+private_path_V2_FAO_FISH26,True,private_sources/full-v2/V2_FAO_FISH26.html
+private_path_V2_IEA_ELECTRICITY,True,private_sources/full-v2/V2_IEA_ELECTRICITY.html
+private_path_V2_EIA_OIL,True,private_sources/full-v2/V2_EIA_OIL.html
+private_path_V2_WHO25,True,private_sources/full-v2/V2_WHO25.pdf
+private_path_V2_WHO25_RELEASE,True,private_sources/full-v2/V2_WHO25_RELEASE.html
+private_path_V2_MOHW113,True,private_sources/full-v2/V2_MOHW113.html
+private_path_V2_MOE_HIGHER113,True,private_sources/full-v2/V2_MOE_HIGHER113.html
+private_path_V2_UNCTAD_MARITIME24,True,private_sources/full-v2/V2_UNCTAD_MARITIME24.html
+private_path_V2_ITU24,True,private_sources/full-v2/V2_ITU24.html
+private_path_V2_WTO24,True,private_sources/full-v2/V2_WTO24.pdf
+private_path_V2_ILO_SERVICES,True,private_sources/full-v2/V2_ILO_SERVICES.html
+private_path_V2_TW_CULTURE,True,private_sources/T_CULTURE.html
+private_path_V2_TW_ENERGY,True,private_sources/T_ENERGY.html
+private_path_V2_TW_TOURISM,True,private_sources/T_TOURISM.html
+private_path_V2_TW_HEALTH_STATS,True,private_sources/full-v2/V2_TW_HEALTH_STATS.html
+private_path_V2_FED_HISTORY,True,private_sources/full-v2/V2_FED_HISTORY.html
+private_path_V2_US_CENSUS_HISTORY,True,private_sources/NAICS_2022.html
+private_path_V2_TWSE_FILINGS,True,private_sources/full-v2/V2_TWSE_FILINGS.json
+private_path_V2_BERK24,True,private_sources/berkshire_2024.pdf
+private_path_V2_MSFT24,True,private_sources/microsoft_2024.html
+private_path_V2_MCD24,True,private_sources/full-v2/V2_MCD24.pdf
+private_path_V2_NBER_ROBOTS,True,private_sources/full-v2/V2_NBER_ROBOTS.pdf
+private_path_V2_NBER_EDTECH,True,private_sources/full-v2/V2_NBER_EDTECH.pdf
+private_path_V2_HOSPITAL_REVIEW,True,private_sources/full-v2/V2_HOSPITAL_REVIEW.html
+private_path_V2_TOURISM_RESEARCH,True,private_sources/full-v2/V2_TOURISM_RESEARCH.pdf
+private_path_V2_CR_ROBOT,True,private_sources/full-v2/V2_CR_ROBOT.json
+private_path_V2_CR_EDTECH,True,private_sources/full-v2/V2_CR_EDTECH.json
+private_path_V2_CR_TOURISM,True,private_sources/full-v2/V2_CR_TOURISM.json
+private_path_V2_MOHW113_A,True,private_sources/full-v2/V2_MOHW113_A.pdf
+private_path_D_6aabe5713013,True,private_sources/full-v2/D_6aabe5713013.pdf
+private_path_D_a8ab18439da0,True,private_sources/full-v2/D_a8ab18439da0.pdf
+new_downloads_not_claims,True,download states never imply content read
+claim_source_fk,True,12
+original_values_V2_FAO_FISH24,True,"['223.2', '185.4', '37.8']; manual scope/period review separate"
+original_values_V2_FAO_FISH26,True,"['235 million', '195 million', '103 million']; manual scope/period review separate"
+original_values_V2_IEA_ELECTRICITY,True,"['4.3%', '1 080']; manual scope/period review separate"
+original_values_V2_WHO25_RELEASE,True,"['1.8 years', '2019 and 2021']; manual scope/period review separate"
+Taiwan_NHE_original,True,"PDF23/printed22;111ROC=2022,2024edition; added LTC and retrospective revisions"
+no_private_files_public,True,raw third-party originals remain ignored
+website_unchanged,True,no website/deployment edits
+source_urls_http,True,no credential/file URL

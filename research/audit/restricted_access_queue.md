@@ -97,3 +97,7 @@
 ## 八課深度驗證後續批次
 
 本檔上方保留為先前Phase1–4快照；部分受限文獻已有合法替代來源。2026-11-06後續核讀狀態、數值與逐課缺口以[deep evidence](../evidence/deep-2026-11-06/README.md)及其paper_reviews.csv、gaps.csv為準；不將舊入口覆蓋率解讀為完成率。
+
+## 全課程v2來源限制
+
+本輪實際的robots、HTTP、暫時性網路錯誤、soft404及容量暫緩見[限制與失敗列](full-acquisition-v2/restricted_and_failures.csv)。robots或403不等於已確認需要機構訂閱；依具體原因選官方替代來源，不索取密碼或繞過驗證。全文已取得的舊受限候選，以catalog與原文SHA為準。

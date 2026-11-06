@@ -1,0 +1,5 @@
+task_id,url,local_path,sha256,bytes,parse_status
+V2_TW12_MANUAL,https://ws.dgbas.gov.tw/001/Upload/463/ebook/ebook_356166/pdf/full.pdf,private_sources/full-v2/V2_TW12_MANUAL.pdf,fd731b678b5ab3a0fcfa7cf7bb049ae3308706d3a52a5202763396eb74d7a446,3177898,parsed
+V2_USGS26,https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf,private_sources/full-v2/V2_USGS26.pdf,595e6e66674236dea40125a03eb1ea6b347f331c0bcf3411a1e77eba53c0d391,17646709,parsed
+V2_NBER_EDTECH,https://www.nber.org/system/files/working_papers/w32510/w32510.pdf,private_sources/full-v2/V2_NBER_EDTECH.pdf,3e124ec08b2b60846f34632c81def2e736efc34b41b8e09097397fe6133ce19f,634733,parsed
+V2_MOHW113_A,https://www.mohw.gov.tw/dl-92258-2e6ff6d1-b390-4067-a5e9-5ca0d68f9878.html,private_sources/full-v2/V2_MOHW113_A.pdf,34a9d4e51130dd02751263c3d797a082e6605f3b6030f7ff3ac996efb42c0173,29776562,parsed

@@ -1,0 +1,5 @@
+table,added_fields,preservation
+source_registry,issuer;title;source_type;primary_vs_secondary;doi;publication_date;data_period;country;indicators;local_path;sha256;fetched_at;last_checked,legacy keys/columns retained; blank is unknown; no old reading status promoted
+literature_master,abstract;oa_status;local_path;sha256;fetched_at;last_checked,legacy keys/columns retained; blank is unknown; no old reading status promoted
+company_filings,local_path;sha256;fetched_at;last_checked;event_date;source_date;evidence_vs_interpretation,legacy keys/columns retained; blank is unknown; no old reading status promoted
+industry_lesson_matrix,source_id;section_topic;evidence_claim_id;verification_status;last_checked,legacy keys/columns retained; blank is unknown; no old reading status promoted

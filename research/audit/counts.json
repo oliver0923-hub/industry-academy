@@ -7,5 +7,8 @@
   "sources": 51,
   "company_entries": 79,
   "download_success": 176,
-  "download_fail": 55
+  "download_fail": 55,
+  "is_current": false,
+  "scope": "legacy Phase1–4 snapshot retained",
+  "current_summary": "full-acquisition-v2/summary.json"
 }

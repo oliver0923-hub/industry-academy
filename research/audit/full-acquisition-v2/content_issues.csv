@@ -1,0 +1,2 @@
+task_id,severity,issue,handling
+V2_MCD24,high,parsed_text_encoding_issue_needs_OCR,file exists; do not infer financial values or study findings from corrupt/empty text

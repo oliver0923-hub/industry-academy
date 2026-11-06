@@ -1,0 +1,3 @@
+link_id,from_lesson,to_lesson,source_id,relationship,locator,status,evidence_vs_interpretation
+LINK_POWER_DATA,09,24,V2_IEA_ELECTRICITY,資料中心使用電力，增加電力需求,annual electricity consumption by sector2023–2024 explanatory paragraph,claim_checked_report_attribution,IEA描述性歸因，不是資料中心建置的實驗因果係數
+LINK_POWER_EV,09,25,V2_IEA_ELECTRICITY,電動車採用與運輸部門用電需求連結,same subsection: uptake of electric vehicles raised electricity consumption in transport,claim_checked_report_attribution,來源的部門歸因；不能據此推算台灣單車用電或政策效果
