@@ -2,7 +2,7 @@
 
 這是來源盤點，不是教材。狀態：fulltext_available_unreviewed。
 
-原始文件可用（SHA去重）8；已核讀研究0；已定位數值0。
+原始文件可用（SHA去重）9；已核讀研究0；已定位數值0。
 
 ## 已有來源與下載層級
 
@@ -28,7 +28,7 @@
 - V2_TWSE_FILINGS｜上市公司每月營業收入 openAPI｜fulltext_downloaded｜https://openapi.twse.com.tw/v1/opendata/t187ap05_L
 - D_b42f6b2df5f4｜UNCTAD-at-a-glance_en.pdf｜superseded｜https://unctad.org/system/files/official-document/UNCTAD-at-a-glance_en.pdf
 - D_a8ab18439da0｜Review of Maritime Transport 2024｜fulltext_downloaded｜https://unctad.org/system/files/official-document/rmt2024_en.pdf
-- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜identified｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
+- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
 - D_1cb5b0c805ae｜2022 NAICS Manual｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/2022_NAICS_Manual.pdf
 - P003｜Firm Resources and Sustained Competitive Advantage｜fulltext_verified｜https://doi.org/10.1177/014920639101700108
 - P013｜The Relational View: Cooperative Strategy and Sources of Interorganizational Competitive Advantage｜metadata_verified｜https://doi.org/10.5465/amr.1998.1255632

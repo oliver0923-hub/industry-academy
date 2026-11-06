@@ -2,7 +2,7 @@
 
 這是來源盤點，不是教材。狀態：fulltext_available_unreviewed。
 
-原始文件可用（SHA去重）8；已核讀研究0；已定位數值0。
+原始文件可用（SHA去重）9；已核讀研究0；已定位數值0。
 
 ## 已有來源與下載層級
 
@@ -23,7 +23,7 @@
 - V2_MAERSK24｜Annual report2024｜restricted｜https://investor.maersk.com/static-files/edd017f9-1b91-4efb-b972-19806720e72c
 - D_b42f6b2df5f4｜UNCTAD-at-a-glance_en.pdf｜superseded｜https://unctad.org/system/files/official-document/UNCTAD-at-a-glance_en.pdf
 - D_a8ab18439da0｜Review of Maritime Transport 2024｜fulltext_downloaded｜https://unctad.org/system/files/official-document/rmt2024_en.pdf
-- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜identified｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
+- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
 - D_1cb5b0c805ae｜2022 NAICS Manual｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/2022_NAICS_Manual.pdf
 - P003｜Firm Resources and Sustained Competitive Advantage｜fulltext_verified｜https://doi.org/10.1177/014920639101700108
 - P005｜The governance of global value chains｜fulltext_verified｜https://doi.org/10.1080/09692290500049805

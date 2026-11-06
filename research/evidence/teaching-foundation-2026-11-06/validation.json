@@ -1,0 +1,12 @@
+{
+  "checks": 197,
+  "passed": 197,
+  "failed": [],
+  "new_claims": 39,
+  "inherited_claims": 55,
+  "unique_claims": 94,
+  "new_journal_format_core_reads": 1,
+  "new_author_manuscript_core_reads": 1,
+  "complete_lessons_ready": 0,
+  "scope": "Structural consistency, SHA checks and six numerical page checks only; not independent publication review"
+}

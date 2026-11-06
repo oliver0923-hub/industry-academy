@@ -2,7 +2,7 @@
 
 這是來源盤點，不是教材。狀態：fulltext_available_unreviewed。
 
-原始文件可用（SHA去重）6；已核讀研究0；已定位數值0。
+原始文件可用（SHA去重）7；已核讀研究0；已定位數值0。
 
 ## 已有來源與下載層級
 
@@ -18,7 +18,7 @@
 - V2_TW12_META｜行業統計分類XML詮釋資料｜failed｜https://data.gov.tw/dataset/14321
 - V2_TW12_MANUAL｜行業統計分類第12次修正｜fulltext_downloaded｜https://ws.dgbas.gov.tw/001/Upload/463/ebook/ebook_356166/pdf/full.pdf
 - V2_ITU24｜Facts and Figures2024｜fulltext_downloaded｜https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-internet-use/
-- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜identified｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
+- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
 - D_1cb5b0c805ae｜2022 NAICS Manual｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/2022_NAICS_Manual.pdf
 - P003｜Firm Resources and Sustained Competitive Advantage｜fulltext_verified｜https://doi.org/10.1177/014920639101700108
 - P012｜Platform Competition in Two-Sided Markets｜metadata_verified｜https://doi.org/10.1162/154247603322493212

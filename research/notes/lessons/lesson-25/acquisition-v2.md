@@ -2,7 +2,7 @@
 
 這是來源盤點，不是教材。狀態：fulltext_available_unreviewed。
 
-原始文件可用（SHA去重）10；已核讀研究0；已定位數值0。
+原始文件可用（SHA去重）17；已核讀研究0；已定位數值0。
 
 ## 已有來源與下載層級
 
@@ -34,8 +34,15 @@
 - V2_FORD24｜Ford2024 annual report｜restricted｜https://s201.q4cdn.com/693218008/files/doc_financials/2024/ar/2024-annual-report.pdf
 - V2_NBER_ROBOTS｜Robots and Jobs: Evidence from US Labor Markets｜fulltext_downloaded｜https://www.nber.org/papers/w23285.pdf
 - V2_CR_ROBOT｜DOI metadata 10.3386/w23285｜identified｜https://api.crossref.org/works/10.3386%2Fw23285
-- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜identified｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
+- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
 - D_1cb5b0c805ae｜2022 NAICS Manual｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/2022_NAICS_Manual.pdf
+- T_FORD_HISTORY｜Assembly Line Revolution｜restricted｜https://corporate.ford.com/articles/history/moving-assembly-line.html
+- T_FORD_ARCHIVE｜Ford Assembly Plant historical documentation｜fulltext_downloaded｜https://tile.loc.gov/storage-services/master/pnp/habshaer/ca/ca3300/ca3339/data/ca3339data.pdf
+- T_ROBOTS_JPE2020｜Robots and Jobs: Evidence from US Labor Markets, JPE2020｜fulltext_downloaded｜https://economics.mit.edu/sites/default/files/publications/Robots%20and%20Jobs%20-%20Evidence%20from%20US%20Labor%20Markets.p.pdf
+- T_IEA_EV25｜Global EV Outlook 2025 electric car markets｜fulltext_downloaded｜https://www.iea.org/reports/global-ev-outlook-2025/trends-in-electric-car-markets-2
+- T_YULON24｜Yulon 2024 annual report｜fulltext_downloaded｜https://ylesg.yulon-motor.com.tw/dl/file/VQNFwHlphCaeNjeh
+- T_TTVMA｜Taiwan vehicle production annual series｜fulltext_downloaded｜https://www.ttvma.org.tw/industry
+- T_MOEA_EV｜MOEA domestic EV industry policy｜fulltext_downloaded｜https://www.moea.gov.tw/Mns/Populace/news/News.aspx?kind=1&menu_id=40&news_id=119743
 - P003｜Firm Resources and Sustained Competitive Advantage｜fulltext_verified｜https://doi.org/10.1177/014920639101700108
 - P007｜Architectural Innovation: The Reconfiguration of Existing Product Technologies and the Failure of Established Firms｜fulltext_verified｜https://doi.org/10.2307/2393549
 - Xdac2a4a6b｜The dynamics of product innovation and firm competences｜metadata_verified｜https://doi.org/10.1002/smj.275

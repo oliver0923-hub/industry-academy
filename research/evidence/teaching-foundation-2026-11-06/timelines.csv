@@ -1,0 +1,14 @@
+event_id,lesson_ids,event_year,event,claim_id,source_id,locator,scope_limit
+N_WM_1962,30,1962,Walmart：首店於1962年7月2日在Rogers Arkansas開幕,N_WM_1962,T_WALMART_HISTORY,History timeline / 1962,公司自述；不能由事件先後推定績效因果。
+N_WM_1969,30,1969,Walmart：1969年公司化為Wal-Mart Stores Inc.,N_WM_1969,T_WALMART_HISTORY,History timeline / 1969,公司自述；不能由事件先後推定績效因果。
+N_WM_1983,30,1983,Walmart：1983年開設首家Sam’s Club，並導入電腦化銷售時點系統,N_WM_1983,T_WALMART_HISTORY,History timeline / 1983,公司自述；不能由事件先後推定績效因果。
+N_WM_1988,30,1988,Walmart：1988年首家Supercenter把綜合商品與完整超市結合,N_WM_1988,T_WALMART_HISTORY,History timeline / 1988,公司自述；不能由事件先後推定績效因果。
+N_WM_1991,30,1991,Walmart：1991年與Cifra合資進入墨西哥,N_WM_1991,T_WALMART_HISTORY,History timeline / 1991,公司自述；不能由事件先後推定績效因果。
+N_FORD_1931,25,1931,Ford：Richmond裝配廠啟用,N_FORD_1931,T_FORD_ARCHIVE,PDF5 / printed4 Executive Summary；PDF2 site data,這是Richmond單廠，不代表Ford整家公司停產。
+N_FORD_1942,25,1942,Ford：Richmond廠轉入戰時車輛生產,N_FORD_1942,T_FORD_ARCHIVE,PDF5 / printed4 Executive Summary；PDF2 site data,這是Richmond單廠，不代表Ford整家公司停產。
+N_FORD_1945,25,1945,Ford：Richmond廠恢復民用車輛生產,N_FORD_1945,T_FORD_ARCHIVE,PDF5 / printed4 Executive Summary；PDF2 site data,這是Richmond單廠，不代表Ford整家公司停產。
+N_FORD_1955,25,1955,Ford：Richmond廠關閉，灣區業務移至Milpitas較大廠址,N_FORD_1955,T_FORD_ARCHIVE,PDF5 / printed4 Executive Summary；PDF2 site data,這是Richmond單廠，不代表Ford整家公司停產。
+N_TSMC_1987,00;18,1987,台積電1987年在新竹成立，以專業積體電路製造服務為定位。,N_TSMC_1987,T_TSMC_1998,Company Profile opening paragraph,不把1998年市場地位當作2026年排名。
+N_TSMC_WAFERTECH,18,1998,WaferTech於1998年年中開始量產。,N_TSMC_WAFERTECH,T_TSMC_1998,Company Profile / WaferTech paragraph,新加坡廠2000年當時僅預定，不當作已實現。
+N_TYSON_HISTORY,05,1935,Tyson於1935年由John W. Tyson創立。,N_TYSON_HISTORY,S_tyson_10k_2024,PDF4 / printed3 Item1 Business / General,單一創立年份不構成完整家族史或產業史。
+N_JPM_ORIGINS,31,1799; history snapshot2026,JPMorganChase把其歷史追溯至1799年紐約水公司，現今組織整合眾多前身機構。,N_JPM_ORIGINS,T_JPM_HISTORY,Looking to the past investing in the future / founding paragraph,公司歷史敘事，不等於今日JPMorgan Chase Bank N.A.同一法律實體自1799未曾變更。

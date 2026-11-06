@@ -2,7 +2,7 @@
 
 這是來源盤點，不是教材。狀態：claim_checked_partial。
 
-原始文件可用（SHA去重）13；已核讀研究4；已定位數值6。
+原始文件可用（SHA去重）15；已核讀研究4；已定位數值6。
 
 ## 已有來源與下載層級
 
@@ -18,8 +18,9 @@
 - T_DGBAS｜國民所得與統計資料庫｜identified｜https://nstatdb.dgbas.gov.tw/dgbasall/webMain.aspx?sys=100&funid=defjsp
 - V2_TW12_META｜行業統計分類XML詮釋資料｜failed｜https://data.gov.tw/dataset/14321
 - V2_TW12_MANUAL｜行業統計分類第12次修正｜fulltext_downloaded｜https://ws.dgbas.gov.tw/001/Upload/463/ebook/ebook_356166/pdf/full.pdf
-- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜identified｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
+- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
 - D_1cb5b0c805ae｜2022 NAICS Manual｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/2022_NAICS_Manual.pdf
+- T_TSMC_1998｜1998 annual report introduction｜fulltext_downloaded｜https://investor.tsmc.com/static/annualReports/1998/html/intro.htm
 - P003｜Firm Resources and Sustained Competitive Advantage｜fulltext_verified｜https://doi.org/10.1177/014920639101700108
 - P009｜Dynamic Capabilities and Strategic Management｜fulltext_verified｜https://doi.org/10.1002/(SICI)1097-0266(199708)18:7<509::AID-SMJ882>3.0.CO;2-Z
 - P014｜Towards an Attention-Based View of the Firm｜fulltext_verified｜https://doi.org/10.1002/(SICI)1097-0266(199707)18:1+<187::AID-SMJ936>3.0.CO;2-K

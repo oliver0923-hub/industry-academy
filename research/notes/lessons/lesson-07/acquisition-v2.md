@@ -2,7 +2,7 @@
 
 這是來源盤點，不是教材。狀態：fulltext_available_unreviewed。
 
-原始文件可用（SHA去重）7；已核讀研究0；已定位數值0。
+原始文件可用（SHA去重）8；已核讀研究0；已定位數值0。
 
 ## 已有來源與下載層級
 
@@ -20,7 +20,7 @@
 - V2_TW12_META｜行業統計分類XML詮釋資料｜failed｜https://data.gov.tw/dataset/14321
 - V2_TW12_MANUAL｜行業統計分類第12次修正｜fulltext_downloaded｜https://ws.dgbas.gov.tw/001/Upload/463/ebook/ebook_356166/pdf/full.pdf
 - V2_USGS26｜Mineral Commodity Summaries2026｜fulltext_downloaded｜https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf
-- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜identified｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
+- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
 - D_1cb5b0c805ae｜2022 NAICS Manual｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/2022_NAICS_Manual.pdf
 - P003｜Firm Resources and Sustained Competitive Advantage｜fulltext_verified｜https://doi.org/10.1177/014920639101700108
 - P004｜Transaction-Cost Economics: The Governance of Contractual Relations｜fulltext_verified｜https://doi.org/10.1086/466942

@@ -2,7 +2,7 @@
 
 這是來源盤點，不是教材。狀態：claim_checked_partial。
 
-原始文件可用（SHA去重）12；已核讀研究0；已定位數值2。
+原始文件可用（SHA去重）13；已核讀研究0；已定位數值2。
 
 ## 已有來源與下載層級
 
@@ -31,7 +31,7 @@
 - V2_NBER_ROBOTS｜Robots and Jobs: Evidence from US Labor Markets｜fulltext_downloaded｜https://www.nber.org/papers/w23285.pdf
 - V2_CR_ROBOT｜DOI metadata 10.3386/w23285｜identified｜https://api.crossref.org/works/10.3386%2Fw23285
 - D_6aabe5713013｜Download full report arrow-down｜fulltext_downloaded｜https://www.iea.org/files/5b169aa1-bc88-4c96-b828-aaa50406ba80/GlobalEnergyReview2025.pdf
-- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜identified｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
+- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
 - D_1cb5b0c805ae｜2022 NAICS Manual｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/2022_NAICS_Manual.pdf
 - P003｜Firm Resources and Sustained Competitive Advantage｜fulltext_verified｜https://doi.org/10.1177/014920639101700108
 - P007｜Architectural Innovation: The Reconfiguration of Existing Product Technologies and the Failure of Established Firms｜fulltext_verified｜https://doi.org/10.2307/2393549

@@ -1152,3 +1152,21 @@ lesson_id,reference_id,reference_type,source_role,confidence,verified_at,status,
 23,D_311206bb7916,source,excluded_candidate,applicability_candidate_not_claim_evidence,,superseded,D_311206bb7916,how AI can catalyze environmental progress,,link_found_but_not_relevant_evidence,
 24,D_311206bb7916,source,excluded_candidate,applicability_candidate_not_claim_evidence,,superseded,D_311206bb7916,how AI can catalyze environmental progress,,link_found_but_not_relevant_evidence,
 48,D_311206bb7916,source,excluded_candidate,applicability_candidate_not_claim_evidence,,superseded,D_311206bb7916,how AI can catalyze environmental progress,,link_found_but_not_relevant_evidence,
+01,T_WALMART_HISTORY,source,history,applicability_candidate_not_claim_evidence,,identified,T_WALMART_HISTORY,Walmart History,,identified,
+30,T_WALMART_HISTORY,source,history,applicability_candidate_not_claim_evidence,,identified,T_WALMART_HISTORY,Walmart History,,identified,
+25,T_FORD_HISTORY,source,history,applicability_candidate_not_claim_evidence,,identified,T_FORD_HISTORY,Assembly Line Revolution,,identified,
+25,T_FORD_ARCHIVE,source,history,applicability_candidate_not_claim_evidence,,identified,T_FORD_ARCHIVE,Ford Assembly Plant historical documentation,,identified,
+00,T_TSMC_1998,source,history,applicability_candidate_not_claim_evidence,,identified,T_TSMC_1998,1998 annual report introduction,,identified,
+18,T_TSMC_1998,source,history,applicability_candidate_not_claim_evidence,,identified,T_TSMC_1998,1998 annual report introduction,,identified,
+30,T_BASKER_2007,source,theory,applicability_candidate_not_claim_evidence,,identified,T_BASKER_2007,The Causes and Consequences of Wal-Mart’s Growth,,identified,
+30,T_BASKER_2005,source,theory,applicability_candidate_not_claim_evidence,,identified,T_BASKER_2005,Job Creation or Destruction? Labor-Market Effects of Wal-Mart Expansion,,identified,
+25,T_ROBOTS_JPE2020,source,theory,applicability_candidate_not_claim_evidence,2026-11-06T08:03:30+00:00,identified,T_ROBOTS_JPE2020,"Robots and Jobs: Evidence from US Labor Markets, JPE2020",,format_parsed_content_not_reviewed,2026-11-06T08:03:30+00:00
+30,T_BASKER_JEP_PDF,source,academic,applicability_candidate_not_claim_evidence,2026-11-06T08:09:32+00:00,identified,T_BASKER_JEP_PDF,The Causes and Consequences of Wal-Mart’s Growth,,not_verified,2026-11-06T08:09:32+00:00
+30,T_MOEA_RETAIL24,source,official_statistics,applicability_candidate_not_claim_evidence,2026-11-06T08:09:36+00:00,identified,T_MOEA_RETAIL24,2024 wholesale retail food sales release,,format_parsed_content_not_reviewed,2026-11-06T08:09:36+00:00
+25,T_IEA_EV25,source,official_statistics,applicability_candidate_not_claim_evidence,2026-11-06T08:09:39+00:00,identified,T_IEA_EV25,Global EV Outlook 2025 electric car markets,,format_parsed_content_not_reviewed,2026-11-06T08:09:39+00:00
+31,T_JPM_HISTORY,source,company_history,applicability_candidate_not_claim_evidence,2026-11-06T08:09:42+00:00,identified,T_JPM_HISTORY,Our history,,format_parsed_content_not_reviewed,2026-11-06T08:09:42+00:00
+30,T_FTC_CARREFOUR,source,policy,applicability_candidate_not_claim_evidence,2026-11-06T08:09:44+00:00,identified,T_FTC_CARREFOUR,Uni-President Carrefour merger conditions,,format_parsed_content_not_reviewed,2026-11-06T08:09:44+00:00
+30,T_BASKER_NYU,source,primary_research,applicability_candidate_not_claim_evidence,2026-11-06T08:11:10+00:00,identified,T_BASKER_NYU,Basker April 2007 author manuscript,,format_parsed_content_not_reviewed,2026-11-06T08:11:10+00:00
+25,T_YULON24,source,primary_research,applicability_candidate_not_claim_evidence,2026-11-06T08:11:19+00:00,identified,T_YULON24,Yulon 2024 annual report,,format_parsed_content_not_reviewed,2026-11-06T08:11:19+00:00
+25,T_TTVMA,source,primary_research,applicability_candidate_not_claim_evidence,2026-11-06T08:11:36+00:00,identified,T_TTVMA,Taiwan vehicle production annual series,,format_parsed_content_not_reviewed,2026-11-06T08:11:36+00:00
+25,T_MOEA_EV,source,primary_research,applicability_candidate_not_claim_evidence,2026-11-06T08:11:37+00:00,identified,T_MOEA_EV,MOEA domestic EV industry policy,,format_parsed_content_not_reviewed,2026-11-06T08:11:37+00:00

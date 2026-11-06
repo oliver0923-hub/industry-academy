@@ -2,7 +2,7 @@
 
 這是來源盤點，不是教材。狀態：fulltext_available_unreviewed。
 
-原始文件可用（SHA去重）7；已核讀研究0；已定位數值0。
+原始文件可用（SHA去重）8；已核讀研究0；已定位數值0。
 
 ## 已有來源與下載層級
 
@@ -29,7 +29,7 @@
 - V2_DISNEY24｜2024 Annual Financial Report｜restricted｜https://s206.q4cdn.com/979796730/files/doc_financials/2024/ar/2024-Annual-Report-1.pdf
 - D_b41e2f2956e1｜2026年1~4月文創產業銷售額(百萬元) 366,982 資料來源：財政部｜broken｜https://stat.moc.gov.tw/UploadFile/CulturalStatist/5文創產業家數與營業額.pdf
 - D_cf0968d9cf6f｜2026年1~4月電影片審議分級部數(部) 267 資料來源：文化部影視及流行音樂產業局｜broken｜https://stat.moc.gov.tw/UploadFile/CulturalStatist/3中華民國電影片審議分級統計.pdf
-- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜identified｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
+- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
 - D_1cb5b0c805ae｜2022 NAICS Manual｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/2022_NAICS_Manual.pdf
 - P003｜Firm Resources and Sustained Competitive Advantage｜fulltext_verified｜https://doi.org/10.1177/014920639101700108
 - P012｜Platform Competition in Two-Sided Markets｜metadata_verified｜https://doi.org/10.1162/154247603322493212

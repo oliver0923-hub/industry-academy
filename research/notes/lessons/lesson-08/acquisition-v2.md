@@ -2,7 +2,7 @@
 
 這是來源盤點，不是教材。狀態：fulltext_available_unreviewed。
 
-原始文件可用（SHA去重）7；已核讀研究0；已定位數值0。
+原始文件可用（SHA去重）8；已核讀研究0；已定位數值0。
 
 ## 已有來源與下載層級
 
@@ -21,7 +21,7 @@
 - V2_TW12_MANUAL｜行業統計分類第12次修正｜fulltext_downloaded｜https://ws.dgbas.gov.tw/001/Upload/463/ebook/ebook_356166/pdf/full.pdf
 - V2_IEA_GER25｜Global Energy Review2025｜failed｜https://iea.blob.core.windows.net/assets/5b169aa1-bc88-4c96-b828-aaa50406ba80/GlobalEnergyReview2025.pdf
 - V2_EIA_OIL｜Oil and petroleum products explained｜fulltext_downloaded｜https://www.eia.gov/energyexplained/oil-and-petroleum-products/
-- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜identified｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
+- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
 - D_1cb5b0c805ae｜2022 NAICS Manual｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/2022_NAICS_Manual.pdf
 - P003｜Firm Resources and Sustained Competitive Advantage｜fulltext_verified｜https://doi.org/10.1177/014920639101700108
 - P004｜Transaction-Cost Economics: The Governance of Contractual Relations｜fulltext_verified｜https://doi.org/10.1086/466942

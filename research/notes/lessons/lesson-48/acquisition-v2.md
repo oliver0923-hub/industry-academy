@@ -2,7 +2,7 @@
 
 這是來源盤點，不是教材。狀態：fulltext_available_unreviewed。
 
-原始文件可用（SHA去重）10；已核讀研究0；已定位數值0。
+原始文件可用（SHA去重）11；已核讀研究0；已定位數值0。
 
 ## 已有來源與下載層級
 
@@ -24,7 +24,7 @@
 - V2_MSFT24｜2024 annual report｜fulltext_downloaded｜https://www.microsoft.com/investor/reports/ar24/index.html
 - V2_DISNEY24｜2024 Annual Financial Report｜restricted｜https://s206.q4cdn.com/979796730/files/doc_financials/2024/ar/2024-Annual-Report-1.pdf
 - V2_MCD24｜2024 Annual Report｜fulltext_downloaded｜https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/McD%20-%202024%20Annual%20Report%20to%20Shareholders.pdf
-- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜identified｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
+- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
 - D_1cb5b0c805ae｜2022 NAICS Manual｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/2022_NAICS_Manual.pdf
 - D_5f62f48e49f2｜DAX Copilot｜superseded｜https://www.nuance.com/asset/en_us/collateral/healthcare/data-sheet/ds-ambient-clinical-intelligence-en-us.pdf
 - D_311206bb7916｜how AI can catalyze environmental progress｜superseded｜https://blogs.microsoft.com/wp-content/uploads/prod/sites/5/2023/11/Microsoft_Accelerating-Sustainability-with-AI-A-Playbook-1.pdf

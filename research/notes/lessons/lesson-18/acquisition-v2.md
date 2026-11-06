@@ -2,7 +2,7 @@
 
 這是來源盤點，不是教材。狀態：claim_checked_partial。
 
-原始文件可用（SHA去重）17；已核讀研究5；已定位數值20。
+原始文件可用（SHA去重）19；已核讀研究5；已定位數值20。
 
 ## 已有來源與下載層級
 
@@ -24,8 +24,9 @@
 - V2_TW12_MANUAL｜行業統計分類第12次修正｜fulltext_downloaded｜https://ws.dgbas.gov.tw/001/Upload/463/ebook/ebook_356166/pdf/full.pdf
 - V2_SMITHSONIAN_CHIP｜Integrated circuits｜restricted｜https://americanhistory.si.edu/collections/object/nmah_334900
 - V2_TWSE_FILINGS｜上市公司每月營業收入 openAPI｜fulltext_downloaded｜https://openapi.twse.com.tw/v1/opendata/t187ap05_L
-- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜identified｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
+- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
 - D_1cb5b0c805ae｜2022 NAICS Manual｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/2022_NAICS_Manual.pdf
+- T_TSMC_1998｜1998 annual report introduction｜fulltext_downloaded｜https://investor.tsmc.com/static/annualReports/1998/html/intro.htm
 - P003｜Firm Resources and Sustained Competitive Advantage｜fulltext_verified｜https://doi.org/10.1177/014920639101700108
 - P009｜Dynamic Capabilities and Strategic Management｜fulltext_verified｜https://doi.org/10.1002/(SICI)1097-0266(199708)18:7<509::AID-SMJ882>3.0.CO;2-Z
 - Xdac2a4a6b｜The dynamics of product innovation and firm competences｜metadata_verified｜https://doi.org/10.1002/smj.275

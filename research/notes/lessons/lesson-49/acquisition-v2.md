@@ -2,7 +2,7 @@
 
 這是來源盤點，不是教材。狀態：fulltext_available_unreviewed。
 
-原始文件可用（SHA去重）10；已核讀研究0；已定位數值0。
+原始文件可用（SHA去重）11；已核讀研究0；已定位數值0。
 
 ## 已有來源與下載層級
 
@@ -25,7 +25,7 @@
 - V2_WTO24｜Global Trade Outlook and Statistics2024｜fulltext_downloaded｜https://www.wto.org/english/res_e/booksp_e/trade_outlook24_e.pdf
 - V2_NBER_ROBOTS｜Robots and Jobs: Evidence from US Labor Markets｜fulltext_downloaded｜https://www.nber.org/papers/w23285.pdf
 - V2_CR_ROBOT｜DOI metadata 10.3386/w23285｜identified｜https://api.crossref.org/works/10.3386%2Fw23285
-- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜identified｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
+- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
 - D_1cb5b0c805ae｜2022 NAICS Manual｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/2022_NAICS_Manual.pdf
 - P009｜Dynamic Capabilities and Strategic Management｜fulltext_verified｜https://doi.org/10.1002/(SICI)1097-0266(199708)18:7<509::AID-SMJ882>3.0.CO;2-Z
 - P014｜Towards an Attention-Based View of the Firm｜fulltext_verified｜https://doi.org/10.1002/(SICI)1097-0266(199707)18:1+<187::AID-SMJ936>3.0.CO;2-K

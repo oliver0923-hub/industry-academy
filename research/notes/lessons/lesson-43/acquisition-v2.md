@@ -2,7 +2,7 @@
 
 這是來源盤點，不是教材。狀態：claim_checked_partial。
 
-原始文件可用（SHA去重）11；已核讀研究0；已定位數值1。
+原始文件可用（SHA去重）12；已核讀研究0；已定位數值1。
 
 ## 已有來源與下載層級
 
@@ -34,7 +34,7 @@
 - V2_TWSE_FILINGS｜上市公司每月營業收入 openAPI｜fulltext_downloaded｜https://openapi.twse.com.tw/v1/opendata/t187ap05_L
 - V2_MOHW113_A｜中華民國113年版衛生福利年報（完整中文版）｜claim_verified｜https://www.mohw.gov.tw/dl-92258-2e6ff6d1-b390-4067-a5e9-5ca0d68f9878.html
 - V2_MOHW113_B｜2024 Taiwan Health and Welfare Report（英文版）｜budget_deferred｜https://www.mohw.gov.tw/dl-92420-84bc8962-369c-42ff-860a-0dd6f5e73b21.html
-- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜identified｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
+- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
 - D_1cb5b0c805ae｜2022 NAICS Manual｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/2022_NAICS_Manual.pdf
 - P003｜Firm Resources and Sustained Competitive Advantage｜fulltext_verified｜https://doi.org/10.1177/014920639101700108
 - P006｜Profiting from technological innovation: Implications for integration, collaboration, licensing and public policy｜metadata_verified｜https://doi.org/10.1016/0048-7333(86)90027-2

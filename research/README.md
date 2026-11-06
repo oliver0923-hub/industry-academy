@@ -27,3 +27,6 @@
 `full_acquisition.py`提供init/fetch/report/inventory，按lesson或task篩選、resume/skip-verified/retry-failures、rate-limit、output-dir、每輪檔數與bytes、單檔bytes上限、dry-run。output-dir必須位於被忽略的private_sources。首次盤點存baseline_inventory.csv，每輪更新current_inventory.csv；不同SHA版本保留，不把相同URL或工作稿/期刊版盲目合併。不要重跑舊acquire的Phase1或finalize覆寫已核讀成果。
 
 成功下載只代表檔案及格式可取得，全文段落與主張核對另列。主表保留舊欄位並追加v2欄位；schema與migration見schemas/full_acquisition_v2.json與audit/full-acquisition-v2/schema_migration.csv。全部50課目前均未達出版級充分性。
+# 本輪教材證據研究入口
+
+2026年11月6日續跑 `9a5f648`：[七堂優先課程證據包](evidence/teaching-foundation-2026-11-06/README.md)。逐主張、原文核讀範圍、450列缺口重分類與每課撰寫準備度分開保存；下載成功不代表教材充分。公開網站未變更。

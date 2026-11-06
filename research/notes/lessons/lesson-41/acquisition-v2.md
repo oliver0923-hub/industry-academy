@@ -2,7 +2,7 @@
 
 這是來源盤點，不是教材。狀態：fulltext_available_unreviewed。
 
-原始文件可用（SHA去重）10；已核讀研究0；已定位數值0。
+原始文件可用（SHA去重）13；已核讀研究0；已定位數值0。
 
 ## 已有來源與下載層級
 
@@ -28,9 +28,9 @@
 - V2_BLS_OES24｜May2024 national industry-specific occupational estimates｜restricted｜https://www.bls.gov/oes/2024/may/oessrci.htm
 - V2_TWSE_FILINGS｜上市公司每月營業收入 openAPI｜fulltext_downloaded｜https://openapi.twse.com.tw/v1/opendata/t187ap05_L
 - V2_MCD24｜2024 Annual Report｜fulltext_downloaded｜https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/McD%20-%202024%20Annual%20Report%20to%20Shareholders.pdf
-- D_4bc08fe08900｜PDF 5.04 MB｜identified｜https://www.ilo.org/sites/default/files/2025-01/WESO25_Trends_EN_WEB5.pdf
-- D_96c67cbb3d67｜Executive Summary - World Employment and Social Outlook: Trends 2025 - PDF 586.87 KB｜identified｜https://www.ilo.org/sites/default/files/2025-01/WESO25_Trends_ExecSum_EN.pdf
-- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜identified｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
+- D_4bc08fe08900｜PDF 5.04 MB｜fulltext_downloaded｜https://www.ilo.org/sites/default/files/2025-01/WESO25_Trends_EN_WEB5.pdf
+- D_96c67cbb3d67｜Executive Summary - World Employment and Social Outlook: Trends 2025 - PDF 586.87 KB｜fulltext_downloaded｜https://www.ilo.org/sites/default/files/2025-01/WESO25_Trends_ExecSum_EN.pdf
+- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
 - D_1cb5b0c805ae｜2022 NAICS Manual｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/2022_NAICS_Manual.pdf
 - P003｜Firm Resources and Sustained Competitive Advantage｜fulltext_verified｜https://doi.org/10.1177/014920639101700108
 - P004｜Transaction-Cost Economics: The Governance of Contractual Relations｜fulltext_verified｜https://doi.org/10.1086/466942

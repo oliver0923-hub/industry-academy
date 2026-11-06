@@ -2,7 +2,7 @@
 
 這是來源盤點，不是教材。狀態：fulltext_available_unreviewed。
 
-原始文件可用（SHA去重）7；已核讀研究0；已定位數值0。
+原始文件可用（SHA去重）10；已核讀研究0；已定位數值0。
 
 ## 已有來源與下載層級
 
@@ -25,9 +25,9 @@
 - V2_BLS_OES24｜May2024 national industry-specific occupational estimates｜restricted｜https://www.bls.gov/oes/2024/may/oessrci.htm
 - V2_NBER_EDTECH｜Can technology facilitate scale? Evidence from a randomized evaluation of high dosage tutoring｜fulltext_downloaded｜https://www.nber.org/system/files/working_papers/w32510/w32510.pdf
 - V2_CR_EDTECH｜DOI metadata 10.3386/w32510｜identified｜https://api.crossref.org/works/10.3386%2Fw32510
-- D_4bc08fe08900｜PDF 5.04 MB｜identified｜https://www.ilo.org/sites/default/files/2025-01/WESO25_Trends_EN_WEB5.pdf
-- D_96c67cbb3d67｜Executive Summary - World Employment and Social Outlook: Trends 2025 - PDF 586.87 KB｜identified｜https://www.ilo.org/sites/default/files/2025-01/WESO25_Trends_ExecSum_EN.pdf
-- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜identified｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
+- D_4bc08fe08900｜PDF 5.04 MB｜fulltext_downloaded｜https://www.ilo.org/sites/default/files/2025-01/WESO25_Trends_EN_WEB5.pdf
+- D_96c67cbb3d67｜Executive Summary - World Employment and Social Outlook: Trends 2025 - PDF 586.87 KB｜fulltext_downloaded｜https://www.ilo.org/sites/default/files/2025-01/WESO25_Trends_ExecSum_EN.pdf
+- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
 - D_1cb5b0c805ae｜2022 NAICS Manual｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/2022_NAICS_Manual.pdf
 - P003｜Firm Resources and Sustained Competitive Advantage｜fulltext_verified｜https://doi.org/10.1177/014920639101700108
 - P008｜Absorptive Capacity: A New Perspective on Learning and Innovation｜metadata_verified｜https://doi.org/10.2307/2393553

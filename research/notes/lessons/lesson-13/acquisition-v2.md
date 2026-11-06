@@ -2,7 +2,7 @@
 
 這是來源盤點，不是教材。狀態：fulltext_available_unreviewed。
 
-原始文件可用（SHA去重）9；已核讀研究0；已定位數值0。
+原始文件可用（SHA去重）10；已核讀研究0；已定位數值0。
 
 ## 已有來源與下載層級
 
@@ -26,7 +26,7 @@
 - V2_EIA_OIL｜Oil and petroleum products explained｜fulltext_downloaded｜https://www.eia.gov/energyexplained/oil-and-petroleum-products/
 - V2_WTO24｜Global Trade Outlook and Statistics2024｜fulltext_downloaded｜https://www.wto.org/english/res_e/booksp_e/trade_outlook24_e.pdf
 - V2_TWSE_FILINGS｜上市公司每月營業收入 openAPI｜fulltext_downloaded｜https://openapi.twse.com.tw/v1/opendata/t187ap05_L
-- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜identified｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
+- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
 - D_1cb5b0c805ae｜2022 NAICS Manual｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/2022_NAICS_Manual.pdf
 - P003｜Firm Resources and Sustained Competitive Advantage｜fulltext_verified｜https://doi.org/10.1177/014920639101700108
 - P006｜Profiting from technological innovation: Implications for integration, collaboration, licensing and public policy｜metadata_verified｜https://doi.org/10.1016/0048-7333(86)90027-2

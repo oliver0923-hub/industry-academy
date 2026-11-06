@@ -1,29 +1,29 @@
 {
-  "local_files_inventoried": 614,
-  "source_files_with_origin": 243,
-  "deduplicated_source_files": 238,
+  "local_files_inventoried": 682,
+  "source_files_with_origin": 259,
+  "deduplicated_source_files": 254,
   "verified_dois": 34,
-  "source_catalog_records": 255,
-  "tasks": 59,
-  "actual_attempts": 53,
+  "source_catalog_records": 271,
+  "tasks": 75,
+  "actual_attempts": 80,
   "current_states": {
     "failed": 6,
-    "downloaded": 27,
-    "broken": 5,
-    "restricted": 7,
-    "reused_existing": 6,
+    "downloaded": 38,
+    "broken": 6,
+    "restricted": 9,
+    "reused_existing": 12,
     "budget_deferred": 1
   },
   "new_download_formats": {
-    "pdf": 11,
-    "html": 12,
+    "pdf": 18,
+    "html": 16,
     "json": 4
   },
   "reused_formats": {
-    "html": 5,
-    "pdf": 1
+    "html": 8,
+    "pdf": 4
   },
-  "new_files_parseable": 26,
+  "new_files_parseable": 37,
   "text_quality_issues": [
     {
       "task_id": "V2_MCD24",
@@ -33,8 +33,8 @@
     }
   ],
   "verified_new_observations": 12,
-  "passed": 93,
-  "checks": 93,
+  "passed": 127,
+  "checks": 127,
   "failed": [],
   "lessons_sufficient_for_publication": 0,
   "running_in_background": false

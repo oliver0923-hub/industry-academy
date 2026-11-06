@@ -2,7 +2,7 @@
 
 這是來源盤點，不是教材。狀態：claim_checked_partial。
 
-原始文件可用（SHA去重）13；已核讀研究7；已定位數值0。
+原始文件可用（SHA去重）14；已核讀研究7；已定位數值0。
 
 ## 已有來源與下載層級
 
@@ -18,7 +18,7 @@
 - T_DGBAS｜國民所得與統計資料庫｜identified｜https://nstatdb.dgbas.gov.tw/dgbasall/webMain.aspx?sys=100&funid=defjsp
 - V2_TW12_META｜行業統計分類XML詮釋資料｜failed｜https://data.gov.tw/dataset/14321
 - V2_TW12_MANUAL｜行業統計分類第12次修正｜fulltext_downloaded｜https://ws.dgbas.gov.tw/001/Upload/463/ebook/ebook_356166/pdf/full.pdf
-- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜identified｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
+- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
 - D_1cb5b0c805ae｜2022 NAICS Manual｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/2022_NAICS_Manual.pdf
 - P001｜Relation of Profit Rate to Industry Concentration: American Manufacturing, 1936-1940｜metadata_verified｜https://doi.org/10.2307/1882217
 - P009｜Dynamic Capabilities and Strategic Management｜fulltext_verified｜https://doi.org/10.1002/(SICI)1097-0266(199708)18:7<509::AID-SMJ882>3.0.CO;2-Z

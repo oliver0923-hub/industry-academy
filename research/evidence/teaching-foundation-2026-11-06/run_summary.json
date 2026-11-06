@@ -1,0 +1,160 @@
+{
+  "base_commit": "9a5f648",
+  "new_downloaded_unique_files": 16,
+  "new_downloaded_formats": {
+    ".pdf": 9,
+    ".html": 7
+  },
+  "new_attempt_statuses": {
+    "downloaded": 16,
+    "reused_existing": 6,
+    "restricted": 3,
+    "broken": 2
+  },
+  "new_claims": 39,
+  "inherited_claims": 55,
+  "new_journal_format_core_readings": 1,
+  "new_author_manuscript_core_readings": 1,
+  "complete_draft_ready": 0,
+  "current_unresolved_acquisitions": [
+    {
+      "task_id": "V2_TW12_META",
+      "url": "https://data.gov.tw/dataset/14321",
+      "status": "failed",
+      "reason": "robots policy temporary failure: HTTP500"
+    },
+    {
+      "task_id": "V2_IEA_GER25",
+      "url": "https://iea.blob.core.windows.net/assets/5b169aa1-bc88-4c96-b828-aaa50406ba80/GlobalEnergyReview2025.pdf",
+      "status": "failed",
+      "reason": "robots policy temporary failure: HTTP400"
+    },
+    {
+      "task_id": "V2_UNESCO_GEM24",
+      "url": "https://www.unesco.org/gem-report/en/2024-leadership",
+      "status": "broken",
+      "reason": "404 Client Error: Not Found for url: https://www.unesco.org/gem-report/en/2024-leadership"
+    },
+    {
+      "task_id": "V2_OICA24",
+      "url": "https://www.oica.net/category/production-statistics/2024-statistics/",
+      "status": "broken",
+      "reason": "404 Client Error: Not Found for url: https://oica.net/category/production-statistics/2024-statistics/"
+    },
+    {
+      "task_id": "V2_WIPO24",
+      "url": "https://www.wipo.int/web-publications/world-intellectual-property-indicators-2024/en/",
+      "status": "restricted",
+      "reason": "403 Client Error: Forbidden for url: https://www.wipo.int/web-publications/world-intellectual-property-indicators-2024/en/"
+    },
+    {
+      "task_id": "V2_OECD_TOUR24",
+      "url": "https://www.oecd.org/en/publications/oecd-tourism-trends-and-policies-2024_80885d8b-en.html",
+      "status": "restricted",
+      "reason": "403 Client Error: Forbidden for url: https://www.oecd.org/en/publications/oecd-tourism-trends-and-policies-2024_80885d8b-en.html"
+    },
+    {
+      "task_id": "V2_TW_EDU",
+      "url": "https://stats.moe.gov.tw/",
+      "status": "failed",
+      "reason": "HTML has insufficient readable content; SPA/login may require manual access"
+    },
+    {
+      "task_id": "V2_TW_MOTC",
+      "url": "https://stat.motc.gov.tw/mocdb/stmain.jsp?sys=100",
+      "status": "failed",
+      "reason": "HTTPSConnectionPool(host='stat.motc.gov.tw', port=443): Max retries exceeded with url: /robots.txt (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x0000025D2CFDBA90>: Failed to resolve 'stat.motc.gov.tw' ([Errno 11001] getaddrinfo failed)\"))"
+    },
+    {
+      "task_id": "V2_TW_LABOR",
+      "url": "https://statfy.mol.gov.tw/",
+      "status": "failed",
+      "reason": "HTTPSConnectionPool(host='statfy.mol.gov.tw', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000025D2D7C4F10>, 'Connection to statfy.mol.gov.tw timed out. (connect timeout=8)'))"
+    },
+    {
+      "task_id": "V2_TW_ENV",
+      "url": "https://stat.moenv.gov.tw/",
+      "status": "failed",
+      "reason": "HTTPSConnectionPool(host='stat.moenv.gov.tw', port=443): Max retries exceeded with url: /robots.txt (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x0000025D2D0B6810>: Failed to resolve 'stat.moenv.gov.tw' ([Errno 11001] getaddrinfo failed)\"))"
+    },
+    {
+      "task_id": "V2_FED_HISTORY",
+      "url": "https://www.federalreservehistory.org/essays/founding-of-the-fed",
+      "status": "broken",
+      "reason": "soft404: readable error page, not source content"
+    },
+    {
+      "task_id": "V2_SMITHSONIAN_CHIP",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_334900",
+      "status": "restricted",
+      "reason": "403 Client Error: Forbidden for url: https://americanhistory.si.edu/collections/object/nmah_334900"
+    },
+    {
+      "task_id": "V2_BLS_OES24",
+      "url": "https://www.bls.gov/oes/2024/may/oessrci.htm",
+      "status": "restricted",
+      "reason": "403 Client Error: Forbidden for url: https://www.bls.gov/oes/2024/may/oessrci.htm"
+    },
+    {
+      "task_id": "V2_FORD24",
+      "url": "https://s201.q4cdn.com/693218008/files/doc_financials/2024/ar/2024-annual-report.pdf",
+      "status": "restricted",
+      "reason": "robots policy unavailable/denied: HTTP403"
+    },
+    {
+      "task_id": "V2_MAERSK24",
+      "url": "https://investor.maersk.com/static-files/edd017f9-1b91-4efb-b972-19806720e72c",
+      "status": "restricted",
+      "reason": "403 Client Error: Forbidden for url: https://investor.maersk.com/static-files/edd017f9-1b91-4efb-b972-19806720e72c"
+    },
+    {
+      "task_id": "V2_DISNEY24",
+      "url": "https://s206.q4cdn.com/979796730/files/doc_financials/2024/ar/2024-Annual-Report-1.pdf",
+      "status": "restricted",
+      "reason": "robots policy unavailable/denied: HTTP403"
+    },
+    {
+      "task_id": "V2_MOHW113_B",
+      "url": "https://www.mohw.gov.tw/dl-92420-84bc8962-369c-42ff-860a-0dd6f5e73b21.html",
+      "status": "budget_deferred",
+      "reason": "HEAD size exceeds remaining/per-file byte budget"
+    },
+    {
+      "task_id": "D_b41e2f2956e1",
+      "url": "https://stat.moc.gov.tw/UploadFile/CulturalStatist/5文創產業家數與營業額.pdf",
+      "status": "broken",
+      "reason": "404 Client Error: Not Found for url: https://stat.moc.gov.tw/UploadFile/CulturalStatist/5%E6%96%87%E5%89%B5%E7%94%A2%E6%A5%AD%E5%AE%B6%E6%95%B8%E8%88%87%E7%87%9F%E6%A5%AD%E9%A1%8D.pdf"
+    },
+    {
+      "task_id": "D_cf0968d9cf6f",
+      "url": "https://stat.moc.gov.tw/UploadFile/CulturalStatist/3中華民國電影片審議分級統計.pdf",
+      "status": "broken",
+      "reason": "404 Client Error: Not Found for url: https://stat.moc.gov.tw/UploadFile/CulturalStatist/3%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E9%9B%BB%E5%BD%B1%E7%89%87%E5%AF%A9%E8%AD%B0%E5%88%86%E7%B4%9A%E7%B5%B1%E8%A8%88.pdf"
+    },
+    {
+      "task_id": "T_BASKER_JEP_PDF",
+      "url": "https://www.aeaweb.org/articles/pdf/doi/10.1257/jep.21.3.177",
+      "status": "restricted",
+      "reason": "403 Client Error: Forbidden for url: https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.21.3.177"
+    },
+    {
+      "task_id": "T_FORD_HISTORY",
+      "url": "https://corporate.ford.com/articles/history/moving-assembly-line.html",
+      "status": "restricted",
+      "reason": "403 Client Error: Forbidden for url: https://corporate.ford.com/articles/history/moving-assembly-line.html"
+    },
+    {
+      "task_id": "T_BASKER_2005",
+      "url": "https://citeseerx.ist.psu.edu/document?doi=90fefd5dee6612725c41a27771919604889ebe42&repid=rep1&type=pdf",
+      "status": "broken",
+      "reason": "404 Client Error: NOT FOUND for url: https://web.archive.org/web/20251230112235/https://citeseerx.ist.psu.edu//document?doi=90fefd5dee6612725c41a27771919604889ebe42&repid=rep1&type=pdf"
+    }
+  ],
+  "validation": {
+    "teaching_foundation": "197/197",
+    "full_acquisition": "127/127",
+    "deep_evidence": "49/49",
+    "research_structure": "40/40",
+    "publication_review": "not completed"
+  }
+}

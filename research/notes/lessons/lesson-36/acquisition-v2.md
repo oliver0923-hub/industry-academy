@@ -2,7 +2,7 @@
 
 這是來源盤點，不是教材。狀態：fulltext_available_unreviewed。
 
-原始文件可用（SHA去重）12；已核讀研究0；已定位數值0。
+原始文件可用（SHA去重）15；已核讀研究0；已定位數值0。
 
 ## 已有來源與下載層級
 
@@ -27,9 +27,9 @@
 - V2_TWSE_FILINGS｜上市公司每月營業收入 openAPI｜fulltext_downloaded｜https://openapi.twse.com.tw/v1/opendata/t187ap05_L
 - V2_NBER_ROBOTS｜Robots and Jobs: Evidence from US Labor Markets｜fulltext_downloaded｜https://www.nber.org/papers/w23285.pdf
 - V2_CR_ROBOT｜DOI metadata 10.3386/w23285｜identified｜https://api.crossref.org/works/10.3386%2Fw23285
-- D_4bc08fe08900｜PDF 5.04 MB｜identified｜https://www.ilo.org/sites/default/files/2025-01/WESO25_Trends_EN_WEB5.pdf
-- D_96c67cbb3d67｜Executive Summary - World Employment and Social Outlook: Trends 2025 - PDF 586.87 KB｜identified｜https://www.ilo.org/sites/default/files/2025-01/WESO25_Trends_ExecSum_EN.pdf
-- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜identified｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
+- D_4bc08fe08900｜PDF 5.04 MB｜fulltext_downloaded｜https://www.ilo.org/sites/default/files/2025-01/WESO25_Trends_EN_WEB5.pdf
+- D_96c67cbb3d67｜Executive Summary - World Employment and Social Outlook: Trends 2025 - PDF 586.87 KB｜fulltext_downloaded｜https://www.ilo.org/sites/default/files/2025-01/WESO25_Trends_ExecSum_EN.pdf
+- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
 - D_1cb5b0c805ae｜2022 NAICS Manual｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/2022_NAICS_Manual.pdf
 - P003｜Firm Resources and Sustained Competitive Advantage｜fulltext_verified｜https://doi.org/10.1177/014920639101700108
 - P014｜Towards an Attention-Based View of the Firm｜fulltext_verified｜https://doi.org/10.1002/(SICI)1097-0266(199707)18:1+<187::AID-SMJ936>3.0.CO;2-K

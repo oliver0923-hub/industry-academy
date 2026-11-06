@@ -2,7 +2,7 @@
 
 這是來源盤點，不是教材。狀態：fulltext_available_unreviewed。
 
-原始文件可用（SHA去重）8；已核讀研究0；已定位數值0。
+原始文件可用（SHA去重）11；已核讀研究0；已定位數值0。
 
 ## 已有來源與下載層級
 
@@ -28,9 +28,9 @@
 - V2_DISNEY24｜2024 Annual Financial Report｜restricted｜https://s206.q4cdn.com/979796730/files/doc_financials/2024/ar/2024-Annual-Report-1.pdf
 - V2_TOURISM_RESEARCH｜Modeling the link between tourism and economic development: evidence from homogeneous panels of countries｜fulltext_downloaded｜https://www.nature.com/articles/s41599-024-02826-8.pdf
 - V2_CR_TOURISM｜DOI metadata 10.1057/s41599-024-02826-8｜identified｜https://api.crossref.org/works/10.1057%2Fs41599-024-02826-8
-- D_4bc08fe08900｜PDF 5.04 MB｜identified｜https://www.ilo.org/sites/default/files/2025-01/WESO25_Trends_EN_WEB5.pdf
-- D_96c67cbb3d67｜Executive Summary - World Employment and Social Outlook: Trends 2025 - PDF 586.87 KB｜identified｜https://www.ilo.org/sites/default/files/2025-01/WESO25_Trends_ExecSum_EN.pdf
-- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜identified｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
+- D_4bc08fe08900｜PDF 5.04 MB｜fulltext_downloaded｜https://www.ilo.org/sites/default/files/2025-01/WESO25_Trends_EN_WEB5.pdf
+- D_96c67cbb3d67｜Executive Summary - World Employment and Social Outlook: Trends 2025 - PDF 586.87 KB｜fulltext_downloaded｜https://www.ilo.org/sites/default/files/2025-01/WESO25_Trends_ExecSum_EN.pdf
+- D_6fad5a97cd76｜NAICS Update Process Fact Sheet｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf
 - D_1cb5b0c805ae｜2022 NAICS Manual｜fulltext_downloaded｜https://www.census.gov/naics/reference_files_tools/2022_NAICS_Manual.pdf
 - P003｜Firm Resources and Sustained Competitive Advantage｜fulltext_verified｜https://doi.org/10.1177/014920639101700108
 - P012｜Platform Competition in Two-Sided Markets｜metadata_verified｜https://doi.org/10.1162/154247603322493212
