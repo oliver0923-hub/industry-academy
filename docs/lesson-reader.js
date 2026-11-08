@@ -71,10 +71,11 @@ window.IndustryInlineReader = (() => {
     for (const a of copy.querySelectorAll('a[href]')) {
       const href = a.getAttribute("href") || "";
       const match = href.match(/(?:^|\/)lesson-(0[012])(?:-reading(?:-v2)?)?\.html(?:[#?].*)?$/);
-      if (match) a.setAttribute("href", "#lesson/" + Number(match[1]));
+      if (match) a.setAttribute("href", "./lesson.html?lesson=" + String(Number(match[1])).padStart(2, "0"));
       if (/^\.\/index\.html#lesson\/[012]$/.test(href)) {
-        a.setAttribute("href", href.substring(href.indexOf("#")));
+        a.setAttribute("href", "./lesson.html?lesson=" + href.at(-1).padStart(2, "0"));
       }
+      if (/^#lesson\/[012]$/.test(href)) a.setAttribute("href", "./lesson.html?lesson=0" + href.at(-1));
       if (/^javascript:/i.test(href.trim())) a.removeAttribute("href");
     }
     for (const h of copy.querySelectorAll("h2")) {
