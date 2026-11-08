@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Industry Academy 繁體中文產業教材：完整課文、章節目錄、進度與來源。">
+  <meta name="theme-color" content="#e9f5fc">
+  <title>課程閱讀｜Industry Academy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./lesson-reader.css?v=20261109c">
+  <style>
+    body {background:#f7fbfd;}
+    .lesson-site-header{max-width:1380px;margin:auto;padding:21px clamp(17px,4vw,48px);display:flex;justify-content:space-between;align-items:center;gap:14px}
+    .lesson-site-brand{display:inline-flex;align-items:center;gap:12px;text-decoration:none;color:#173e56;font-size:16px;font-weight:800;letter-spacing:-.3px}
+    .lesson-site-icon{display:grid;place-items:center;background:#d4edf9;color:#206f9c;width:37px;height:37px;border-radius:11px;font-size:21px}
+    .lesson-site-header small{font-size:11px;font-weight:500;color:#7892a3;letter-spacing:0}
+    .lesson-site-back{color:#226e98;font-size:12px;font-weight:700;text-decoration:none}
+    .lesson-container{max-width:1390px;margin:0 auto;padding:0 clamp(15px,3.7vw,44px) 60px}
+    .lesson-footer{max-width:1390px;margin:0 auto;padding:22px clamp(15px,3.7vw,44px) 35px;border-top:1px solid #dae8f0;color:#8ba0ad;font-size:11px;display:flex;justify-content:space-between;gap:20px}
+    @media(max-width:760px){.lesson-site-header{padding:16px}.lesson-site-header small{display:none}.lesson-container{padding:0 12px 42px}}
+  </style>
+  <script src="./lesson-reader.js?v=20261109c" defer></script>
+  <script defer>
+    document.addEventListener("DOMContentLoaded", () => {
+      const params = new URLSearchParams(location.search);
+      const raw = params.get("lesson") ?? params.get("id") ?? "";
+      const number = Number(raw);
+      const available = raw.trim() !== "" && Number.isInteger(number) && number >= 0 && number <= 2;
+      const host = document.getElementById("lesson-root");
+      if (!available) {
+        host.innerHTML = '<section class="inline-reader-error"><h1>本堂完整教材尚在編寫</h1><p>目前可閱讀第 00、01、02 堂；其他課次可從學院目錄查看進度。</p><a class="btn btn-primary" href="./index.html#catalog">返回完整課程目錄</a></section>';
+        return;
+      }
+      const id = number;
+      const label = String(id).padStart(2,"0");
+      document.title = "第 " + label + " 堂｜Industry Academy";
+      document.getElementById("lesson-breadcrumb").textContent = "第 " + label + " 堂完整教材";
+      const key = "industry-academy-v2-completed";
+      const load = () => {try{const a=JSON.parse(localStorage.getItem(key)||"[]");return new Set(Array.isArray(a)?a:[])}catch(_){return new Set()}};
+      const marked = load();
+      const onMark = next => {
+        const latest=load();
+        if(next) latest.add(id); else latest.delete(id);
+        try{localStorage.setItem(key,JSON.stringify([...latest].sort((a,b)=>a-b)))}catch(_){}
+      };
+      if (!window.IndustryInlineReader) {
+        host.textContent = "閱讀器尚未載入，請重新整理頁面。";
+        return;
+      }
+      window.IndustryInlineReader.mount(id,host,{isMarked:marked.has(id),onMark});
+    });
+  </script>
+</head>
+<body>
+  <header class="lesson-site-header">
+    <a class="lesson-site-brand" href="./index.html#catalog"><span class="lesson-site-icon" aria-hidden="true">◈</span><span>Industry Academy <small>／ <span id="lesson-breadcrumb">獨立課文閱讀</span></small></span></a>
+    <a class="lesson-site-back" href="./index.html#catalog">← 返回課程目錄</a>
+  </header>
+  <main class="lesson-container" id="lesson-root" tabindex="-1" aria-live="polite">
+    <p class="inline-reader-loading" role="status">正在載入課程內容…</p>
+  </main>
+  <footer class="lesson-footer"><span>Industry Academy · 全球與台灣的產業知識</span><span>教材候選稿須完成審查後才正式發布</span></footer>
+</body>
+</html>
