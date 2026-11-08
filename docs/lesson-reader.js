@@ -76,6 +76,7 @@ window.IndustryInlineReader = (() => {
         a.setAttribute("href", "./lesson.html?lesson=" + href.at(-1).padStart(2, "0"));
       }
       if (/^#lesson\/[012]$/.test(href)) a.setAttribute("href", "./lesson.html?lesson=0" + href.at(-1));
+      if (id === 1 && a.textContent.includes("返回第 01 堂課程頁")) { a.setAttribute("href", "./index.html#catalog"); a.textContent = "← 返回課程目錄"; }
       if (/^javascript:/i.test(href.trim())) a.removeAttribute("href");
     }
     for (const h of copy.querySelectorAll("h2")) {
@@ -120,6 +121,22 @@ window.IndustryInlineReader = (() => {
       '<button type="button" id="inline-close-zoom">關閉 ✕</button><div id="inline-zoom-content"></div></dialog>' +
       '</div>';
     const shell = host.querySelector(".inline-reader-shell");
+
+    const previousNext = document.createElement("nav");
+    previousNext.className = "inline-reader-next";
+    previousNext.setAttribute("aria-label", "上一堂與下一堂");
+    const navigationItems = [
+      id > 0 ? {target:id-1,label:"← 上一堂 · "+String(id-1).padStart(2,"0")} : null,
+      id < 2 ? {target:id+1,label:"下一堂 · "+String(id+1).padStart(2,"0")+" →"} : {target:null,label:"返回全部課程 →"}
+    ].filter(Boolean);
+    for (const item of navigationItems) {
+      const link = document.createElement("a");
+      link.href = item.target === null ? "./index.html#catalog" : "./lesson.html?lesson="+String(item.target).padStart(2,"0");
+      link.textContent = item.label;
+      previousNext.append(link);
+    }
+    host.querySelector(".inline-reader-endnote")?.before(previousNext);
+
     const prose = shell.querySelector(".inline-reader-prose");
     const jump = shell.querySelector("#inline-jump");
     const progressBar = shell.querySelector("#inline-progress-bar");
