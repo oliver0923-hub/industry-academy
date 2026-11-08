@@ -28,7 +28,7 @@
       const params = new URLSearchParams(location.search);
       const raw = params.get("lesson") ?? params.get("id") ?? "";
       const number = Number(raw);
-      const available = raw.trim() !== "" && Number.isInteger(number) && number >= 0 && number <= 2;
+      const available = raw.trim() !== "" && Number.isInteger(number) && number >= 0 && number <= 49;
       const host = document.getElementById("lesson-root");
       if (!available) {
         host.innerHTML = '<section class="inline-reader-error"><h1>本堂完整教材尚在編寫</h1><p>目前可閱讀第 00、01、02 堂；其他課次可從學院目錄查看進度。</p><a class="btn btn-primary" href="./index.html#catalog">返回完整課程目錄</a></section>';
@@ -36,6 +36,12 @@
       }
       const id = number;
       const label = String(id).padStart(2,"0");
+      if (id > 2) {
+        document.title = "第 " + label + " 堂｜教材編寫中｜Industry Academy";
+        document.getElementById("lesson-breadcrumb").textContent = "第 " + label + " 堂・教材編寫中";
+        host.innerHTML = '<section class="inline-reader-error"><div class="eyebrow">LESSON '+label+'</div><h1>第 '+label+' 堂教材編寫中</h1><p>此課已列入 50 堂正式課程，但完整講義還沒有通過編輯審查，因此目前只顯示準備中的狀態，不將課程介紹冒充正式教材。</p><a class="btn btn-primary" href="./index.html#catalog">返回課程目錄</a></section>';
+        return;
+      }
       document.title = "第 " + label + " 堂｜Industry Academy";
       document.getElementById("lesson-breadcrumb").textContent = "第 " + label + " 堂完整教材";
       const key = "industry-academy-v2-completed";
