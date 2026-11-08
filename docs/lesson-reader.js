@@ -37,7 +37,7 @@ window.IndustryInlineReader = (() => {
 
     let response, raw, doc, source;
     try {
-      response = await fetch(sourceFiles[id] + "?inline=20261108b", {
+      response = await fetch(sourceFiles[id] + "?inline=20261109v03", {
         signal: controller.signal, cache: "no-cache"
       });
       if (!response.ok) throw new Error("HTTP " + response.status);
