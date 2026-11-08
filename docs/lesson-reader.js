@@ -126,6 +126,7 @@ window.IndustryInlineReader = (() => {
     const dialog = shell.querySelector("#inline-zoom");
     const tocButtons = [...shell.querySelectorAll("[data-chapter]")];
     let lastPersist = 0;
+    let hasScrolled = false;
 
     const scrollToChapter = (key, behavior = "smooth") => {
       const elem = [...prose.querySelectorAll("[id]")].find(x => x.id === key);
@@ -134,10 +135,9 @@ window.IndustryInlineReader = (() => {
       window.scrollTo({ top: Math.max(0, y), behavior });
     };
     const readPercent = () => {
-      const top = window.scrollY + prose.getBoundingClientRect().top;
-      const start = top - prose.getBoundingClientRect().top;
+      const start = Math.max(0, window.scrollY + prose.getBoundingClientRect().top - 150);
       const length = Math.max(1, prose.offsetHeight - window.innerHeight * 0.55);
-      return Math.max(0, Math.min(100, 100 * (window.scrollY - Math.max(0, start)) / length));
+      return Math.max(0, Math.min(100, 100 * (window.scrollY - start) / length));
     };
     const update = () => {
       if (!host.isConnected) return;
@@ -151,7 +151,7 @@ window.IndustryInlineReader = (() => {
       for (const btn of tocButtons) {
         btn.classList.toggle("active", !!current && btn.dataset.chapter === current.id);
       }
-      if (Date.now() - lastPersist > 750) {
+      if (hasScrolled && Date.now() - lastPersist > 750) {
         const relative = window.scrollY - Math.max(0, window.scrollY + prose.getBoundingClientRect().top);
         put(storagePrefix + id, JSON.stringify({
           percent: pct, offset: relative, chapter: current?.id || "", savedAt: Date.now()
@@ -159,7 +159,7 @@ window.IndustryInlineReader = (() => {
         lastPersist = Date.now();
       }
     };
-    listen(window, "scroll", update, { passive: true });
+    listen(window, "scroll", () => { hasScrolled = true; update(); }, { passive: true });
     listen(window, "resize", update);
     listen(shell, "click", event => {
       const chapterBtn = event.target.closest("[data-chapter]");
