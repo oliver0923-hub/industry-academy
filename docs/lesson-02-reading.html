@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="全球產業體系、國際分工、全球價值鏈、台灣企業與地緣政治：Industry Academy 第02課教材候選稿。">
+<title>第 02 課｜全球產業體系 — Industry Academy</title>
+<style>
+:root{--ink:#1f3b4e;--muted:#647f92;--accent:#206e9b;--line:#dce8ef;--pale:#eaf5fc;--paper:#fff;--bg:#f7fbfe;--reading:890px;--body-size:17px;}
+*{box-sizing:border-box}html,body{max-width:100%;overflow-x:clip}html{scroll-behavior:smooth;scroll-padding-top:88px}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans TC","Microsoft JhengHei",sans-serif}body.large{--body-size:19px}
+a{color:var(--accent)}a:hover{text-decoration-color:var(--accent)}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible,[tabindex]:focus-visible{outline:3px solid #52addb;outline-offset:3px}
+#reading-bar{position:fixed;left:0;top:0;height:4px;background:#368ec2;z-index:99;width:0;transition:width .1s}
+.topbar{height:66px;position:sticky;top:0;z-index:15;display:flex;align-items:center;justify-content:space-between;background:rgba(255,255,255,.97);border-bottom:1px solid var(--line);padding:0 clamp(15px,3.5vw,44px);gap:12px}.topbar a{text-decoration:none;font-size:14px;font-weight:800}.topbar small{font-size:12px;color:var(--muted);font-weight:500}.top-controls{display:flex;align-items:center;gap:8px}.top-controls button{border:1px solid var(--line);background:var(--paper);padding:8px 11px;border-radius:8px;color:var(--ink);font-size:12px}.top-controls button:hover{background:var(--pale)}
+.layout{display:grid;grid-template-columns:245px minmax(0,var(--reading)) 1fr;gap:36px;max-width:1530px;margin:auto;padding:34px 28px 120px}.toc{position:sticky;top:98px;align-self:start;max-height:calc(100vh - 115px);overflow-y:auto;border-right:1px solid var(--line);padding:12px 13px 16px 0}.toc h2{font-size:11px;letter-spacing:1px;color:var(--muted);margin:0 8px 14px}.toc-link{display:block;padding:9px 11px;font-size:12px;line-height:1.45;text-decoration:none;color:#58758a;border-left:3px solid transparent;border-radius:0 6px 6px 0}.toc-link:hover,.toc-link.active{color:#185d8b;background:#eaf5fb;border-left-color:#2b8dbd}.reading-main{min-width:0}
+.hero{border-radius:22px;background:linear-gradient(125deg,#e0f0fa,#f5fafe);border:1px solid #d5e9f6;padding:42px 48px 38px;margin-bottom:30px}.eyebrow{font-size:11px;font-weight:800;letter-spacing:2px;color:#3c89b4;text-transform:uppercase}.hero h1{line-height:1.4;font-size:clamp(28px,3.7vw,40px);margin:15px 0 14px;letter-spacing:-.02em}.hero p{font-size:15px;line-height:1.8;color:#587588;margin:0}.chip{display:inline-block;font-size:11px;color:#815e13;border:1px solid #f1dca9;background:#fff8e8;border-radius:22px;padding:6px 11px;margin:18px 0 0}.intro-meta{display:flex;gap:14px;margin-top:20px;font-size:12px;color:#557589;flex-wrap:wrap}.article{font-size:var(--body-size);line-height:2.06;letter-spacing:.012em}.article p{margin:1em 0 1.45em}.article h2{font-size:clamp(22px,2.35vw,28px);line-height:1.45;letter-spacing:-.01em;margin:56px 0 20px;border-bottom:1px solid var(--line);padding-bottom:14px;scroll-margin-top:82px}.article h2:first-child{margin-top:0}.article h3{font-size:21px;line-height:1.5;margin:35px 0 10px;color:#1d5372}.article strong{color:#1a587c;font-weight:750}.article blockquote{background:#f0f7fc;border-left:3px solid #83badb;margin:20px 0 35px;padding:10px 22px;color:#587589;font-size:14px;line-height:1.9}.article ul,.article ol{padding-left:27px}.article li{margin:7px 0}.article table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.65;display:block;overflow:auto}.article th,.article td{border-bottom:1px solid var(--line);padding:13px 12px;text-align:left;vertical-align:top;min-width:110px}.article th{background:#ecf5fa}.article code{background:#eff6fa;padding:2px 4px;border-radius:3px}.article a{text-decoration-thickness:1px;text-underline-offset:3px;overflow-wrap:anywhere}.article .cite-link{font-size:13px;white-space:nowrap}
+.figure{background:white;border:1px solid var(--line);border-radius:16px;padding:22px;margin:35px 0;cursor:zoom-in}.figure-label{font-size:16px;font-weight:750;margin-bottom:18px}.figure figcaption{font-size:12px;line-height:1.8;color:var(--muted);margin-top:12px}.chain{display:flex;align-items:stretch;gap:7px;justify-content:space-between;overflow-x:auto;padding-bottom:8px}.chain-node{background:#edf7fc;border:1px solid #d0e7f4;padding:13px 11px;border-radius:12px;text-align:center;min-width:130px;flex:1}.chain-node b{display:block;font-size:13px;color:#145c86}.chain-node small{display:block;font-size:11px;color:#708d9e;margin-top:5px;line-height:1.5}.chain-arrow{align-self:center;color:#4f9cc6}.data-chart{display:block;max-width:100%;height:auto}.chart-grid{stroke:#e6eff5;stroke-width:1}.chart-tick,.chart-unit{font-size:12px;fill:#607f90}.chart-unit{font-weight:650}.hist-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px}.hist-grid>div{background:#f1f8fc;border:1px solid #d7e9f4;border-radius:10px;padding:13px 10px}.hist-grid span,.role-grid span{display:block;font-size:12px;font-weight:800;color:#28779f}.hist-grid b,.role-grid strong{display:block;font-size:13px;line-height:1.5;margin:8px 0;color:#1d4e70}.hist-grid small,.role-grid small{display:block;font-size:11px;line-height:1.65;color:#68879c}.role-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.role-grid>div{border-left:4px solid #6bb2d8;background:#f1f8fc;padding:12px 16px;border-radius:6px}
+.note{margin-top:38px;padding:16px 20px;background:#f0f8fc;border-radius:12px;font-size:13px;line-height:1.75;color:#55778e}.completion{display:flex;justify-content:center;gap:12px;margin:45px 0}.completion button{background:#277da9;color:#fff;border:0;border-radius:10px;padding:13px 22px}.completion button.done{background:#ecf5fb;color:#2b668b;border:1px solid #afcfdf}footer{border-top:1px solid var(--line);padding:32px 0;color:#71899b;font-size:12px;line-height:1.75}dialog{border:0;border-radius:18px;box-shadow:0 20px 80px #17344840;padding:24px;max-width:min(97vw,1160px);max-height:93vh;overflow:auto}dialog::backdrop{background:rgba(15,42,58,.65)}dialog .figure{border:0;padding:0;margin:40px 0 0;cursor:default}.dialog-close{position:absolute;right:20px;top:14px;background:white;border:1px solid #d4e5ef;border-radius:7px;padding:7px 12px}.mobile-toc{display:none}
+@media(max-width:1150px){.layout{grid-template-columns:208px minmax(0,1fr);gap:25px;padding:28px 20px 80px}.layout:after{content:none}.hero{padding:32px}}
+@media(max-width:740px){.hist-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.role-grid{grid-template-columns:1fr}.layout{display:block;padding:18px 16px 70px}.toc{display:none}.mobile-toc{display:block;width:100%;margin:0 0 18px;padding:11px;border:1px solid var(--line);border-radius:8px;background:white;font-size:13px}.topbar small{display:none}.hero{padding:27px 22px;border-radius:14px}.article{line-height:1.94}.article h2{margin-top:42px}.chain{flex-wrap:wrap}.chain-node{min-width:45%}.chain-arrow{display:none}.figure{padding:16px 10px}.top-controls button{padding:7px 8px}}
+@media print{body{background:#fff}.topbar,.toc,.mobile-toc,#reading-bar,.completion{display:none}.layout{display:block;padding:0}.hero{background:white;border:0}.article{font-size:13px}.figure{break-inside:avoid}.article a{color:#222}}
+</style></head><body>
+<div id="reading-bar" aria-hidden="true"></div><header class="topbar"><div><a href="./index.html#lesson/2">◈ Industry Academy</a> <small>／ 第 02 課</small></div><div class="top-controls"><button id="font-toggle" type="button" aria-label="切換文章字級">字級 A+</button><button id="resume" type="button" aria-label="回到上次閱讀位置">接續閱讀</button><button id="toc-mobile-button" type="button" aria-label="移至目錄" onclick="document.getElementById('mobile-toc').focus()">目錄</button></div></header>
+<div class="layout"><aside class="toc" aria-label="章節目錄"><h2>本課目錄 · CONTENTS</h2><a href="#section-01" class="toc-link" data-target="section-01">課前導讀｜從鞋盒開始</a><a href="#section-02" class="toc-link" data-target="section-02">一、國際分工不是把工作平均分給不同國家</a><a href="#section-03" class="toc-link" data-target="section-03">二、從海上貿易到全球工廠：分工如何一步步形成？</a><a href="#section-04" class="toc-link" data-target="section-04">三、同樣跨越國界，貿易、委外與投資不是同一件事</a><a href="#section-05" class="toc-link" data-target="section-05">四、全球價值鏈是怎麼被管理的？</a><a href="#section-06" class="toc-link" data-target="section-06">五、貿易數字可能重複計入跨國生產的價值</a><a href="#section-07" class="toc-link" data-target="section-07">六、跨國投資不是另一種出口統計</a><a href="#section-08" class="toc-link" data-target="section-08">七、從全球走回台灣：不只做晶片，也不只做代工</a><a href="#section-09" class="toc-link" data-target="section-09">八、全球化不是一條只會向前的直線</a><a href="#section-10" class="toc-link" data-target="section-10">九、當全球連結成為地緣政治工具</a><a href="#section-11" class="toc-link" data-target="section-11">結語｜看懂世界，先學會拆開一件商品</a><a href="#section-12" class="toc-link" data-target="section-12">核心理解問題</a><a href="#section-13" class="toc-link" data-target="section-13">產業情境｜該不該再找一個供應商？</a><a href="#section-14" class="toc-link" data-target="section-14">重要術語</a><a href="#section-15" class="toc-link" data-target="section-15">原始來源與學術參考文獻</a><a href="#section-16" class="toc-link" data-target="section-16">課程延伸</a></aside><main class="reading-main" id="reader">
+<section class="hero"><div class="eyebrow">LESSON 02 / GLOBAL INDUSTRY</div><h1>一件商品，為什麼需要<br>許多國家共同完成？</h1><p>全球產業體系 · 國際分工 · 貿易與附加價值 · 全球價值鏈 · 跨國企業 · 台灣 · 地緣政治</p><span class="chip">教材候選稿 · 編輯審查中</span><div class="intro-meta"><span>繁體中文 · 零基礎可讀</span><span>資料基準日期：2026-11-08</span><span id="read-label">閱讀位置將保存在此瀏覽器</span></div></section>
+<select class="mobile-toc" id="mobile-toc" aria-label="選擇章節"><option value="">跳至章節…</option><option value="section-01">課前導讀｜從鞋盒開始</option><option value="section-02">一、國際分工不是把工作平均分給不同國家</option><option value="section-03">二、從海上貿易到全球工廠：分工如何一步步形成？</option><option value="section-04">三、同樣跨越國界，貿易、委外與投資不是同一件事</option><option value="section-05">四、全球價值鏈是怎麼被管理的？</option><option value="section-06">五、貿易數字可能重複計入跨國生產的價值</option><option value="section-07">六、跨國投資不是另一種出口統計</option><option value="section-08">七、從全球走回台灣：不只做晶片，也不只做代工</option><option value="section-09">八、全球化不是一條只會向前的直線</option><option value="section-10">九、當全球連結成為地緣政治工具</option><option value="section-11">結語｜看懂世界，先學會拆開一件商品</option><option value="section-12">核心理解問題</option><option value="section-13">產業情境｜該不該再找一個供應商？</option><option value="section-14">重要術語</option><option value="section-15">原始來源與學術參考文獻</option><option value="section-16">課程延伸</option></select>
+<article class="article" id="article">
+<blockquote>
+<p><strong>教材候選稿 v0.2｜2026 年 11 月 8 日</strong>。已加深全球分工歷史與台灣多產業案例。原始來源與新增官方、學術、企業來源分別標示；仍待獨立第二輪編輯審讀，尚非正式出版版。資料所屬年份各自註明。</p>
+</blockquote>
+<h2 id="section-01">課前導讀｜從鞋盒開始</h2>
+<p>想像走進運動用品店，拿起一雙鞋。鞋盒上有熟悉的國際品牌，產地標籤可能寫著越南、印尼或中國。這三件事——品牌來自哪裡、鞋在哪裡製造、誰把鞋賣給消費者——看起來只是商品資訊，其實指向三種可能分離的經濟活動。負責品牌設計與行銷的企業，不一定擁有縫製鞋面的工廠；提供製造服務的企業，也不一定直接面對終端消費者。</p>
+<p>Nike 截至 2025 年 5 月 31 日的會計年度申報文件說明，幾乎全部產品由獨立承包商製造。在 Nike 品牌鞋類的產量中，約 51% 來自越南、28% 來自印尼、17% 來自中國。這些是<strong>Nike 品牌鞋類的產量分布</strong>，不是全球運動鞋產量，也不是 Nike 在各國的營收或利潤占比。Nike 仍透過自有的 Air Manufacturing Innovation 生產部分氣墊元件；「主要委外」與「完全沒有生產活動」並不是同一回事。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 N1]</a></p>
+<p>這條產業鏈同樣有台灣企業的身影。寶成工業在 2025 年年報中列出鞋類原始設備製造（Original Equipment Manufacturing, OEM）及原始設計製造（Original Design Manufacturing, ODM）業務，服務品牌包括 Nike 等。依年報 114 年度營業比重表，鞋類製造營業金額為 <strong>175,917,312 仟元新台幣</strong>，約占集團總營業金額的 70%；運動用品零售及批發約占 30%。因此，寶成不只是「鞋子的代工廠」，也是同時具有製造與通路活動的企業。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 P1]</a></p>
+<p>我們可以確認兩家公司存在品牌與鞋類製造的商業關係，卻不能僅憑兩份年報，斷定 Nike 在某一國家、某一座工廠的所有鞋都是由寶成製作，也不能從製造比重推算兩家公司的單雙鞋利潤。這個限制非常重要：全球分工的分析，不是把一串熟悉的公司名稱用箭頭接起來，而是逐一確認<strong>誰執行什麼活動、在哪裡執行、由誰控制，以及證據足以說明到哪個程度</strong>。</p>
+<p>本堂課要回答的核心問題是：為什麼一個經濟體不把商品從頭到尾全部自己生產？跨國交易與海外投資到底有什麼不同？既然商品可以多次跨境，出口數字是否就等於每個國家真正創造的價值？台灣在其中扮演什麼角色？如果政策或政治衝突改變了網絡的連結，企業又會面對哪些取捨？</p>
+<figure class="figure" id="figure-flow" tabindex="0" data-zoom="true" aria-label="放大一雙鞋的產業活動鏈">
+<div class="figure-label">圖 1｜一雙鞋從設計到消費者的活動鏈</div>
+<div class="chain" aria-label="設計與品牌，原料與零組件，製造與品質管理，運輸和分銷，零售與消費者">
+<div class="chain-node"><b>設計、品牌</b><small>決定產品定位、規格與行銷</small></div><span class="chain-arrow">→</span><div class="chain-node"><b>材料、零組件</b><small>投入鞋材與配件</small></div><span class="chain-arrow">→</span><div class="chain-node"><b>製造、品管</b><small>OEM／ODM 等安排</small></div><span class="chain-arrow">→</span><div class="chain-node"><b>物流、通路</b><small>倉儲、批發與零售</small></div></div>
+<figcaption>概念示意；活動不必各由不同企業擔任，箭頭也不代表具體公司或某國的已驗證供應關係。Nike 及寶成的實際活動請參閱各自年報。</figcaption></figure><h2 id="section-02">一、國際分工不是把工作平均分給不同國家</h2>
+<p>所謂國際分工（International Division of Labor），最簡單的意思是：不同經濟體各自從事部分生產或服務活動，再透過貿易、契約、投資與知識傳遞，組合成終端產品或服務。它不表示每個國家都只做一項工作，也不表示同一項工作永遠只能由一個國家完成。企業可能為了客戶、技術、工資、電力、運輸、制度、人才或風險，在許多地點配置相似或互補的活動。</p>
+<p>以鞋子為例，從材料選用、設計、製造、檢驗、倉儲、跨境運送，到最終零售，本身就是多個可以分開組織的活動。最終消費者在商店支付的價格，也不是某一家工廠單獨創造的全部價值。產品研發、品牌管理、物流服務、批發零售及售後活動，都可能有各自的投入與收入。反過來說，製造商也可能有設計、研發、採購和銷售能力；不能把「代工」誤讀成只有勞動密集的組裝。</p>
+<p>分工可以從兩種直覺理解。第一種是<strong>專業化</strong>：如果一個企業長期替多個客戶生產某種商品，它可能更容易累積材料、製程、品質管理與產能調度的專業知識。第二種是<strong>市場連結</strong>：一家公司不必只向自己所在地的消費者銷售，也可面向更大的市場配置生產。兩者可能相互強化，但不保證每個供應商都會提高薪資、每個國家都會受益，也不表示分工的成果必然平均分配。</p>
+<p>在經濟學裡，比較利益（Comparative Advantage）強調的並不是「誰的生產力絕對最高，就由誰做全部事情」，而是不同活動之間的<strong>相對機會成本</strong>。即使某地在多種商品上都有較高生產力，仍可能因為各地所放棄的替代活動不同而產生交換誘因。這是理解貿易的起點；但真實產業還要考慮固定成本、地理距離、規模經濟、技術保護、契約品質與政策限制。沒有證據時，不宜只用某國工資低就解釋某家公司全部的海外配置。</p>
+<p><strong>商品、產業、企業是三個不同的觀察單位。</strong> 同一雙鞋是商品；鞋材、製鞋、物流、品牌與零售是活動；一家企業則可能同時執行其中數段。官方行業分類通常依事業單位的主要經濟活動編碼，全球價值鏈（Global Value Chain, GVC）卻追蹤一件商品或一項服務所需的跨企業活動。所以「全球價值鏈」不是台灣行業統計分類或美國 NAICS 裡的一個單獨產業碼。對本課最有用的分類方式，是先畫出活動，再查每一活動的正式分類，不強制把整個主題塞進一碼。</p>
+<h2 id="section-03">二、從海上貿易到全球工廠：分工如何一步步形成？</h2><figure class="figure" id="figure-history" tabindex="0" data-zoom="true" aria-label="放大全球分工歷史發展時間軸">
+<div class="figure-label">圖 2｜全球分工的幾個關鍵轉折</div>
+<div class="hist-grid" role="list">
+<div role="listitem"><span>19世紀</span><b>工業化與遠距離貿易</b><small>工廠量產，依賴原料、運輸與海外市場</small></div>
+<div role="listitem"><span>1947–1995</span><b>GATT 到 WTO</b><small>貿易規則逐步擴展，不代表規則決定企業策略</small></div>
+<div role="listitem"><span>1956 起</span><b>貨櫃與多式聯運</b><small>標準化接口降低轉運摩擦</small></div>
+<div role="listitem"><span>1970–2000s</span><b>零組件、設計與工序分散</b><small>資訊、產品標準與多國供應商協調</small></div>
+<div role="listitem"><span>2008 之後</span><b>更重視韌性與依賴</b><small>景氣、政策與共同上游暴露既有風險</small></div>
+</div><figcaption>概念性歷史時間軸：不同趨勢可能同時存在，不表示轉折始末或因果強弱。來源：WTO 歷史紀錄、National Maritime Historical Society、World Bank 2020，以及 Bernhofen et al.（2016）。</figcaption></figure>
+<p>今天的跨國供應鏈很容易讓人產生一種錯覺：全球化似乎是近幾十年才出現的，而且是所有國家都突然決定把工作分出去。實際上，人類很早就透過貿易交換自己無法方便生產的商品；比較晚近的變化，是<strong>交換的對象從完整成品，逐步增加為生產一件成品所需的零件、工序、技術與服務</strong>。一艘船把布匹送到海外市場，與一個機械零件經過三個國家加工後才裝進機器，都是跨境交易，但它們對物流、資訊、標準和企業組織的要求完全不同。</p>
+<h3>早期商路與工業革命：先有跨地區交換，才有跨國生產網絡</h3>
+<p>古代與近世的長距離貿易已經連接不同地區，但運送成本、時間與不確定性很高，因此能跨越長距離交換的，往往是價值相對高、能保存或當地不容易取得的商品。十九世紀工業化改變了這種條件：機械化紡織、蒸汽動力與鐵路讓工廠可以大量生產，並把投入與產品送到更遠的地方。當工廠一天產出的數量遠高於附近市場所能吸收的數量，就必須有更大的銷售市場，也需要更穩定的原料來源。</p>
+<p>但這並不代表工業革命立即創造今天的全球價值鏈。早期的跨國交易仍有大量成品和初級原料，例如農產品、棉花、礦物與機械。工廠需要的不只是較低的單位工資，而是可以持續取得原料、能源、技術及銷售管道的整套條件。若某個港口費用高昂、鐵路尚未接上工業區、通關程序不確定，即使工廠的機器很先進，也未必能準時交貨。換句話說，<strong>生產能力的擴張必須和運輸、金融、法規及資訊能力相互配合</strong>。</p>
+<p>經濟學的比較利益理論可幫助理解交換的誘因，但它本身不提供一張歷史時間表，也不能單獨證明殖民制度、國家政策或產業升級的效果。把「相對機會成本」看成解釋某種分工為何可能有利的起點，再追問資本、技術、制度與權力如何形塑實際交易，才不會將複雜的歷史縮成一句「各國各做擅長的事」。</p>
+<h3>二十世紀上半：世界市場不是永遠開放</h3>
+<p>兩次世界大戰、經濟危機及其間的貿易限制，提醒我們跨國商業連結會受到制度與政治衝擊。對一家工廠而言，最重要的不是抽象的「全球化程度」，而是它是否能購買原料、匯款給供應商、運送貨物、取得保險，以及預測市場規則。如果關稅或外匯管制突然改變，原本經濟上看似合理的生產安排，就可能無法按原計畫運作。</p>
+<p>第二次世界大戰後，部分國家試圖建立較可預期的貿易制度。1947 年 10 月 30 日，23 個參與方簽署關稅及貿易總協定（General Agreement on Tariffs and Trade, GATT）；1948 年起依此展開多邊貿易規則。後續各回合不只談降低關稅，也逐漸涉及非關稅障礙、服務、智慧財產權與爭端處理。1995 年 1 月 1 日成立的世界貿易組織（World Trade Organization, WTO），將部分規則與制度範圍進一步擴展。[來源 H1；H2]</p>
+<p>這個制度史的教學重點不是「簽署條約＝出口立即成長」。企業是否投資，還需要考慮需求、匯率、供應條件與技術。貿易制度在這裡扮演的是<strong>改變交易可預測性與可用市場的條件</strong>，不能把某次企業成功全歸功於某個條約。</p>
+<h3>1956 年之後：貨櫃把港口變成可重複的生產接口</h3>
+<p>假設你是一位工廠經理，必須把 10,000 件衣服送到遠方的百貨公司。在散裝貨運時代，貨物可能先被裝進麻袋或木箱，搬到貨車，再逐件轉上船，到岸後還要重複搬運。每個轉換動作都需要人工、等待和清點；損傷、失竊與延誤的風險也更高。貨櫃化（Containerization）真正改變的，是把不同運輸工具之間的接口標準化：貨物可以先裝在同一個容器，讓船、卡車、鐵路與港口設備圍繞統一的搬運尺寸協調。</p>
+<p>現代商業貨櫃化的重要里程碑，是 1956 年 4 月 26 日 <em>Ideal X</em> 從美國紐澤西州紐華克港出航。它並非今天常見的大型專用貨櫃船，而是將既有油輪改裝以搭載 58 個貨櫃。這個案例重要，不在於某艘船本身從此改變全部世界貿易，而是顯示<strong>運輸技術、港口起重設備、陸運系統及企業工作流程必須共同改變</strong>。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 H3]</a></p>
+<p>Bernhofen、El-Sahli 與 Kneller（2016）利用 1962–1990 年不同國家採行貨櫃設施的時間差異，以及貨品適用貨櫃化的差異，研究其與國際貿易的關係。其識別設計不只是對照貨櫃普及前後的世界出口總額；研究結果支持貨櫃化對貿易擴張具有重要影響。不過研究期間、產品範圍與基礎設施採用方式有其限制，不能直接當成 2026 年任何特定航線降價幅度的估計。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 B1]</a></p>
+<p>貨櫃化也不是單純「所有運費持續下跌」的故事。Hummels（2007）在《Journal of Economic Perspectives》整理戰後運輸成本的資料，指出海運價格的長期變化比流行敘事複雜，航空運輸的價格和速度改善則非常顯著。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 B2]</a> 對產業而言，真正的革命可能是可預期的交期與可靠的跨運輸工具銜接，而不只是每公斤運價下降。</p>
+<h3>1970 年代至 2000 年代：零組件、工序與管理資訊開始跨國移動</h3>
+<p>當港口、航班與通訊改善後，企業逐漸能把成品拆成更多可以分別管理的階段。鞋業可以將品牌設計、鞋材採購、組裝與零售分開；電子產業可以將晶片設計、晶圓製造、封裝、系統組裝及銷售分開。但不是所有產業都能像電子產品一樣容易模組化：食品需要冷鏈、醫療產品需要監管認證、鋼鐵與水泥涉及重量與能源成本，專業服務則可能依賴語言、法令及人員資格。</p>
+<p>分工能否加深，很大程度取決於規格可否清楚描述、品質可否驗證、零組件能否彼此相容。只知道「兩地工資不同」，還不足以解釋為什麼一家企業願意把某項任務移到海外。還需要有人能畫出圖面、建立技術標準、驗證樣品、保護資料、協調交期並承擔違約風險。資訊與通訊技術的發展，讓企業更有條件遠距監控訂單、庫存與生產，但複雜設計與品質失誤仍可能要求面對面協調。</p>
+<p>這也是為什麼全球分工不等於每個國家只做單一產業。有些國家參與研發、設計與關鍵材料，有些提供大量製造服務，有些以運輸或消費市場見長；同一國家往往同時做上述多種工作。不同城市可能因港口、技術人才、供應商密度與法規環境不同，在同一產業內專長不同活動。</p>
+<h3>2008 年之後：從追求更細分工到重新評估依賴</h3>
+<p>世界銀行《2020 年世界發展報告》指出，全球價值鏈在此前數十年擴大，但其擴張在 2008 年金融危機之後趨於停滯。這個敘述描述特定資料定義與歷史區間，不等於後續每年都縮減，更不能直接宣稱某次疫情或關稅「永久終結了全球化」。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 B3]</a></p>
+<p>要理解這個轉折，可以想像原本只比較「哪裡的生產成本最低」的管理團隊，現在還必須檢視供應中斷、倉庫緩衝、政策調整、客戶所在地和共同上游依賴。採購價最低的供應商，未必在交期、可靠性與重新啟動成本計入後仍是最低風險的選擇；但是把所有生產都移回本國，也未必有足夠的人才、設備及原物料來完成。</p>
+<p>因此，全球化的歷史更適合視為數種力量的交互作用：<strong>技術擴大可交易範圍，制度調整交易規則，企業重組活動，危機暴露先前看不見的依賴</strong>。對任何一項當代產業，都應追問這四種力量如何在其特有的產品、市場和地區條件下發生作用。這才是理解今天的供應鏈重組與區域化的歷史基礎。</p>
+<h2 id="section-04">三、同樣跨越國界，貿易、委外與投資不是同一件事</h2>
+<p>假設品牌企業向海外供應商購買已製成的鞋，這涉及跨境商品交易；但供應商仍可能是獨立企業。如果品牌企業在海外投資設立或取得一家公司，則除了商品交易，還出現企業所有權與控制權的問題。如果品牌企業直接向海外消費者銷售數位服務，跨境移動的甚至不一定是有形商品。把這些現象全稱作「海外設廠」會失去最重要的區別。</p>
+<p>一筆國際貿易（International Trade）描述的是居民與非居民之間交換商品或服務，或在海關統計下記錄跨境貨物流動。契約製造、外包與自製則描述<strong>如何組織活動</strong>。海外直接投資（Foreign Direct Investment, FDI）是另一個維度：它涉及投資者對海外企業具有持續利益及一定程度的影響。FDI 統計中的流量與存量，也不能與出口金額或企業營收直接相加。更不能把公司宣布要在海外蓋廠的投資計畫，全數當作當年度已實現的投資流量。</p>
+<p>企業有時只需要把工作交給市場上的供應商；有時則可能希望把某項生產活動納入自己控制之下。兩個選項的差別不只是報價。當產品開發必須由上下游反覆協調，供應商擔心投入專屬設備後遭遇買方重新議價，或買方擔心重要投入被中斷，契約和所有權安排都可能影響雙方的投資誘因。這是交易成本與不完全契約的問題，但其結論並非「整合一定比較安全」。</p>
+<p>Antràs 與 Chor（2013）在《Econometrica》提出的模型，說明一條生產鏈中不同階段之間的互補或替代關係，可能改變企業願意整合哪些階段。研究使用 2000 至 2010 年美國製造業的關係人進口資料檢視模型，發現不同情境的關聯方向大致與理論一致。不過，其實證觀察單位是產業等彙總資料，並不是直接追蹤每家企業逐道工序的決策；結果不能說成外包或整合的普遍因果效果。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 A1]</a></p>
+<p>讀這類研究時，可以問三個具體問題：哪一段工作最需要協調？誰必須在交易之前投入無法輕易轉用的設備、技術或人力？如果需求突然改變，哪一方承擔多餘產能的風險？這些問題比一句「跨國企業會追求效率」更接近實際經營決策。</p>
+<h2 id="section-05">四、全球價值鏈是怎麼被管理的？</h2>
+<p>國際分工不只是一張地圖，也是一套協調與權力關係。品牌公司可能訂定商品規格，供應商可能安排原料與產線，零售商可能掌握對消費者的接觸。若規格清楚且可用標準化介面傳遞，兩家公司有機會不必每天共同討論仍能完成交易；若規格很難寫成文件，雙方就可能需要長期溝通與共同解決問題。</p>
+<p>Gereffi、Humphrey 與 Sturgeon（2005）在《Review of International Political Economy》提出全球價值鏈治理的經典分析框架。其重要之處，是將組織安排連結到三個條件：交易資訊的複雜程度、資訊能否被編碼成清楚規格，以及供應商是否有能力滿足要求。這三個條件可以幫助理解五種分析型態：<strong>市場型、模組型、關係型、俘虜型及階層型</strong>。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 G1]</a></p>
+<p>市場型接近一般買賣，雙方能相對容易更換對象；模組型讓供應商承接規格清楚、但技術可能複雜的模組工作；關係型依賴高密度溝通與互相信任；俘虜型代表一方對另一方有較強依賴且受其監督；階層型則把重要活動放在企業內部。這是理解治理差異的概念工具，不是從低級到高級的五個「進步階段」，也不表示某企業只能擁有一種關係。</p>
+<p>回到鞋子：品牌是否擁有某工廠，不足以判斷雙方的日常治理型態；供應商能否參與設計、是否能自行安排生產、品牌是否控制品質標準與需求預測，才是進一步判斷的重要資訊。寶成兼具 OEM／ODM 與通路業務，也提醒我們供應商可能擴展能力與業務範圍，而不是永久停留在某個固定位置。[來源 P1；G1]</p>
+<h2 id="section-06">五、貿易數字可能重複計入跨國生產的價值</h2>
+<p>先做一個<strong>教學示意</strong>。假設甲國創造價值 40 美元的材料，出口到乙國；乙國加工後新增 30 美元價值，以 70 美元將半成品出口到丙國；丙國再新增 30 美元，做成價值 100 美元的終端產品。這三次交易涉及的跨境商品出口額，在示意中合計 40＋70＝110 美元；但最終產品的價值為 100 美元，分別來自三個地點創造的 40、30、30 美元。這不是實際鞋類成本表，而是幫助理解：<strong>把各次過境的總出口額加總，會重複包含已在前一階段計入的投入價值</strong>。</p>
+<p>總額貿易（Gross Trade）通常以貨物或服務的交易總額呈現；附加價值貿易（Trade in Value Added, TiVA）則嘗試辨認出口中有哪些價值是在本國創造、哪些來自國外的投入。附加價值不是公司利潤：它包含勞動報酬、資本報酬、相關稅捐等，必須依統計框架定義。國內附加價值也不只來自出口工廠本身；替它供應材料、物流、設計或其他國內服務的活動，可能已經在最終出口中創造價值。</p>
+<p>Koopman、Wang 與 Wei（2014）在《American Economic Review》研究如何拆解總出口裡的附加價值與重複計算。他們使用 2004 年、26 個國家或地區與 41 個產業的跨國投入產出資料建立分析。這是一項<strong>會計分解方法</strong>，並非用 2025 年資料研究世界分工，也不是估計開放貿易是否一定造成經濟成長的因果研究。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 K1]</a></p>
+<p>現在的 OECD TiVA 2025 版，涵蓋 1995 至 2022 年、80 個經濟體及其餘世界地區，依國際產業分類彙整 50 種經濟活動。它能讓讀者同時看見某產業出口中的國內附加價值（Domestic Value Added, DVA）與國外附加價值（Foreign Value Added, FVA）。但這是依跨國投入產出表和一套估算口徑得到的資料，不能直接與海關的商品 FOB 出口金額畫上等號，也不能把資料最後一年 2022 說成 2025 現況。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 O1]</a></p>
+<p>例如，在已取得的 OECD TiVA 2025 版序列中，2022 年台灣的 <strong>C13T15（紡織、成衣與皮革相關製造活動彙總）</strong> 出口約為 7,656.40 百萬美元，其中國內附加價值約 4,739.51 百萬美元、國外附加價值約 2,916.89 百萬美元，分別約占 61.90% 與 38.10%。這是特定統計產業、特定年份及 OECD 模型口徑下的比例，<strong>不代表所有台灣出口、寶成公司或任何一雙鞋的成本構成</strong>。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 O2]</a></p>
+<p>同樣，台灣 C26（電腦、電子及光學產品製造的彙總活動）在 2022 年的 OECD TiVA 數值，不能被重新命名為「純半導體產業」或「晶圓代工」。以為只要將產業名稱換成更熟悉的晶片業，就能更方便理解，反而會讓跨國比較失去意義。</p>
+<p>世界貿易組織（World Trade Organization, WTO）2026 年 10 月版的《Global Trade Outlook and Statistics》附表，記錄 2025 年世界商品出口約 <strong>26.275 兆美元</strong>、商業服務出口約 <strong>9.594 兆美元</strong>。兩種分類依不同統計框架記錄，不能在未處理方法差異前直接相加，當作一個毫無疑問的「全球市場規模」。2026 年 3 月較早版本的歷史數字稍有不同，說明同一年的數值也可能因後續修訂而改變。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 W1]</a></p>
+<h3>物流與時間：為何「便宜的產地」不一定是最便宜的供應地？</h3>
+<p>考慮一個國際品牌面臨的兩種供應方案。第一個供應商每件報價較低，但從下單到送達需要很長時間，而且部分航程無法可靠預測。第二個供應商報價較高，卻可迅速追加訂單、減少零售端缺貨。如果產品需求穩定且不易過時，第一種安排或許有利；如果商品更新快、熱門尺寸容易缺貨或零件一旦延誤就會停工，總成本可能相反。</p>
+<p>這裡的「成本」不只包含出廠價格，也涉及海運或空運費、保險、在途資金、庫存持有、缺貨損失、交期波動與替代供應的切換成本。對電子零組件、醫療器械或易腐食品，產品價值、重量、時效與監管要求差異很大，不可能用單一平均運費代表全部商品。Hummels 與 Schaur（2013）的研究指出，運送時間可以作為一種貿易障礙，但估計來自特定資料與模型；它提供的是理解速度經濟的證據，不是所有運輸方式的普遍常數。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 B4]</a></p>
+<p>因此，從台灣到世界的產業網絡，至少要同時觀察三條路線：<strong>貨物走哪裡、資訊走哪裡、誰對交貨及庫存負責</strong>。有時三條路線相同；更多時候，台灣的研發團隊與海外工廠溝通、國際品牌在另一國決定款式、物流業者再把成品送往多個市場。只有把它們分別描繪，才能理解全球分工真正如何運作。</p>
+<h2 id="section-07">六、跨國投資不是另一種出口統計</h2>
+<p>在貿易之外，企業還會透過股權、子公司或其他形式配置跨國經營活動。為理解這個現象，先區分兩個詞：<strong>流量（Flow）</strong>代表一段期間內新增或變動的金額；<strong>存量／部位（Stock／Position）</strong>代表某一時點累積持有的資產或負債價值。當我們說「今年全球 FDI 流入增加」，不能將它解讀成「年底全球所有海外工廠的總價值增加同樣的金額」。直接投資亦可能涉及股權交易、企業內借貸或盈餘再投資，不等於只計新蓋的廠房。</p>
+<p>聯合國貿易和發展會議（United Nations Conference on Trade and Development, UNCTAD）的《World Investment Report 2026》附表，列出 2025 年世界 FDI 流入約 <strong>1.624 兆美元</strong>。報告同時指出，2025 年依其公布的總額口徑成長約 6%；若進一步排除主要歐洲金融中心的特定 conduit flows，成長約為 4%。後者是額外調整的分析口徑，不能假設所有附表都已作相同處理。全球 FDI 流入金額會受到大型財務交易與中介轉投資影響，不宜直接當作全球新建生產線的支出。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 U1]</a></p>
+<figure class="figure" id="figure-fdi" tabindex="0" data-zoom="true" aria-label="開啟全球 FDI 長期趨勢圖">
+<div class="figure-label">圖 4｜1990—2025 年世界直接投資流入額</div>
+<svg viewBox="0 0 860 312" role="img" aria-labelledby="fdi-title fdi-desc" class="data-chart"><title id="fdi-title">UNCTAD 世界外國直接投資流入</title><desc id="fdi-desc">折線圖顯示1990至2025年世界FDI流入波動，2025年約1.624兆美元。屬流量，不是工廠投資或資產存量。</desc><line x1="73" y1="263.0" x2="841" y2="263.0" class="chart-grid"/><text x="63" y="267.0" text-anchor="end" class="chart-tick">0.0</text><line x1="73" y1="215.2" x2="841" y2="215.2" class="chart-grid"/><text x="63" y="219.2" text-anchor="end" class="chart-tick">0.5</text><line x1="73" y1="167.4" x2="841" y2="167.4" class="chart-grid"/><text x="63" y="171.4" text-anchor="end" class="chart-tick">1.0</text><line x1="73" y1="119.6" x2="841" y2="119.6" class="chart-grid"/><text x="63" y="123.6" text-anchor="end" class="chart-tick">1.5</text><line x1="73" y1="71.8" x2="841" y2="71.8" class="chart-grid"/><text x="63" y="75.8" text-anchor="end" class="chart-tick">2.0</text><line x1="73" y1="24.0" x2="841" y2="24.0" class="chart-grid"/><text x="63" y="28.0" text-anchor="end" class="chart-tick">2.5</text><text x="73.0" y="293" text-anchor="middle" class="chart-tick">1990</text><text x="292.4" y="293" text-anchor="middle" class="chart-tick">2000</text><text x="511.9" y="293" text-anchor="middle" class="chart-tick">2010</text><text x="731.3" y="293" text-anchor="middle" class="chart-tick">2020</text><text x="841.0" y="293" text-anchor="middle" class="chart-tick">2025</text><polyline points="73.0,243.4 94.9,248.3 116.9,247.3 138.8,241.8 160.8,238.5 182.7,230.0 204.7,225.5 226.6,217.1 248.5,197.9 270.5,159.9 292.4,133.3 314.4,189.1 336.3,206.6 358.3,210.5 380.2,196.2 402.1,171.8 424.1,129.1 446.0,82.4 468.0,123.7 489.9,145.6 511.9,129.3 533.8,101.8 555.7,123.5 577.7,118.2 599.6,122.6 621.6,50.5 643.5,66.8 665.5,93.7 687.4,139.9 709.3,105.0 731.3,180.5 753.2,93.1 775.2,125.6 797.1,136.7 819.1,116.6 841.0,107.7" fill="none" stroke="#218dbb" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="73.0" cy="243.4" r="5" fill="#238db8"><title>1990：0.205 兆美元</title></circle><circle cx="292.4" cy="133.3" r="5" fill="#238db8"><title>2000：1.357 兆美元</title></circle><circle cx="511.9" cy="129.3" r="5" fill="#238db8"><title>2010：1.399 兆美元</title></circle><circle cx="731.3" cy="180.5" r="5" fill="#238db8"><title>2020：0.863 兆美元</title></circle><circle cx="841.0" cy="107.7" r="5" fill="#238db8"><title>2025：1.624 兆美元</title></circle><text x="10" y="16" class="chart-unit">單位：兆美元</text></svg>
+<figcaption>來源：UNCTAD, <em>World Investment Report 2026</em>, Annex Table 1，World／FDI inflows／1990–2025；取原始表格百萬美元換算為兆美元。原附表已有特定 SPE 排除註記，未進一步排除歐洲 conduit flows。折線波動本身不表示特定事件造成因果效果。</figcaption></figure>
+<p>台灣中央銀行公布的 2025 年底國際投資部位表，列有對外直接投資部位約 <strong>6,286.35 億美元</strong>，外資在台直接投資部位約 <strong>1,750.10 億美元</strong>。這兩個數字是年底持有部位，不是 2025 年新增流量，也不是台灣企業在海外建廠的預算或經政府核准的投資總額。把它們與 UNCTAD 的全球年度流量放在一起，可以比較概念，卻不能直接計算年度貢獻率。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 C1]</a></p>
+<p>真實企業故事讓這種區別更清楚。台積電 2025 年 Form 20-F 顯示，美國亞利桑那首座晶圓廠於 2024 年底進入高量產，第二座廠在申報文件所述時點仍處於建造階段；日本 JASM 首座廠於 2024 年 12 月開始量產，第二座廠於 2025 年 10 月開工。這些時點是不同性質的<strong>營運狀態</strong>。在分析跨國產業布局時，投資宣布、取得土地、施工、試產與高量產，必須一一分開。台積電披露的 2025 年資本支出也不能自動當成台灣當年的對外直接投資流量。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 T1]</a></p>
+<p>因此，投資新聞至少要問：錢是承諾、批准、實際支付還是會計認列？金額是公司整體資本支出、海外子公司的投資，或統計上的 FDI？報導描述的是一座正在運作的廠，還是一項仍在申請或施工的計畫？這幾個問題能避免把「全球化布局」誤讀成一個已經完成的事實。</p>
+<h2 id="section-08">七、從全球走回台灣：不只做晶片，也不只做代工</h2><figure class="figure" id="figure-taiwan" tabindex="0" data-zoom="true" aria-label="放大台灣參與全球價值鏈的多種位置示意圖">
+<div class="figure-label">圖 3｜台灣企業不只站在同一段價值鏈</div>
+<div class="role-grid" role="list">
+<div role="listitem"><span>原料／材料與技術</span><strong>儒鴻・上銀</strong><small>機能布、精密傳動與客戶協作</small></div>
+<div role="listitem"><span>製造與交付</span><strong>寶成・台積電</strong><small>製程、品質、產能與跨國工廠</small></div>
+<div role="listitem"><span>品牌與市場</span><strong>巨大</strong><small>自有品牌、製造與通路並行</small></div>
+<div role="listitem"><span>物流與網絡</span><strong>長榮海運</strong><small>運送、船期、港口與轉運服務</small></div>
+</div><figcaption>概念示意：列的是本章選取的代表性活動，不代表每間企業只做一種工作，也不代表公司之間具有彼此已核對的供應契約。資料：各公司官方揭露，詳見參考來源。</figcaption></figure>
+<p>台灣的全球分工角色不能由一家大型企業代表。它同時涉及商品出口、進口原物料與零組件、跨國投資、國內設計研發、專業製造、航運物流、貿易服務及消費市場。寶成的鞋類製造與運動用品通路、台積電的晶圓代工與海外生產節點，恰好說明即使同在台灣註冊或有重大台灣活動的企業，也可能在不同產業鏈上扮演截然不同的角色。</p>
+<p>財政部 2026 年 2 月 23 日的 114 年出進口貿易概況，記錄 2025 年台灣商品出口約 <strong>6,407 億美元</strong>、進口約 <strong>4,836 億美元</strong>。這是海關商品貿易的年度總額，不代表所有台灣企業的海外營收，也不包括全部服務貿易或海外子公司在當地的銷售。它能告訴我們台灣具有龐大跨境商品交易，卻還不能說明每個產業中價值是由誰創造、哪些國外投入占比最高。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 M1]</a></p>
+<p>同樣一項商品，在台灣可以有不只一種角色：企業可能輸出製程或設計能力，卻在國外製造最終商品；可能先進口投入品，再在台灣加工出口；也可能由海外子公司在當地雇用人力、購買材料並對當地客戶銷售。若只讀台灣海關出口額，未必能看見台灣企業在海外的所有經營活動；若只看企業合併營收，也未必能判斷其中多少價值是在台灣境內產生。</p>
+<p>以半導體作例子，台積電的海外設廠是台灣企業跨國布局的一種形式，但不代表所有台灣企業都遵循相同模式。即使都屬於製造業，鞋類與晶片在資本密集度、技術要求、交貨時間、產品更新、客戶轉換成本及制度風險方面可能有很大差異。對照兩種產業，是為了學習<strong>同一套分工問題可以有不同答案</strong>，而不是用單一科技業的經驗替全部產業作結論。</p>
+<p>研究台灣全球分工時，最可靠的做法是依問題選擇統計單位。如果關心國內經濟活動，可查產業附加價值與就業；如果關心貨物市場，可查特定 HS 商品的進出口；如果關心跨境股權配置，可查國際投資部位與直接投資流量；如果關心上市公司競爭，則應閱讀公司的合併報表及分部揭露。這些資料互補，但不能互相取代。</p>
+<h3>1950–1980 年代：台灣先學會做，後來學會與世界共同做</h3>
+<p>台灣今天在全球供應鏈中的位置，並不是一開始就以晶片或電子代工為中心。國家檔案的歷史整理指出，戰後初期台灣透過農業出口取得外匯，並逐步發展紡織、水泥等進口替代工業；當國內市場有限、需要增加就業與取得出口市場時，政策開始朝向外銷擴張與吸引投資調整。這裡的「進口替代」不是完全封閉，而是希望先在本地建立某些商品的生產能力。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 TW1]</a></p>
+<p>1966 年 12 月 3 日，高雄加工出口區正式成立。它結合工業區與便利通關、行政單一窗口等制度；早期活動包含成衣、紡織、皮革、玩具、家具與消費性電子等。工廠之所以能接到海外訂單，不只是因為勞工成本較低；進口原料、集中加工、品管與出口報關的整套流程，必須在買方要求的時間內運作。國家發展委員會檔案所保存的早期歷史，展示了從輕工業到後續技術密集活動的轉變。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 TW2]</a></p>
+<p>這段歷史幫助我們重新理解「台灣製造」。當時的出口工廠不是全球分工的終點，而是一種進入國際買方網絡的起點。長期替客戶製造可能促使業者累積交期管理、製程改善、品質認證與多廠協調經驗；若能進一步取得設計、材料或品牌知識，就有機會承接不同的價值鏈活動。但<strong>能力提升並非每家廠商都會自動完成</strong>。對某些公司，擴產與低成本競爭依舊重要；另一些公司則可能因產品複雜度、資本需求或新市場機會而改變經營重心。</p>
+<p>1980 年的新竹科學工業園區，與早期加工出口區代表不同時代的工業政策方向：前者在研究、技術、人才及較高資本投入的產業上具有重要意義，後者則在外銷導向工業體系形成時扮演關鍵角色。這並不表示傳統產業因此消失。鞋類、紡織、食品與金屬加工等業者仍可能以海外製造、研發、品牌、通路或高階製程等方式參與國際市場。2002 年 1 月 1 日台灣以「台澎金馬個別關稅領域」身分加入 WTO，則是另一項可以獨立查證的制度節點；加入制度本身不能被當作所有出口變化的單一因果解釋。[來源 TW3；TW4]</p>
+<h3>產業案例一｜儒鴻：布料、成衣與海外產能不是同一種任務</h3>
+<p>運動服飾提供了比「台灣品牌委託國外工廠生產」更細緻的分工情境。儒鴻企業的官方介紹指出，它從布料貿易與製造起家，後來持續發展彈性針織與機能布料技術；1980 年代起建立台灣的針織布生產據點。這條發展路徑讓我們看到，服飾供應商的競爭力不一定只來自縫紉人力，還可能建立在布料配方、材質表現、打樣與生產整合能力。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 TW5]</a></p>
+<p>儒鴻的 2024 年永續報告列出，除了台灣外，公司亦於越南、柬埔寨及印尼設有生產基地，並另有策略聯盟代工安排。這代表同一家台灣企業可以同時擁有本地研發或材料活動、海外製造基地與跨國客戶關係；不過永續報告的這項描述，不等於每座廠具備相同製程，也不能由「有海外工廠」推導全部產能已經轉移。理解這個案例，應該分開問：機能布在哪裡開發？製造和縫製在哪裡進行？品牌何時核可樣品？原料、訂單與成品如何跨境？<a href="#section-15" class="cite-link" title="前往完整來源">[來源 TW6]</a></p>
+<p>對儒鴻而言，材料能力與成衣交付可能彼此支持，卻不是同一種專長。材料製程可能要求長期研發與品質穩定；成衣組裝則需要兼顧款式頻繁更換、不同工廠產能調整、交貨速度與勞動管理。若把「紡織業」視為完全同質的單一活動，就看不見這些供應鏈角色之間的差別。</p>
+<h3>產業案例二｜巨大：一家台灣企業同時做品牌、製造與國際通路</h3>
+<p>自行車的故事又不同。巨大機械不是只向海外品牌代工的工廠。集團官方資料記載它成立於 1972 年，1981 年發展自有捷安特（Giant）品牌；目前亦經營 Liv、Momentum 和 CADEX 等品牌。公司列出的製造據點涵蓋台灣、中國、荷蘭、匈牙利與越南。這些資料證明集團有跨國工廠與品牌布局，但不能據此斷定每一個市場的每一款自行車都在當地組裝。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 TW7]</a></p>
+<p>自行車看似比晶片容易理解：車架、輪組、變速、煞車與電動輔助系統組合後，產品可以銷售給騎士。然而從商業角度觀察，每個部件背後都有不同的技術、驗證、供應商及售後需求。品牌企業要決定車款定位，整車廠要整合零組件品質，通路要處理試騎、庫存與維修。當市場需求突然下降，問題可能不是工廠不夠有效率，而是經銷商與品牌商都持有過多庫存。</p>
+<p>巨大集團 2026 年 3 月公布的 2025 年度業績說明指出，2025 年合併營收為新台幣 602.5 億元；同份說明也指出代工業務占比由 2024 年 26% 上升至 2025 年 33%，而部分自有品牌市場仍承受需求與存貨調整壓力。這是<strong>公司合併營收與其對業務構成的揭露</strong>，不是台灣自行車整體產值，也不是全球自行車產業市場規模。代工與自有品牌可以共存，並在景氣與客戶庫存變動時呈現不同的營運反應。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 TW8]</a></p>
+<p>這個案例也提出策略上的反面問題：自有品牌可以讓企業直接建立消費者關係，但同時需要承擔行銷、通路及售後成本；代工能利用製造能力服務其他品牌，卻也可能依賴客戶訂單。兩種模式不是單向的升級階梯，而是需要不同能力與風險管理的組合。</p>
+<h3>產業案例三｜上銀：全球分工不只有終端商品，也有工廠裡的關鍵機械</h3>
+<p>有些企業提供的產品，消費者平常完全不會看見。上銀科技的滾珠螺桿、線性滑軌與精密傳動設備，可成為自動化設備及工業機械的組成部分。當某家工廠想提高加工精度、減少振動或改變產線設計，所需的未必是一台完整的新機器，而可能是符合規格、能可靠運作的關鍵零組件。</p>
+<p>上銀官方網站對其營運模式的描述，包含與客戶協同設計、提供精密傳動與運動控制產品，以及建立跨國服務與經銷網絡；公司亦列出智慧製造、半導體、醫療、航太與綠色能源等應用領域。這裡必須區分「企業宣稱可服務的應用產業」與「每個產業已經實際創造多少銷售收入」：若無細分財報，不能將應用清單轉成各業市場占比。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 TW9]</a></p>
+<p>上銀的案例說明一種不易被海關商品名稱直接看見的競爭：<strong>產業鏈中的關鍵設備供應者，可能跨越許多終端產業</strong>。當一家海外客戶採用某種精密零件，還需要技術選型、安裝、測試與維修時，企業提供的不只是貨物，也包含服務與知識。這些活動可能分別發生在台灣、海外子公司、經銷商或客戶工廠內，不能單靠出口金額完整衡量。</p>
+<p>上銀官網刊登的 2025 年致股東報告記錄其當年合併營收為新台幣 242.63 億元。這個數字可以作為公司規模的具體例證，但不能用來代表全球機械零組件市場；同時，官方對於全球供應鏈布局的文字，應視為企業陳述，而非已經驗證的市場領導因果證據。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 TW10]</a></p>
+<h3>產業案例四｜長榮海運：它沒有製造鞋子，卻影響鞋子能不能交到店裡</h3>
+<p>全球分工還需要一個容易被忽略的角色：運輸服務業。長榮集團官方歷史記載，長榮海運於 1968 年以一艘中古雜貨船起家，後來發展國際貨櫃運輸。當品牌商和製造商不在同一國家，船舶、港口、陸運、倉儲、海關與保險就不是附帶服務，而是跨境生產和銷售能否如期發生的必要條件。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 TW11]</a></p>
+<p>假設一間鞋廠已把貨品做完，但港口壅塞、船期改變，或貨櫃無法準時轉運。對工廠而言，產品仍在庫存；對海外零售商而言，貨架上可能缺貨；對消費者而言，熱門尺碼買不到。這些損失不一定出現在製鞋公司的直接成本表上，有時卻會影響整條鏈的銷售與補貨決策。反過來說，航運公司的營收主要來自運輸與相關服務，不該和製造商的貨物銷售額加總為單一「鞋業產值」。</p>
+<p>運輸產業也有自身的競爭邏輯：船隊與碼頭設施屬於大型固定投入，航線需要一定載運量才能分攤成本，景氣循環會改變運費與船舶供需。海運服務並非越便宜越好；準點率、轉運能力、航線密度與風險管理，都可能決定貨主實際付出的總成本。Hummels 與 Schaur（2013）使用美國進口資料，研究企業在較快但昂貴的航空運輸與較慢但便宜的海運之間如何取捨；其估計提醒我們，對時間敏感的零組件，延誤本身可以被視為一種經濟成本，但具體估計不能直接套用到所有台灣航線或年份。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 B4]</a></p>
+<p>這也解釋為何台灣的國際分工不能只用「製造業出口」理解。台灣同時有提供運輸、物流與其他跨境服務的企業，它們創造的價值可能被記錄於不同的服務、國民帳或企業財報統計，並非全部出現在製造品海關出口額裡。</p>
+<h3>五種活動、不同風險：把台灣案例放在同一張分析桌上</h3>
+<table>
+<thead>
+<tr>
+  <th>台灣案例</th>
+  <th>教學觀察的活動</th>
+  <th>跨境連結的主要問題</th>
+  <th>不能直接推算什麼</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>寶成</td>
+  <td>鞋類 OEM／ODM、運動用品通路</td>
+  <td>品牌訂單、海外製造、材料與分銷</td>
+  <td>Nike 特定廠單分配、每雙鞋利潤</td>
+</tr>
+<tr>
+  <td>儒鴻</td>
+  <td>機能布研發、生產與成衣製造</td>
+  <td>材料技術、廠別配置、交期</td>
+  <td>全部海外廠製程相同、公司已全面遷出</td>
+</tr>
+<tr>
+  <td>巨大</td>
+  <td>自行車品牌、製造、國際通路</td>
+  <td>品牌與代工並行、庫存及市場差異</td>
+  <td>台灣境內自行車業全部產值</td>
+</tr>
+<tr>
+  <td>上銀</td>
+  <td>精密零組件、協同設計與服務</td>
+  <td>跨產業技術標準、海外客戶支援</td>
+  <td>每個應用產業的全球市場占比</td>
+</tr>
+<tr>
+  <td>長榮</td>
+  <td>國際貨櫃運輸及相關服務</td>
+  <td>船期、港口、運費與交期風險</td>
+  <td>商品本身的製造價值</td>
+</tr>
+<tr>
+  <td>台積電</td>
+  <td>晶圓製造、跨國投資與產能安排</td>
+  <td>重大固定資本投入、海外建廠時程</td>
+  <td>全球所有晶片銷售、對外 FDI 流量</td>
+</tr>
+</tbody>
+</table>
+<p>這張表不是企業績效排行榜。它的用途，是讓讀者練習把新聞中的「台灣企業國際化」拆解成至少六種不同的活動與問題。若研究的是品牌競爭，先找品牌和銷售資料；若研究國外設廠，核對子公司、時點與投資狀態；若研究國家對外貿易，則回到同一套官方貿易分類。相同國籍的公司，不必共享同一種全球化策略。</p>
+<h2 id="section-09">八、全球化不是一條只會向前的直線</h2>
+<p>從歷史來看，國際分工是逐漸形成並經常被重新安排的。第二次世界大戰後，23 個國家於 1947 年 10 月簽署關稅及貿易總協定（General Agreement on Tariffs and Trade, GATT），其規則自 1948 年開始運作。1973 至 1979 年的東京回合，以及 1986 至 1994 年的烏拉圭回合，都擴展了國際貿易規則的討論範圍。世界貿易組織於 1995 年 1 月 1 日成立。這些制度節點有助理解國際規則如何演變，但不能只憑時間先後就宣稱 WTO 的成立直接造成某一家企業某一筆投資。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 H1]</a></p>
+<p>全球企業在不同國家配置活動，也不必等到所有政策確定後才作決策。企業可能同時衡量需求成長、服務當地客戶、供應商群聚、營運成本及制度不確定性。當貿易限制提高，原本最有效率的地點未必仍具有最低的總經營風險；但轉移供應商又可能增加品質驗證、建置設備、培訓人員、物流及維持多套產線的成本。<strong>效率與韌性有時互補、有時相互牽制</strong>，具體答案必須取決於產品與市場條件。</p>
+<p>從管理者角度來說，分散供應來源可能降低某一地點停工的風險，卻不能保證防止所有供應中斷。兩家表面上位於不同國家的供應商，也可能依賴相同上游材料、航運通道或支付系統。因此，評估全球供應鏈不能只數公司數量或國家數量，還要找出共同依賴的關鍵節點。</p>
+<h2 id="section-10">九、當全球連結成為地緣政治工具</h2>
+<p>把貨品跨境運送視為單純的買賣，往往會忽略誰控制網絡中的重要通道。例如，資金可能必須透過某種結算網絡，資訊可能集中於少數基礎設施或平台；取得這些節點的資訊或限制使用權，就可能改變企業的可行選擇。這與一般供應商延誤出貨的風險不同，因為控制網絡的力量可能包含國家司法管轄權與制度能力。</p>
+<p>Farrell 與 Newman（2019）在《International Security》提出「武器化互賴」（Weaponized Interdependence）的分析。他們區分利用網絡中心位置蒐集資訊的全景監控機制（Panopticon Effect），以及限制他人進入關鍵網絡的瓶頸機制（Chokepoint Effect）。文章透過金融訊息及網際網路的歷史案例與訪談解釋機制，重點是<strong>中心節點加上制度控制能力</strong>如何形成權力，而不是說某國市場占比只要夠高，就必定能成功制裁其他國家。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 F1]</a></p>
+<p>這讓全球分工多了一層問題：一個企業不只需要供應商能提供多少貨、以多低價格提供貨，還需要知道關鍵設備、支付、軟體、運輸或資訊通道能否持續使用。面對不確定性，企業可能提高庫存、建立替代供應、重新安排設計，或在不同市場配置營運活動。但這些措施各有成本，也未必能對所有衝擊同時有效。</p>
+<p>因此，「全球化終結」與「一切恢復過去」都不宜被當作唯一結論。不同商品、國家與企業可能出現完全不同的調整：某些活動移到接近終端市場的地點，某些活動因特殊知識與設備而難以移動，某些服務活動則可在新的數位或制度條件下繼續跨境。要判斷國際分工究竟是擴張、區域化還是重組，必須明確說明觀察的是哪一種貿易、哪一種生產活動、哪一個年度以及哪一種風險。</p>
+<h3>一個進階提醒：為何全球化沒有單一的「溫度計」？</h3>
+<p>人們常問「世界是否正在去全球化」，但這個問題可能包含好幾種完全不同的衡量方式。商品貿易的名目美元總額可能因價格上漲而增加，實質貨物流量卻沒有同步增加；跨國投入在世界產出中的比重可能變動，但跨境服務仍持續成長；某個企業宣布轉移新工廠，不代表既有工廠已經關閉。因此，研究者必須先選定指標，才有資格討論方向。</p>
+<p>OECD 2026 年公開的全球價值鏈資料系列，將 GVC 觀察延伸到 1995–2024 年，並說明 2023、2024 年含依近期統計推估的投入產出表。這與本課前面依 OECD TiVA 2025 版引用的 2022 年產業數值並非同一條已核對的觀察序列。它可以作為更近期的趨勢研究入口，卻不能悄悄替換舊版數值或將估計當作完整實際觀測。<a href="#section-15" class="cite-link" title="前往完整來源">[來源 O3]</a></p>
+<p>對初學者而言，一個可靠的判斷方式是：先說清楚觀察的經濟活動，再選擇商品貿易、服務、海外投資、國內附加價值或實際工廠活動中的適切指標，最後檢視同期間是否存在其他合理解釋。資料來源的精確性與故事的吸引力同樣重要。只有這樣，才能理解全球化究竟是在哪些環節轉移、在哪些環節深化，而不是過早宣布它全面結束。</p>
+<h2 id="section-11">結語｜看懂世界，先學會拆開一件商品</h2>
+<p>一雙鞋可以幫我們看見品牌、設計、代工製造與銷售的分離；一座晶圓廠可以幫我們區分海外投資計畫與實際量產；一個出口統計數字可以提醒我們，商品跨境的總金額不等於每個國家創造的附加價值。全球產業體系不是一張把國家當作點、把公司當作箭頭的簡單地圖，而是一套由<strong>活動分工、交易契約、企業控制、制度規則及風險依賴</strong>共同形成的網絡。</p>
+<p>下一次看見「某國出口大增」「企業投資海外」「產業鏈移出某地」的新聞，不必急著問它是好是壞。先問四件事：說的是商品還是活動？衡量的是交易流量還是資產存量？企業宣布了什麼，實際執行到哪裡？哪一個來源能直接支持文章的說法？具備這四個習慣，才能真正把全球產業新聞讀成可以分析的經濟與企業故事。</p>
+<h2 id="section-12">核心理解問題</h2>
+<ol>
+<li>為什麼 Nike 品牌鞋類在某國的產量占比，不能當成該國在全球鞋業的市場占有率？</li>
+<li>假如一件產品在三個國家加工、兩次出口，為什麼把各次出口額加總可能高於最後產品的價值？</li>
+<li>品牌商向海外獨立供應商採購、買下海外供應商、以及在國外新設工廠，分別改變了哪些交易或控制關係？</li>
+<li>為什麼用一家台灣上市公司的合併營收，未必能估計台灣境內對 GDP 的貢獻？</li>
+<li>當企業把供應商分散到三個國家，為什麼仍可能遭遇同一種供應鏈中斷？</li>
+</ol>
+<h2 id="section-13">產業情境｜該不該再找一個供應商？</h2>
+<p>假設一家運動用品品牌目前主要依賴一家海外製造商，產能穩定、品質良好，卻擔心特定航運路線突然受阻。管理團隊考慮在第二個國家新增供應商，但需要額外品質驗證與管理費用。請先分辨目前問題是「製造地過度集中」「上游材料共同依賴」還是「物流通道集中」；再比較新增供應商、改變運輸安排、保留適量存貨三種方法各自能解決與不能解決的問題。這是教學假設，沒有預設唯一正確的企業投資決策。請進一步判斷，若你經營的是高價精密零組件供應商、時尚服飾代工廠，或跨洲貨櫃航運公司，前述三種手段的優先順序會如何不同？為何同樣稱為全球供應鏈風險，不能直接套用同一種解法？</p>
+<h2 id="section-14">重要術語</h2>
+<table>
+<thead>
+<tr>
+  <th>術語</th>
+  <th>英文</th>
+  <th>本課意義</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>國際分工</td>
+  <td>International Division of Labor</td>
+  <td>不同經濟體分擔互補或競爭的經濟活動</td>
+</tr>
+<tr>
+  <td>全球價值鏈</td>
+  <td>Global Value Chain, GVC</td>
+  <td>產品或服務跨企業、跨地點的完整活動鏈與治理關係</td>
+</tr>
+<tr>
+  <td>原始設備製造</td>
+  <td>Original Equipment Manufacturing, OEM</td>
+  <td>依客戶需求承接製造活動的常見商業安排</td>
+</tr>
+<tr>
+  <td>原始設計製造</td>
+  <td>Original Design Manufacturing, ODM</td>
+  <td>兼具特定設計與製造服務的安排；具體範圍依契約而異</td>
+</tr>
+<tr>
+  <td>外國直接投資</td>
+  <td>Foreign Direct Investment, FDI</td>
+  <td>投資者取得海外企業持續利益與一定程度影響的投資關係</td>
+</tr>
+<tr>
+  <td>總出口</td>
+  <td>Gross Exports</td>
+  <td>按指定貿易統計口徑記錄的出口總值</td>
+</tr>
+<tr>
+  <td>附加價值貿易</td>
+  <td>Trade in Value Added, TiVA</td>
+  <td>追蹤出口中由各地創造的附加價值</td>
+</tr>
+<tr>
+  <td>國內附加價值</td>
+  <td>Domestic Value Added, DVA</td>
+  <td>出口中源於本國各產業的附加價值</td>
+</tr>
+<tr>
+  <td>國外附加價值</td>
+  <td>Foreign Value Added, FVA</td>
+  <td>出口中源於其他經濟體投入的附加價值</td>
+</tr>
+<tr>
+  <td>存量與流量</td>
+  <td>Stock and Flow</td>
+  <td>時點累積部位與期間內變動的區別</td>
+</tr>
+<tr>
+  <td>武器化互賴</td>
+  <td>Weaponized Interdependence</td>
+  <td>網絡中心與制度控制結合時形成的強制能力</td>
+</tr>
+<tr>
+  <td>貨櫃化</td>
+  <td>Containerization</td>
+  <td>跨船舶、卡車、鐵路的標準化貨物運輸系統</td>
+</tr>
+<tr>
+  <td>進口替代</td>
+  <td>Import Substitution</td>
+  <td>優先發展本國生產以取代部分進口的政策方向</td>
+</tr>
+<tr>
+  <td>加工出口區</td>
+  <td>Export Processing Zone, EPZ</td>
+  <td>透過特定園區制度支援出口加工與製造活動</td>
+</tr>
+<tr>
+  <td>運輸時間成本</td>
+  <td>Time Cost of Trade</td>
+  <td>因運輸延遲、庫存或缺貨造成的經濟成本</td>
+</tr>
+</tbody>
+</table>
+<h2 id="section-15">原始來源與學術參考文獻</h2>
+<p><strong>企業原始文件</strong></p>
+<ul>
+<li>[N1] NIKE, Inc. (2025). <em>Form 10-K for the fiscal year ended May 31, 2025</em>, Item 1, General and Manufacturing. <a href="https://investors.nike.com/sec-filings/all-sec-filings/content/0000320187-25-000047/nke-20250531.htm">SEC/Investor original filing</a>.</li>
+<li>[P1] 寶成工業股份有限公司（2026）。《114 年度年報》，印刷第 86 頁（PDF 第 90 頁），業務範圍與營業比重。<a href="https://www.pouchen.com/download/annual-reports/2025%20Annual%20Report-CH_1.pdf">公司原始年報 PDF</a>。</li>
+<li>[T1] Taiwan Semiconductor Manufacturing Company Limited (2026). <em>2025 Form 20-F</em>, printed pp. 14, 16, 25（PDF pp. 20, 22, 31）. <a href="https://investor.tsmc.com/sites/ir/sec-filings/2025_20F%20Report.pdf">公司 Form 20-F</a>.</li>
+</ul>
+<p><strong>官方統計與歷史</strong></p>
+<ul>
+<li>[O1] OECD (2025). <em>Trade in Value Added (TiVA) 2025 edition, indicators guide</em>, pp. 1, 16, 19. <a href="https://stats.oecd.org/wbos/fileview2.aspx?IDFile=2143f34e-6feb-41a9-abaf-cb52132608c4">原始指南 PDF</a>.</li>
+<li>[O2] OECD TiVA 2025 edition, SDMX indicator series: EXGR, EXGR_DVA, EXGR_FVA; Taiwan (TWN), ISIC Rev. 4 industry group C13T15, 2022, current-price USD millions. <a href="https://sdmx.oecd.org/sti-public/rest/dataflow/OECD.STI.PIE/DSD_TIVA_MAINLV@DF_MAINLV/1.1?references=all">OECD SDMX dataflow</a>. 指標在所選系列依原始來源取值，與海關出口不同口徑。</li>
+<li>[W1] WTO (2026). <em>Global Trade Outlook and Statistics, October 2026</em>, Appendix Tables 1 and 3, printed pp. 40, 42（PDF pp. 42, 44）. <a href="https://www.wto.org/english/res_e/booksp_e/gtos1026_e.pdf">WTO 報告</a>.</li>
+<li>[U1] UNCTAD (2026). <em>World Investment Report 2026</em>, pp. 3, 5 and Annex Table 1, World, 2025, USD millions. <a href="https://unctad.org/system/files/official-document/wir2026_en.pdf">報告</a>；<a href="https://unctad.org/system/files/non-official-document/wir26_tab01.xlsx">原始附表</a>.</li>
+<li>[C1] 中央銀行（2026）。《114 年底國際投資部位》，直接投資資產與負債部位，2025 年底，億美元。<a href="https://www.cbc.gov.tw/tw/dl-225896-d7eda41b22a14c809061b4c9d902c042.html">央行原始資料</a>。</li>
+<li>[M1] 財政部（2026 年 2 月 23 日）。《114 年我國出進口貿易概況》，第 2 頁。<a href="https://service.mof.gov.tw/public/Data/statistic/bulletin/115/114%E5%B9%B4%E6%88%91%E5%9C%8B%E5%87%BA%E9%80%B2%E5%8F%A3%E8%B2%BF%E6%98%93%E6%A6%82%E6%B3%81.pdf">財政部原始報告</a>。</li>
+<li>[H1] WTO. <em>From Havana to Marrakesh: the creation of the WTO</em>, GATT and WTO trade-round history. <a href="https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact4_e.htm">WTO 官方制度史</a>.</li>
+</ul>
+<p><strong>全球分工歷史與運輸研究（新增）</strong></p>
+<ul>
+<li>[H2] WTO. <em>Fiftieth Anniversary GATT: Chronology of Achievements</em>. 1947 年 GATT 簽署日期及後續協商制度史。<a href="https://www.wto.org/english/theWto_e/minist_e/min96_e/chrono.htm">WTO 歷史頁</a>。</li>
+<li>[H3] National Maritime Historical Society. <em>Maritime Nation—Global Trade</em>. 1956 年 4 月 26 日 <em>Ideal X</em> 航次史。<a href="https://seahistory.org/maritime-nation/global-trade/">官方海事史教育頁</a>。</li>
+<li>[B1] Bernhofen, D. M., El-Sahli, Z., &amp; Kneller, R. (2016). Estimating the effects of the container revolution on world trade. <em>Journal of International Economics, 98</em>, 36–50. <a href="https://www.lunduniversity.lu.se/publication/a60f0b08-8232-4389-8618-35b812a05176">期刊資料與研究摘要</a>。</li>
+<li>[B2] Hummels, D. (2007). Transportation costs and international trade in the second era of globalization. <em>Journal of Economic Perspectives, 21</em>(3), 131–154. https://doi.org/10.1257/jep.21.3.131.</li>
+<li>[B3] World Bank (2020). <em>World Development Report 2020: Trading for Development in the Age of Global Value Chains</em>. <a href="https://www.worldbank.org/en/publication/wdr2020">報告與研究摘要</a>。</li>
+<li>[B4] Hummels, D. L., &amp; Schaur, G. (2013). Time as a trade barrier. <em>American Economic Review, 103</em>(7), 2935–2959. https://doi.org/10.1257/aer.103.7.2935.</li>
+</ul>
+<p><strong>台灣產業史與多元企業案例（新增）</strong></p>
+<ul>
+<li>[TW1] 國家發展委員會檔案管理局。《第一次進口替代與出口擴張時期》。<a href="https://art.archives.gov.tw/tw/art/1213.html">產業政策史</a>。</li>
+<li>[TW2] 國家發展委員會檔案管理局（2016）。《繁榮經濟的高雄加工出口區》，2016-10-17；1966-12-03 設立史及初期產業。<a href="https://www.archives.gov.tw/tw/arctw/69-2060.html">原始國家檔案史料說明</a>。</li>
+<li>[TW3] 國家發展委員會檔案管理局。《推動大型工程》；高雄加工出口區與 1980 年新竹科學工業園區。<a href="https://art.archives.gov.tw/tw/art/1363.html">歷史整理</a>。</li>
+<li>[TW4] WTO. <em>Accessions: Chinese Taipei</em>. 台澎金馬個別關稅領域於 2002-01-01 成為會員。<a href="https://www.wto.org/english/thewto_e/acc_e/a1_taipei_chinois_e.htm">WTO 官方紀錄</a>。</li>
+<li>[TW5] 儒鴻企業。《公司沿革》：1977 年起業務與 1980–90 年代機能布發展。<a href="https://www.eclat.com.tw/zh-tw/company/">企業官網</a>。</li>
+<li>[TW6] 儒鴻企業。《2024 永續報告書》，生產據點與策略聯盟安排。<a href="https://eclatglobal.s3.amazonaws.com/uploads/2025/08/113%E5%B9%B4_%E5%84%92%E9%B4%BB_-%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8_zh.pdf">公司原始報告</a>。</li>
+<li>[TW7] 巨大集團。《財務資訊／公司簡介》及《全球製造版圖》。<a href="https://www.giantgroup-cycling.com/ir-financial">公司資料</a>；<a href="https://www.giantgroup-cycling.com/factory">工廠列表</a>。</li>
+<li>[TW8] 巨大集團（2026-03-13）。《巨大集團2025年每股稅後盈餘NT$1.84元》。2025 年合併營收與代工占比的公司原始說明。<a href="https://origin.giantgroup-cycling.com/news/894zmE4rJ3pW0Wy5">公司公告</a>。</li>
+<li>[TW9] 上銀科技。《HIWIN ESG：產業鏈與全球布局》。<a href="https://esg.hiwin.tw/ch3/ch3_1.aspx">公司官網</a>。</li>
+<li>[TW10] 上銀科技。《2025 致股東報告書》，2025 年合併營收與策略敘述。<a href="https://www.hiwin.tw/stock/fn_stock_report.aspx">公司官網</a>。</li>
+<li>[TW11] 長榮國際。《長榮海運：公司簡介》，1968 年起航及國際運輸業務。<a href="https://www.evergreen.com.tw/tw/marine.html">集團官方歷史</a>。</li>
+<li>[O3] OECD (2026). <em>Global value chain data across trade, multinationals and services</em>. 2026 版、1995–2024；末兩年之推估性質須與 TiVA 2025 版區分。<a href="https://www.oecd.org/en/data/datasets/global-value-chain-data-across-trade-multinationals-and-services.html">OECD 資料說明</a>。</li>
+</ul>
+<p><strong>學術論文</strong></p>
+<ul>
+<li>[G1] Gereffi, G., Humphrey, J., &amp; Sturgeon, T. (2005). The governance of global value chains. <em>Review of International Political Economy, 12</em>(1), 78–104. https://doi.org/10.1080/09692290500049805.</li>
+<li>[K1] Koopman, R., Wang, Z., &amp; Wei, S.-J. (2014). Tracing value-added and double counting in gross exports. <em>American Economic Review, 104</em>(2), 459–494. https://doi.org/10.1257/aer.104.2.459.</li>
+<li>[A1] Antràs, P., &amp; Chor, D. (2013). Organizing the global value chain. <em>Econometrica, 81</em>(6), 2127–2204. https://doi.org/10.3982/ECTA10813.</li>
+<li>[F1] Farrell, H., &amp; Newman, A. L. (2019). Weaponized interdependence: How global economic networks shape state coercion. <em>International Security, 44</em>(1), 42–79. https://doi.org/10.1162/ISEC_a_00351.</li>
+</ul>
+<h2 id="section-16">課程延伸</h2>
+<p>第 01 課〈產業如何賺錢〉可以協助理解收入與附加價值；第 11 課〈紡織、成衣、鞋類、皮革〉可更深入閱讀品牌與代工，第 15 課可延伸精密機械，第 25 課可延伸自行車等運具相關供應鏈；第 18–20 課比較晶片與電子製造；第 27 課追蹤海空陸物流；第 48 課探討企業集團、跨國擴張與策略聯盟。</p>
+</article>
+<div class="note"><strong>閱讀狀態說明：</strong> 閱讀進度與手動完成標記分開保存；開啟本頁不代表已完成課程。本頁為候選稿，已擴充全球分工史與台灣多產業案例，仍待正式品質審查。</div>
+<div class="completion"><button id="mark-read">我已閱讀本課候選稿</button></div>
+<footer>© Industry Academy · 第 02 課編輯候選稿。圖 1、圖 2 與圖 3 為原創概念示意；圖 4 依 UNCTAD 原始附表自行繪製。第三方原始全文未嵌入本站。</footer>
+</main></div><dialog id="zoom-dialog" aria-label="放大圖表"><button class="dialog-close" id="close-dialog" type="button">關閉圖表 ×</button><div id="zoom-content"></div></dialog>
+<script>
+(()=>{'use strict'; const key='industry-academy-l02-v02';const readKey=key+'-complete';const safeRead=k=>{try{return localStorage.getItem(k)}catch(e){return null}};const safeWrite=(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}};const $=id=>document.getElementById(id);const bar=$('reading-bar');let lastSave=0;
+const sections=[...document.querySelectorAll('.article h2')];const links=[...document.querySelectorAll('.toc-link')];const toc=$('mobile-toc');
+function p(){let doc=document.documentElement;let max=Math.max(1,doc.scrollHeight-innerHeight);let ratio=Math.min(1,Math.max(0,scrollY/max));bar.style.width=(ratio*100).toFixed(1)+'%';let current=sections.filter(s=>s.getBoundingClientRect().top<150).at(-1);links.forEach(a=>a.classList.toggle('active',!!current&&a.dataset.target===current.id));if(Date.now()-lastSave>800){try{safeWrite(key,JSON.stringify({y:scrollY,date:new Date().toISOString()}))}catch(e){}lastSave=Date.now();}}
+addEventListener('scroll',p,{passive:true});addEventListener('resize',p);p();$('resume').onclick=()=>{try{const v=JSON.parse(safeRead(key)||'null');if(v?.y>=0)window.scrollTo({top:v.y,behavior:'smooth'});}catch(e){}};
+$('font-toggle').onclick=()=>{document.body.classList.toggle('large');$('font-toggle').textContent=document.body.classList.contains('large')?'字級 A−':'字級 A+';p();};toc.onchange=()=>{if(toc.value)document.getElementById(toc.value)?.scrollIntoView({behavior:'smooth'});};
+function updateMark(){const done=safeRead(readKey)==='1';$('mark-read').textContent=done?'✓ 已自行標記閱讀（可取消）':'我已閱讀本課候選稿';$('mark-read').classList.toggle('done',done)}updateMark();$('mark-read').onclick=()=>{safeWrite(readKey,safeRead(readKey)==='1'?'0':'1');updateMark();};
+const dlg=$('zoom-dialog');document.querySelectorAll('.figure[data-zoom]').forEach(fig=>{fig.onclick=()=>{$('zoom-content').replaceChildren(fig.cloneNode(true));dlg.showModal();};fig.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();fig.click();}};});$('close-dialog').onclick=()=>dlg.close();dlg.addEventListener('click',e=>{if(e.target===dlg)dlg.close()});
+})();
+</script></body></html>
