@@ -152,7 +152,7 @@ window.IndustryInlineReader = (() => {
         btn.classList.toggle("active", !!current && btn.dataset.chapter === current.id);
       }
       if (hasScrolled && Date.now() - lastPersist > 750) {
-        const relative = window.scrollY - Math.max(0, window.scrollY + prose.getBoundingClientRect().top);
+        const relative = Math.max(0, window.scrollY - (window.scrollY + prose.getBoundingClientRect().top));
         put(storagePrefix + id, JSON.stringify({
           percent: pct, offset: relative, chapter: current?.id || "", savedAt: Date.now()
         }));
@@ -201,7 +201,10 @@ window.IndustryInlineReader = (() => {
     listen(shell.querySelector("#inline-resume"), "click", () => {
       const state = (() => { try { return JSON.parse(get(storagePrefix + id) || "null"); } catch (_) { return null; } })();
       if (!state) return;
-      if (state.chapter) scrollToChapter(state.chapter, "smooth");
+      if (Number.isFinite(state.offset)) {
+        const start = window.scrollY + prose.getBoundingClientRect().top;
+        window.scrollTo({ top: start + state.offset, behavior: "smooth" });
+      } else if (state.chapter) scrollToChapter(state.chapter, "smooth");
       else if (Number.isFinite(state.percent)) {
         const start = window.scrollY + prose.getBoundingClientRect().top;
         window.scrollTo({ top: start + prose.offsetHeight * state.percent / 100, behavior: "smooth" });
