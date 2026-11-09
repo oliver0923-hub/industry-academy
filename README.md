@@ -1,6 +1,8 @@
 # Industry Academy｜全球產業、台灣經濟與企業策略研究學院
 
-> **注意：這個研究分支中的網站敘述是歷史快照，不代表現行 GitHub Pages。** 最新網站原始碼與課程閱讀器位於 `main:/docs`，目錄點選後進入 `lesson.html?lesson=NN`。研究分支不可覆寫主站。最新跨工具流程見 [製課 SOP](project/COURSE_PRODUCTION_PLAYBOOK.md)、[Codex 交接模板](project/LESSON_HANDOFF_TEMPLATE.md)、[ChatGPT 啟動指令](project/CHATGPT_STARTUP_INSTRUCTIONS.md)、[第 02 課實作紀錄](project/LESSON_02_OPERATION_LOG.md)。兩分支的 `AGENTS.md` 已同步；出版決策仍以 [編輯規範](EDITORIAL_TEACHING_STANDARDS.md) 為準。\n\n這是 Industry Academy 的獨立網站與課程內容儲存庫。教材編輯依據為[正式教學與編輯規範 v1.0](EDITORIAL_TEACHING_STANDARDS.md)；原 **Industry Academy Master Project Instructions v2.0（2026-11-06）** 的課程目錄、課程邊界及未被取代的基本研究原則繼續適用。
+> **注意：這個研究分支中的網站敘述是歷史快照，不代表現行 GitHub Pages。** 最新網站原始碼與課程閱讀器位於 `main:/docs`，目錄點選後進入 `lesson.html?lesson=NN`。研究分支不可覆寫主站。最新跨工具流程見 [製課 SOP](project/COURSE_PRODUCTION_PLAYBOOK.md)、[Codex 交接模板](project/LESSON_HANDOFF_TEMPLATE.md)、[ChatGPT 啟動指令](project/CHATGPT_STARTUP_INSTRUCTIONS.md)、[第 02 課實作紀錄](project/LESSON_02_OPERATION_LOG.md)。兩分支的 `AGENTS.md` 已同步；出版決策仍以 [編輯規範](EDITORIAL_TEACHING_STANDARDS.md) 為準。
+
+這是 Industry Academy 的獨立網站與課程內容儲存庫。教材編輯依據為[正式教學與編輯規範 v1.0](EDITORIAL_TEACHING_STANDARDS.md)；原 **Industry Academy Master Project Instructions v2.0（2026-11-06）** 的課程目錄、課程邊界及未被取代的基本研究原則繼續適用。
 
 執行 repository 任務前，請先閱讀 [AGENTS.md](AGENTS.md) 及完整編輯規範。
 
