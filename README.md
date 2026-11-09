@@ -22,8 +22,9 @@
 - [第 00 堂：產業分類](https://oliver0923-hub.github.io/industry-academy/lesson.html?lesson=00)
 - [第 01 堂：產業如何賺錢](https://oliver0923-hub.github.io/industry-academy/lesson.html?lesson=01)
 - [第 02 堂：全球產業分工](https://oliver0923-hub.github.io/industry-academy/lesson.html?lesson=02)
+- [第 37 堂：出版、新聞、影視、音樂與串流（易讀修訂候選稿）](https://oliver0923-hub.github.io/industry-academy/lesson.html?lesson=37)
 
-所有目錄項目均導向 **獨立的課程閱讀頁** `lesson.html?lesson=NN`，不在首頁邊欄中直接插入長篇教材。00–02 為可閱讀、仍待正式審查的教材候選稿；03–49 尚未有完整講義，顯示「編寫中」而不冒充已發布。從舊連結 `index.html#lesson/NN` 進入時，會跳轉至新閱讀頁。
+所有目錄項目均導向 **獨立的課程閱讀頁** `lesson.html?lesson=NN`，不在首頁邊欄中直接插入長篇教材。00–02 與 37 為可閱讀、仍待正式審查的教材候選稿；03–36、38–49 尚未有完整講義，顯示「編寫中」而不冒充已發布。從舊連結 `index.html#lesson/NN` 進入時，會跳轉至新閱讀頁。
 
 閱讀頁使用 `lesson-reader.js` 與 `lesson-reader.css`，提供章節目錄、進度條、接續閱讀、字級切換、自行標記完成、圖表放大，以及上一堂／下一堂導航；位置和標記僅存在讀者當前瀏覽器。
 
@@ -42,8 +43,13 @@ docs/
   lesson-00-reading-v2.html
   lesson-01.html
   lesson-02-reading.html
+  lesson-37-reading.html  # 第37堂易讀候選稿
 ```
 
-舊有三份完整 HTML 教材保留為資料來源，以便歷史版本與內部核對。研究原始文件與未授權散布的全文不可加入公開 GitHub 儲存庫。
+目前四份可讀 HTML 教材保留為資料來源，以便歷史版本與內部核對。研究原始文件與未授權散布的全文不可加入公開 GitHub 儲存庫。
 
 部署方式：GitHub Pages 使用 `main` 分支的 `/docs` 目錄；網站純 HTML／CSS／JavaScript，無額外建置程序。此專案獨立於 M&A Academy。
+
+## 第 37 堂編輯進度（2026-11-09）
+
+第 37 堂依 [可版本化教材母稿](editorial/lessons/lesson-37/draft.md) 與研究來源核對後，已完成讀者導向的語句與章節轉場修訂，並接入共用獨立閱讀頁。修訂保留原有引用、Netflix／IFPI／華研重要數值，供讀者先行閱讀；原始來源與獨立第二輪審查仍未全部達到正式出版門檻。工作紀錄見 [第 37 堂編修紀錄](editorial/lessons/lesson-37/EDIT_LOG.md)。
