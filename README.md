@@ -2,6 +2,20 @@
 
 這是一套以繁體中文撰寫、適合零基礎讀者的產業教科書網站，涵蓋 00–49 共 50 堂課。課程製作遵循《Industry Academy Master Project Instructions v2.0》之課綱及《正式教學與編輯規範 v1.0》之寫作、引用及發布品質規定。
 
+## 下一堂課如何製作｜提案 → 研究 → 寫作 → 網站
+
+這套工作流程已固定，未來不需要重新設計。
+
+- [**製課完整 SOP**](project/COURSE_PRODUCTION_PLAYBOOK.md)：從使用者指定課程、ChatGPT 盤點、Codex 補抓、證據復核、教材編輯，到主站驗收與正式出版的順序。
+- [**ChatGPT × Codex 可複製任務模板**](project/LESSON_HANDOFF_TEMPLATE.md)：一份課程 Brief、Codex 原件／數據抓取任務、研究回收後 ChatGPT 接續工作、最終交付檢核。
+- [**給下一個 ChatGPT 分頁的啟動指令**](project/CHATGPT_STARTUP_INSTRUCTIONS.md)：讀取現有規範並依最新讀者與網站決策工作。
+- [**第 02 課實際操作紀錄**](project/LESSON_02_OPERATION_LOG.md)：記錄研究補強、教材擴寫、歷史與台灣多產業案例、閱讀動線調整、文字易讀化及教訓。
+- [**Codex／倉庫工作規範**](AGENTS.md)；[**正式教學與編輯規範 v1.0**](EDITORIAL_TEACHING_STANDARDS.md)。
+
+**固定分工**：使用者提出方向 → ChatGPT 核對研究資產與缺口 → 必要時交 Codex 僅在研究分支取得原始證據 → ChatGPT 核讀、撰寫、修飾並加入網站。研究足夠就跳過 Codex。正式站點保持 **目錄 `index.html#catalog` → 下一頁 `lesson.html?lesson=NN`**，不回到首頁側欄嵌入長文的過渡設計。
+
+**分支注意**：`main` 是現行網站；`codex/research-source-foundation` 保存長期研究。兩個分支並非網站檔案的同步鏡像；研究分支不能覆蓋 `main:/docs`。
+
 ## 網站與閱讀動線
 
 - [首頁／課程目錄](https://oliver0923-hub.github.io/industry-academy/index.html#catalog)：搜尋、篩選及點選 50 堂課
