@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
-  <link rel="stylesheet" href="./lesson-reader.css?v=20261109d">
+  <link rel="stylesheet" href="./lesson-reader.css?v=20261109l37">
   <style>
     body {background:#f7fbfd;}
     .lesson-site-header{max-width:1380px;margin:auto;padding:21px clamp(17px,4vw,48px);display:flex;justify-content:space-between;align-items:center;gap:14px}
@@ -22,7 +22,7 @@
     .lesson-footer{max-width:1390px;margin:0 auto;padding:22px clamp(15px,3.7vw,44px) 35px;border-top:1px solid #dae8f0;color:#8ba0ad;font-size:11px;display:flex;justify-content:space-between;gap:20px}
     @media(max-width:760px){.lesson-site-header{padding:16px}.lesson-site-header small{display:none}.lesson-container{padding:0 12px 42px}}
   </style>
-  <script src="./lesson-reader.js?v=20261109d" defer></script>
+  <script src="./lesson-reader.js?v=20261109l37" defer></script>
   <script defer>
     document.addEventListener("DOMContentLoaded", () => {
       const params = new URLSearchParams(location.search);
@@ -31,12 +31,12 @@
       const available = raw.trim() !== "" && Number.isInteger(number) && number >= 0 && number <= 49;
       const host = document.getElementById("lesson-root");
       if (!available) {
-        host.innerHTML = '<section class="inline-reader-error"><h1>本堂完整教材尚在編寫</h1><p>目前可閱讀第 00、01、02 堂；其他課次可從學院目錄查看進度。</p><a class="btn btn-primary" href="./index.html#catalog">返回完整課程目錄</a></section>';
+        host.innerHTML = '<section class="inline-reader-error"><h1>本堂完整教材尚在編寫</h1><p>目前可閱讀第 00、01、02、37 堂的教材候選稿；其他課次可從學院目錄查看進度。</p><a class="btn btn-primary" href="./index.html#catalog">返回完整課程目錄</a></section>';
         return;
       }
       const id = number;
       const label = String(id).padStart(2,"0");
-      if (id > 2) {
+      if (id > 2 && id !== 37) {
         document.title = "第 " + label + " 堂｜教材編寫中｜Industry Academy";
         document.getElementById("lesson-breadcrumb").textContent = "第 " + label + " 堂・教材編寫中";
         host.innerHTML = '<section class="inline-reader-error"><div class="eyebrow">LESSON '+label+'</div><h1>第 '+label+' 堂教材編寫中</h1><p>此課已列入 50 堂正式課程，但完整講義還沒有通過編輯審查，因此目前只顯示準備中的狀態，不將課程介紹冒充正式教材。</p><a class="btn btn-primary" href="./index.html#catalog">返回課程目錄</a></section>';
