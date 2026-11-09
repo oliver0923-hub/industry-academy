@@ -1,11 +1,12 @@
-/* Industry Academy: render lessons 00–02 inside the existing #lesson/N route.
-   The previous standalone HTML files are read-only content sources, not navigation destinations. */
+/* Industry Academy: shared reader for dedicated lesson.html?lesson=NN routes.
+   Standalone lesson HTML files are canonical content sources; route/page layout is shared. */
 "use strict";
 window.IndustryInlineReader = (() => {
   const sourceFiles = {
     0: "./lesson-00-reading-v2.html",
     1: "./lesson-01.html",
-    2: "./lesson-02-reading.html"
+    2: "./lesson-02-reading.html",
+    37: "./lesson-37-reading.html"
   };
   const storagePrefix = "industry-academy-inline-reading-";
   let generation = 0;
@@ -37,7 +38,7 @@ window.IndustryInlineReader = (() => {
 
     let response, raw, doc, source;
     try {
-      response = await fetch(sourceFiles[id] + "?inline=20261109v03", {
+      response = await fetch(sourceFiles[id] + "?inline=20261109l37", {
         signal: controller.signal, cache: "no-cache"
       });
       if (!response.ok) throw new Error("HTTP " + response.status);
@@ -125,7 +126,7 @@ window.IndustryInlineReader = (() => {
     const previousNext = document.createElement("nav");
     previousNext.className = "inline-reader-next";
     previousNext.setAttribute("aria-label", "上一堂與下一堂");
-    const navigationItems = [
+    const navigationItems = id === 37 ? [{target:null,label:"← 返回全部課程"}] : [
       id > 0 ? {target:id-1,label:"← 上一堂 · "+String(id-1).padStart(2,"0")} : null,
       id < 2 ? {target:id+1,label:"下一堂 · "+String(id+1).padStart(2,"0")+" →"} : {target:null,label:"返回全部課程 →"}
     ].filter(Boolean);
