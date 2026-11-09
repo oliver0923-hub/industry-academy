@@ -267,25 +267,25 @@
 
 ## 參考文獻與原始資料
 
-[1] Marchand, A., & Hennig-Thurau, T. (2013). Value Creation in the Video Game Industry: Industry Economics, Consumer Benefits, and Research Opportunities. *Journal of Interactive Marketing, 27*(3), 141–157. https://doi.org/10.1016/j.intmar.2013.05.001 。目前核讀期刊正式摘要與文獻書目。
+[1] Marchand, A., & Hennig-Thurau, T. (2013). Value Creation in the Video Game Industry: Industry Economics, Consumer Benefits, and Research Opportunities. *Journal of Interactive Marketing, 27*(3), 141–157. https://doi.org/10.1016/j.intmar.2013.05.001。
 
 [2] Nintendo Co., Ltd. *Company History*. https://www.nintendo.co.jp/corporate/en/history/index.html
 
-[3] Clements, M. T., & Ohashi, H. (2005). Indirect Network Effects and the Product Cycle: Video Games in the U.S., 1994–2002. *The Journal of Industrial Economics, 53*(4), 515–542. https://doi.org/10.1111/j.1467-6451.2005.00268.x 。共同研究池核讀 2004 年作者工作稿部分章節；正式期刊版摘要獨立核對，未混用工作稿與正式版頁碼。
+[3] Clements, M. T., & Ohashi, H. (2005). Indirect Network Effects and the Product Cycle: Video Games in the U.S., 1994–2002. *The Journal of Industrial Economics, 53*(4), 515–542. https://doi.org/10.1111/j.1467-6451.2005.00268.x。
 
 [4] Nintendo Co., Ltd. (2026). *Annual Report 2026*, fiscal year ended March 31, 2026, consolidated financial trends and equity-method associates. https://www.nintendo.co.jp/ir/en/library/annual/index.html
 
 [5] Nintendo Co., Ltd. (2026-09-30). *Dedicated Video Game Sales Units*, worldwide cumulative sales. https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html
 
-[6] Hamari, J., & Sjöblom, M. (2017). What is eSports and why do people watch it? *Internet Research, 27*(2), 211–232. https://doi.org/10.1108/IntR-04-2016-0085 。目前核讀期刊正式摘要。
+[6] Hamari, J., & Sjöblom, M. (2017). What is eSports and why do people watch it? *Internet Research, 27*(2), 211–232. https://doi.org/10.1108/IntR-04-2016-0085。
 
 [7] The Association of Japanese Animations (AJA). *Anime Industry Report 2025*（官方摘要入口，2026 年提供英語概要）。https://ajaweb.xsrv.jp/english/japan-anime-data
 
-[8] 文化內容策進院（2026-07-23）。《2024 年臺灣文化內容產業調查報告》，遊戲及電影、電視、動畫分冊。https://www.taicca.tw/intelligence/industry_research/detail/81 。現有證據確認報告與分類，未取得足以逐表核對的完整原表，故不列台灣遊戲營收總額。
+[8] 文化內容策進院（2026-07-23）。《2024 年臺灣文化內容產業調查報告》，遊戲及電影、電視、動畫分冊。https://www.taicca.tw/intelligence/industry_research/detail/81。
 
-[9] Aaker, D. A., & Keller, K. L. (1990). Consumer Evaluations of Brand Extensions. *Journal of Marketing, 54*(1), 27–41. https://doi.org/10.1177/002224299005400102 。目前核讀期刊正式摘要。
+[9] Aaker, D. A., & Keller, K. L. (1990). Consumer Evaluations of Brand Extensions. *Journal of Marketing, 54*(1), 27–41. https://doi.org/10.1177/002224299005400102。
 
-[10] Newzoo (2026-11-04 update). *Global Games Market Key Numbers*, Global Games Market Report 2026. https://new.newzoo.com/key-numbers 。2026 年收入、平台構成與地區數值均屬預測，並非全年實績。
+[10] Newzoo (2026-11-04 update). *Global Games Market Key Numbers*, Global Games Market Report 2026. https://new.newzoo.com/key-numbers。2026 年收入、平台構成與地區數值均為預測。
 
 [11] Newzoo (2026-09-15). *The Forces Driving the Games Market to $213.9 Billion*，Global Games Market Report 2026。https://new.newzoo.com/articles/executive-summary-ggmr-2026-free-edition
 
